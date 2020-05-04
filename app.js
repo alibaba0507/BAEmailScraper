@@ -32,6 +32,7 @@ if (args.h || !args.q)
 let sp = 1;
 let ep = 1;
 let f = "myEmailList1.txt";
+let regex = '';
 if (args.q)
     searchQuery = args.q;
 if (args.sp)
@@ -40,6 +41,12 @@ if (args.ep)
     ep = args.ep
 if (args.f)
     f = args.f;
+if (args.rgex)
+	regex = args.rgex;
 
+console.log("Search Query :"  + searchQuery);
+console.log("Start Page :["  + sp + "] End Page:[" + ep + "] " );
+console.log("Save To File :"  + f);
+console.log("regex :"  + regex);
 
-BAEmailScraper.start(searchQuery, sp, ep, f);
+BAEmailScraper.start(searchQuery, sp, ep, f,regex);
