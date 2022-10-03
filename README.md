@@ -1,6 +1,6 @@
 # BAEmailScraper
 #### BAEmailScraper is an email scrapping tool that can scrap millions of emails daily from Google search query only.
-
+#### This is one of the best and workig email scraper out there
 Here is how to use it.
 
 - Install NodeJs
