@@ -1,36 +1,23 @@
-exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,regex = '',isArticles = false) {
-    const request = require("request");
-	const cheerio = require('cheerio');
-    const Config = require("../controllers/config.js");
-    const domainsToSave = Config.domains();
+exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,regex = '') {
+    var request = require("request");
+    var Config = require("../controllers/config.js");
+    var domainsToSave = Config.domains();
 
     var currentPage = 0;
     var extractedEmailsArray = [];
 	var pageCnt = 0;
-	// Desired class substrings
-	const desiredClassSubstrings = ['article', 'content','main'];
-
-	// Create a DOMParser instance
-	//const parser = new DOMParser();
     //var regex = regex;
     function queryGoogle(page) {
         currentPage = page;
         console.log(">>>>>>>>>>>>> [" + regex  +"]>>>>>");
-		// User-Agent header to mimic a browser
-        const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3';
-		//const userAgent = 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; rv:1.9.2.16) Gecko/20110319 Firefox/3.6.16';
-        // Cookie storage
-		const cookies = request.jar();
-
         var options = {
             url: "http://www.google.com/search?q="+query+'&start='+page*10,
             /*headers: {
                 'User-Agent': 'request'
             },*/
 			headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+                'User-Agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; rv:1.9.2.16) Gecko/20110319 Firefox/3.6.16'
             },
-			//jar: cookies, // Attach cookies to the request
             timeout: Config.settings().reqestTimeOut
         };
 
@@ -71,8 +58,7 @@ exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,r
 
             return;
         }
-        //console.log("============ TEXT ===========[" + text + "]======================" );
-		saveToFile(text,generateUniqueFileName() + '.html');
+
         var urlRegex = /(https?:\/\/[^\s]+)/g;
         text.replace(urlRegex, function(url) {
             if (url.indexOf("&amp;") !== -1) {
@@ -113,18 +99,16 @@ exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,r
             headers: {
                 'User-Agent': 'request'
             },
-			//jar: request.jar(), // Attach cookies to the request
             timeout: Config.settings().reqestTimeOut
         };
-        console.log("-------URL[" + url + "]------");
+
         function requestCallback(error, response, body) {
             if (error) {
                 extractEmails("error");
                 console.error("Request error.");
             } else {
                 if (response.statusCode === 200) {
-					
-                    (!isArticles) ? extractEmails(body):extractArticle(body);
+                    extractEmails(body);
                 } else {
                     extractEmails("error");
                     // console.error(response.statusCode);
@@ -132,46 +116,7 @@ exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,r
             }
         }
         request(options, requestCallback);
-		
-        function extractArticle(htmlContent)
-		{
-			console.log(" >>>> PARSE ARTICLE >>>>>>" );
-			  // Parse the HTML content
-			// Parse the HTML content
-			//const doc = parser.parseFromString(htmlContent, 'text/html');
-            // Load HTML content into cheerio
-			const $ = cheerio.load(htmlContent);
-			// Find and extract the first matching element based on class substrings
-			let matchedElement = null;
-			// Find and extract elements based on class substrings
-			// Find and extract elements based on class substrings
-			desiredClassSubstrings.forEach(substring => {
-			  $(`[class]`).filter(function() {
-				const classNames = $(this).attr('class').split(' ');
-				return classNames.some(className => className.includes(substring));
-			  }).each((index, element) => {
-				  if (!matchedElement)
-				  {
-					const elementContent = $(element).text().trim();
-					//console.log(`Element ${index + 1}:`, elementContent);
-					matchedElement = elementContent;
-				  }
-			  });
-			});
-			
-			// Display the extracted article body
-			if (matchedElement) {
-			  const elementContent = matchedElement;//matchedElement.textContent.trim();
-			  saveToFile(elementContent,query + "_" + generateUniqueFileName() + '.txt');
-			  //console.log('Matched Element:', elementContent);
-			} else {
-			  console.log('No matching element found.');
-			  // saveToFile(htmlContent,generateUniqueFileName() + '.txt');
-			}
-		}
-		
-		
-		
+
         function extractEmails(body) {
 			console.log(" >>>> PARSE EMAIL >>>>>>");
 			if (regex == '')
@@ -270,11 +215,4 @@ exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,r
 
         return b;
     }
-	// Function to generate a unique file name
-	function generateUniqueFileName() {
-	  const timestamp = new Date().getTime(); // Get current timestamp
-	  const randomString = Math.random().toString(36).substring(2, 8); // Generate a random string
-	  
-	  return `${timestamp}_${randomString}`;
-	}
 }

@@ -20,6 +20,7 @@ if (args.h || !args.q)
             --ep<end page=1> -f<file to save emails>\n\
 			--rgex<regex to parse search page if require>\n\
 			--check<check email syntax values 0 or 1>\n\
+			--articles<extract articles only values 0 or 1>\n\
     good exmaple for search query will be :\n\
     \"+1@yahoo.com @hotmail.com @gmail.com @aol.com txt 2018\"\n\
     where will search emials in txt files only 2018 \n\
@@ -33,6 +34,7 @@ let sp = 1;
 let ep = 1;
 let f = "myEmailList1.txt";
 let regex = '';
+let articles = false;
 if (args.q)
     searchQuery = args.q;
 if (args.sp)
@@ -43,10 +45,11 @@ if (args.f)
     f = args.f;
 if (args.rgex)
 	regex = args.rgex;
-
+if (args.articles && Number(args.articles) == 1)
+	articles = true;
 console.log("Search Query :"  + searchQuery);
 console.log("Start Page :["  + sp + "] End Page:[" + ep + "] " );
 console.log("Save To File :"  + f);
 console.log("regex :"  + regex);
 
-BAEmailScraper.start(searchQuery, sp, ep, f,regex);
+BAEmailScraper.start(searchQuery, sp, ep, f,regex,articles);

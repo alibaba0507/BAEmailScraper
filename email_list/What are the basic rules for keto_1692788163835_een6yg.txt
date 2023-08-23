@@ -1,0 +1,4805 @@
+
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7D94ZL"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      
+    
+
+    Skip to content
+
+    
+
+    
+      
+        
+
+
+  
+    
+      
+        
+      
+
+      
+        
+          SUBSCRIBE TO SAVE 10% ON EVERY ORDER! 💰 
+        
+      
+
+      
+        LOVE CHOMPS? SUBSCRIBE TO SAVE 10% ON EVERY ORDER! 💰 
+      
+
+      
+        
+      
+    
+  
+
+
+
+  .promobar {
+    background-color: #ffffff;
+  }
+
+  .promobar span,
+  .promobar a {
+    color: #000000;
+  }
+
+
+
+        
+  
+    
+      
+        
+          
+  
+  
+  
+
+        
+
+        
+          
+  
+    
+      
+        
+          
+            
+              
+                Shop
+                
+  
+
+              
+              
+                
+                  
+                    
+                      Close Shop dropdown menu
+                    
+
+                    
+                      
+                        
+                          
+                            
+                              
+
+                              
+                                Shop by Protein
+                              
+
+                              
+                                
+                                  
+                                    
+                                      Beef
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Turkey
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Venison
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Chomplings
+                                    
+                                  
+                                
+                              
+                            
+                          
+                            
+                              
+
+                              
+                                Collections
+                              
+
+                              
+                                
+                                  
+                                    
+                                      Best Sellers
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Variety Packs
+                                    
+                                  
+                                
+                              
+                            
+                          
+
+                          
+                            
+                              Shop All
+                            
+                          
+                        
+                      
+
+                      
+                        
+                          
+                            
+  
+
+  
+    
+      .nav__block--habanero-beef-1 {
+        background-color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1:hover {
+        background-color: #C90253;
+      }
+
+      .nav__block--habanero-beef-1:hover span {
+        color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1 span {
+        color: #C90253;
+      }
+    
+
+    
+      
+        Habanero Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-beef-2 {
+        background-color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2:hover {
+        background-color: #D1253B;
+      }
+
+      .nav__block--original-beef-2:hover span {
+        color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2 span {
+        color: #D1253B;
+      }
+    
+
+    
+      
+        Original Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--jalapeno-beef-3 {
+        background-color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3:hover {
+        background-color: #00602B;
+      }
+
+      .nav__block--jalapeno-beef-3:hover span {
+        color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3 span {
+        color: #00602B;
+      }
+    
+
+    
+      
+        Jalapeño Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--salt-pepper-venison-4 {
+        background-color: #FEF5EF;
+      }
+
+      .nav__block--salt-pepper-venison-4:hover {
+        background-color: #544E49;
+      }
+
+      .nav__block--salt-pepper-venison-4:hover span {
+        color: #FEF5EF;
+      }
+
+      .nav__block--salt-pepper-venison-4 span {
+        color: #544E49;
+      }
+    
+
+    
+      
+        Salt & Pepper Venison
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--pepperoni-seasoned-turkey-5 {
+        background-color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-5:hover {
+        background-color: #B8432E;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-5:hover span {
+        color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-5 span {
+        color: #B8432E;
+      }
+    
+
+    
+      
+        Pepperoni Seasoned Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--sea-salt-beef-6 {
+        background-color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-6:hover {
+        background-color: #30768E;
+      }
+
+      .nav__block--sea-salt-beef-6:hover span {
+        color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-6 span {
+        color: #30768E;
+      }
+    
+
+    
+      
+        Sea Salt Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-turkey-7 {
+        background-color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-7:hover {
+        background-color: #9E6100;
+      }
+
+      .nav__block--original-turkey-7:hover span {
+        color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-7 span {
+        color: #9E6100;
+      }
+    
+
+    
+      
+        Original Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--italian-style-beef-8 {
+        background-color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-8:hover {
+        background-color: #2E6A7E;
+      }
+
+      .nav__block--italian-style-beef-8:hover span {
+        color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-8 span {
+        color: #2E6A7E;
+      }
+    
+
+    
+      
+        Italian Style Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--taco-seasoned-beef-9 {
+        background-color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-9:hover {
+        background-color: #692B7A;
+      }
+
+      .nav__block--taco-seasoned-beef-9:hover span {
+        color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-9 span {
+        color: #692B7A;
+      }
+    
+
+    
+      
+        Taco Seasoned Beef
+      
+
+      
+        
+      
+    
+  
+
+
+
+                          
+
+                          
+                            
+
+                            
+                              
+
+                              
+                                
+  
+
+  
+    
+      .nav__block--habanero-beef-1 {
+        background-color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1:hover {
+        background-color: #C90253;
+      }
+
+      .nav__block--habanero-beef-1:hover span {
+        color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1 span {
+        color: #C90253;
+      }
+    
+
+    
+      
+        Habanero Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-beef-2 {
+        background-color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2:hover {
+        background-color: #D1253B;
+      }
+
+      .nav__block--original-beef-2:hover span {
+        color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2 span {
+        color: #D1253B;
+      }
+    
+
+    
+      
+        Original Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--jalapeno-beef-3 {
+        background-color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3:hover {
+        background-color: #00602B;
+      }
+
+      .nav__block--jalapeno-beef-3:hover span {
+        color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3 span {
+        color: #00602B;
+      }
+    
+
+    
+      
+        Jalapeño Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--sea-salt-beef-4 {
+        background-color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-4:hover {
+        background-color: #30768E;
+      }
+
+      .nav__block--sea-salt-beef-4:hover span {
+        color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-4 span {
+        color: #30768E;
+      }
+    
+
+    
+      
+        Sea Salt Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--italian-style-beef-5 {
+        background-color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-5:hover {
+        background-color: #2E6A7E;
+      }
+
+      .nav__block--italian-style-beef-5:hover span {
+        color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-5 span {
+        color: #2E6A7E;
+      }
+    
+
+    
+      
+        Italian Style Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--taco-seasoned-beef-6 {
+        background-color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-6:hover {
+        background-color: #692B7A;
+      }
+
+      .nav__block--taco-seasoned-beef-6:hover span {
+        color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-6 span {
+        color: #692B7A;
+      }
+    
+
+    
+      
+        Taco Seasoned Beef
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Beef
+    
+  
+
+  
+    
+      
+        Shop all Beef
+        
+  
+
+      
+    
+  
+
+                              
+                            
+                              
+
+                              
+                                
+  
+
+  
+    
+      .nav__block--original-turkey-1 {
+        background-color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-1:hover {
+        background-color: #9E6100;
+      }
+
+      .nav__block--original-turkey-1:hover span {
+        color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-1 span {
+        color: #9E6100;
+      }
+    
+
+    
+      
+        Original Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--pepperoni-seasoned-turkey-2 {
+        background-color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-2:hover {
+        background-color: #B8432E;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-2:hover span {
+        color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-2 span {
+        color: #B8432E;
+      }
+    
+
+    
+      
+        Pepperoni Seasoned Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--jalapeno-turkey-3 {
+        background-color: #FDFFDF;
+      }
+
+      .nav__block--jalapeno-turkey-3:hover {
+        background-color: #717702;
+      }
+
+      .nav__block--jalapeno-turkey-3:hover span {
+        color: #FDFFDF;
+      }
+
+      .nav__block--jalapeno-turkey-3 span {
+        color: #717702;
+      }
+    
+
+    
+      
+        Jalapeño Turkey
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Turkey
+    
+  
+
+  
+    
+      
+        Shop all Turkey
+        
+  
+
+      
+    
+  
+
+                              
+                            
+                              
+
+                              
+                                
+  
+
+  
+    
+      .nav__block--salt-pepper-venison-1 {
+        background-color: #FEF5EF;
+      }
+
+      .nav__block--salt-pepper-venison-1:hover {
+        background-color: #544E49;
+      }
+
+      .nav__block--salt-pepper-venison-1:hover span {
+        color: #FEF5EF;
+      }
+
+      .nav__block--salt-pepper-venison-1 span {
+        color: #544E49;
+      }
+    
+
+    
+      
+        Salt & Pepper Venison
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Venison
+    
+  
+
+  
+    
+      
+        Shop all Venison
+        
+  
+
+      
+    
+  
+
+                              
+                            
+                              
+
+                              
+                                
+  
+
+  
+    
+      .nav__block--original-beef-chomplings-1 {
+        background-color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-chomplings-1:hover {
+        background-color: #D1253B;
+      }
+
+      .nav__block--original-beef-chomplings-1:hover span {
+        color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-chomplings-1 span {
+        color: #D1253B;
+      }
+    
+
+    
+      
+        Original Beef Chomplings
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-turkey-chomplings-2 {
+        background-color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-chomplings-2:hover {
+        background-color: #9E6100;
+      }
+
+      .nav__block--original-turkey-chomplings-2:hover span {
+        color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-chomplings-2 span {
+        color: #9E6100;
+      }
+    
+
+    
+      
+        Original Turkey Chomplings
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--italian-style-beef-chomplings-3 {
+        background-color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-chomplings-3:hover {
+        background-color: #2E6A7E;
+      }
+
+      .nav__block--italian-style-beef-chomplings-3:hover span {
+        color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-chomplings-3 span {
+        color: #2E6A7E;
+      }
+    
+
+    
+      
+        Italian Style Beef Chomplings
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Chomplings
+    
+  
+
+  
+    
+      
+        Shop all Chomplings
+        
+  
+
+      
+    
+  
+
+                              
+                            
+                          
+                            
+
+                            
+                              
+
+                              
+                                
+  
+
+  
+    
+      .nav__block--habanero-beef-1 {
+        background-color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1:hover {
+        background-color: #C90253;
+      }
+
+      .nav__block--habanero-beef-1:hover span {
+        color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1 span {
+        color: #C90253;
+      }
+    
+
+    
+      
+        Habanero Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-beef-2 {
+        background-color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2:hover {
+        background-color: #D1253B;
+      }
+
+      .nav__block--original-beef-2:hover span {
+        color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2 span {
+        color: #D1253B;
+      }
+    
+
+    
+      
+        Original Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--jalapeno-beef-3 {
+        background-color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3:hover {
+        background-color: #00602B;
+      }
+
+      .nav__block--jalapeno-beef-3:hover span {
+        color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3 span {
+        color: #00602B;
+      }
+    
+
+    
+      
+        Jalapeño Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-turkey-4 {
+        background-color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-4:hover {
+        background-color: #9E6100;
+      }
+
+      .nav__block--original-turkey-4:hover span {
+        color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-4 span {
+        color: #9E6100;
+      }
+    
+
+    
+      
+        Original Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--sea-salt-beef-5 {
+        background-color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-5:hover {
+        background-color: #30768E;
+      }
+
+      .nav__block--sea-salt-beef-5:hover span {
+        color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-5 span {
+        color: #30768E;
+      }
+    
+
+    
+      
+        Sea Salt Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--italian-style-beef-6 {
+        background-color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-6:hover {
+        background-color: #2E6A7E;
+      }
+
+      .nav__block--italian-style-beef-6:hover span {
+        color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-6 span {
+        color: #2E6A7E;
+      }
+    
+
+    
+      
+        Italian Style Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--pepperoni-seasoned-turkey-7 {
+        background-color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-7:hover {
+        background-color: #B8432E;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-7:hover span {
+        color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-7 span {
+        color: #B8432E;
+      }
+    
+
+    
+      
+        Pepperoni Seasoned Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--taco-seasoned-beef-8 {
+        background-color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-8:hover {
+        background-color: #692B7A;
+      }
+
+      .nav__block--taco-seasoned-beef-8:hover span {
+        color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-8 span {
+        color: #692B7A;
+      }
+    
+
+    
+      
+        Taco Seasoned Beef
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Best Sellers
+    
+  
+
+  
+    
+      
+        Shop all Best Sellers
+        
+  
+
+      
+    
+  
+
+                              
+                            
+                              
+
+                              
+                                
+  
+
+  
+    
+      .nav__block--trial-pack-1 {
+        background-color: #c9ebf7;
+      }
+
+      .nav__block--trial-pack-1:hover {
+        background-color: #2E6C82;
+      }
+
+      .nav__block--trial-pack-1:hover span {
+        color: #c9ebf7;
+      }
+
+      .nav__block--trial-pack-1 span {
+        color: #2E6C82;
+      }
+    
+
+    
+      
+        Trial Pack
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--mild-variety-pack-2 {
+        background-color: #c9ebf7;
+      }
+
+      .nav__block--mild-variety-pack-2:hover {
+        background-color: #2E6C82;
+      }
+
+      .nav__block--mild-variety-pack-2:hover span {
+        color: #c9ebf7;
+      }
+
+      .nav__block--mild-variety-pack-2 span {
+        color: #2E6C82;
+      }
+    
+
+    
+      
+        Mild Variety Pack
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--chomplings-variety-pack-3 {
+        background-color: #c9ebf7;
+      }
+
+      .nav__block--chomplings-variety-pack-3:hover {
+        background-color: #2E6C82;
+      }
+
+      .nav__block--chomplings-variety-pack-3:hover span {
+        color: #c9ebf7;
+      }
+
+      .nav__block--chomplings-variety-pack-3 span {
+        color: #2E6C82;
+      }
+    
+
+    
+      
+        Chomplings Variety Pack
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--best-selling-turkey-pack-4 {
+        background-color: #c9ebf7;
+      }
+
+      .nav__block--best-selling-turkey-pack-4:hover {
+        background-color: #2E6C82;
+      }
+
+      .nav__block--best-selling-turkey-pack-4:hover span {
+        color: #c9ebf7;
+      }
+
+      .nav__block--best-selling-turkey-pack-4 span {
+        color: #2E6C82;
+      }
+    
+
+    
+      
+        Best Selling Turkey Pack
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--best-selling-beef-pack-5 {
+        background-color: #c9ebf7;
+      }
+
+      .nav__block--best-selling-beef-pack-5:hover {
+        background-color: #2E6C82;
+      }
+
+      .nav__block--best-selling-beef-pack-5:hover span {
+        color: #c9ebf7;
+      }
+
+      .nav__block--best-selling-beef-pack-5 span {
+        color: #2E6C82;
+      }
+    
+
+    
+      
+        Best Selling Beef Pack
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Variety Packs
+    
+  
+
+  
+    
+      
+        Shop all Variety Packs
+        
+  
+
+      
+    
+  
+
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+      
+        
+          
+            
+              
+                Learn
+                
+  
+
+              
+              
+                
+                  
+                    
+                      Close Learn dropdown menu
+                    
+
+                    
+                      
+                        
+                          
+                            
+                              
+                                
+                                  
+                                  
+                                    Our Story
+                                    
+  
+
+                                  
+                                
+                              
+                            
+                              
+                                
+                                  
+                                  
+                                    Chompians
+                                    
+  
+
+                                  
+                                
+                              
+                            
+                              
+                                
+                                  
+                                  
+                                    Blog
+                                    
+  
+
+                                  
+                                
+                              
+                            
+                              
+                                
+                                  
+                                  
+                                    Rewards
+                                    
+  
+
+                                  
+                                
+                              
+                            
+                              
+                                
+                                  
+                                  
+                                    Recipes
+                                    
+  
+
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+
+                      
+                        
+                          
+  
+    
+
+
+  
+
+  
+
+  
+
+  
+    .image-24881247092805- {
+      max-width: 575px;
+      max-height: 260.0px;
+    }
+
+    .image-wrapper-24881247092805- {
+      max-width: 575px;
+    }
+  
+
+  .image-wrapper-24881247092805-::before {
+    
+    padding-top:45.21739130434783%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <img class="" src="//chomps.com/cdn/shop/files/Learn_Nav_a5b4c79d-37e7-4bf5-930d-7f3d534e3a36_2048x2048.jpg?v=1676325435" alt="">
+
+
+
+    
+      
+        
+      
+
+      
+        Stick some power in your pantry.
+      
+
+      
+        Subscribe to something even tastier than our newsletter. Like a party with all your favorite people (except you can eat them).
+      
+
+      
+        Subscribe & Save
+      
+    
+  
+
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+      
+        
+          
+            
+              
+                Subscribe & Save
+              
+            
+          
+        
+      
+    
+      
+    
+      
+    
+  
+
+        
+      
+
+      
+        
+          
+            
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          
+        
+      
+
+      
+        
+          
+            
+  
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          
+            
+              
+                Store Locator
+              
+            
+          
+        
+      
+    
+      
+        
+          
+            
+              
+                Rewards
+              
+            
+          
+        
+      
+    
+  
+
+          
+
+          
+            
+            
+              
+  
+
+
+
+              
+                0
+              
+            
+          
+
+          
+            
+              
+  
+
+
+            
+          
+        
+      
+    
+  
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+    
+      Shop
+    
+
+    
+      Learn
+    
+  
+
+  
+    
+      
+
+      
+        
+          
+            
+              
+                
+                  Shop All
+                
+              
+            
+
+            
+              
+                
+                  
+
+                  
+                    
+                      
+
+                      
+                        
+                          Beef
+                          
+  
+
+                        
+
+                        
+                          
+                            
+  
+
+  
+    
+      .nav__block--habanero-beef-1 {
+        background-color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1:hover {
+        background-color: #C90253;
+      }
+
+      .nav__block--habanero-beef-1:hover span {
+        color: #FFEDF4;
+      }
+
+      .nav__block--habanero-beef-1 span {
+        color: #C90253;
+      }
+    
+
+    
+      
+        Habanero Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-beef-2 {
+        background-color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2:hover {
+        background-color: #D1253B;
+      }
+
+      .nav__block--original-beef-2:hover span {
+        color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-2 span {
+        color: #D1253B;
+      }
+    
+
+    
+      
+        Original Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--jalapeno-beef-3 {
+        background-color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3:hover {
+        background-color: #00602B;
+      }
+
+      .nav__block--jalapeno-beef-3:hover span {
+        color: #D4F2E1;
+      }
+
+      .nav__block--jalapeno-beef-3 span {
+        color: #00602B;
+      }
+    
+
+    
+      
+        Jalapeño Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--sea-salt-beef-4 {
+        background-color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-4:hover {
+        background-color: #30768E;
+      }
+
+      .nav__block--sea-salt-beef-4:hover span {
+        color: #DCF6FF;
+      }
+
+      .nav__block--sea-salt-beef-4 span {
+        color: #30768E;
+      }
+    
+
+    
+      
+        Sea Salt Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--italian-style-beef-5 {
+        background-color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-5:hover {
+        background-color: #2E6A7E;
+      }
+
+      .nav__block--italian-style-beef-5:hover span {
+        color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-5 span {
+        color: #2E6A7E;
+      }
+    
+
+    
+      
+        Italian Style Beef
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--taco-seasoned-beef-6 {
+        background-color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-6:hover {
+        background-color: #692B7A;
+      }
+
+      .nav__block--taco-seasoned-beef-6:hover span {
+        color: #F0DCF7;
+      }
+
+      .nav__block--taco-seasoned-beef-6 span {
+        color: #692B7A;
+      }
+    
+
+    
+      
+        Taco Seasoned Beef
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Beef
+    
+  
+
+  
+    
+      
+        Shop all Beef
+        
+  
+
+      
+    
+  
+
+                          
+                        
+                      
+                    
+                      
+
+                      
+                        
+                          Turkey
+                          
+  
+
+                        
+
+                        
+                          
+                            
+  
+
+  
+    
+      .nav__block--original-turkey-1 {
+        background-color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-1:hover {
+        background-color: #9E6100;
+      }
+
+      .nav__block--original-turkey-1:hover span {
+        color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-1 span {
+        color: #9E6100;
+      }
+    
+
+    
+      
+        Original Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--pepperoni-seasoned-turkey-2 {
+        background-color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-2:hover {
+        background-color: #B8432E;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-2:hover span {
+        color: #FFE7E2;
+      }
+
+      .nav__block--pepperoni-seasoned-turkey-2 span {
+        color: #B8432E;
+      }
+    
+
+    
+      
+        Pepperoni Seasoned Turkey
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--jalapeno-turkey-3 {
+        background-color: #FDFFDF;
+      }
+
+      .nav__block--jalapeno-turkey-3:hover {
+        background-color: #717702;
+      }
+
+      .nav__block--jalapeno-turkey-3:hover span {
+        color: #FDFFDF;
+      }
+
+      .nav__block--jalapeno-turkey-3 span {
+        color: #717702;
+      }
+    
+
+    
+      
+        Jalapeño Turkey
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Turkey
+    
+  
+
+  
+    
+      
+        Shop all Turkey
+        
+  
+
+      
+    
+  
+
+                          
+                        
+                      
+                    
+                      
+
+                      
+                        
+                          Venison
+                          
+  
+
+                        
+
+                        
+                          
+                            
+  
+
+  
+    
+      .nav__block--salt-pepper-venison-1 {
+        background-color: #FEF5EF;
+      }
+
+      .nav__block--salt-pepper-venison-1:hover {
+        background-color: #544E49;
+      }
+
+      .nav__block--salt-pepper-venison-1:hover span {
+        color: #FEF5EF;
+      }
+
+      .nav__block--salt-pepper-venison-1 span {
+        color: #544E49;
+      }
+    
+
+    
+      
+        Salt & Pepper Venison
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Venison
+    
+  
+
+  
+    
+      
+        Shop all Venison
+        
+  
+
+      
+    
+  
+
+                          
+                        
+                      
+                    
+                      
+
+                      
+                        
+                          Chomplings
+                          
+  
+
+                        
+
+                        
+                          
+                            
+  
+
+  
+    
+      .nav__block--original-beef-chomplings-1 {
+        background-color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-chomplings-1:hover {
+        background-color: #D1253B;
+      }
+
+      .nav__block--original-beef-chomplings-1:hover span {
+        color: #FFEFF0;
+      }
+
+      .nav__block--original-beef-chomplings-1 span {
+        color: #D1253B;
+      }
+    
+
+    
+      
+        Original Beef Chomplings
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--original-turkey-chomplings-2 {
+        background-color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-chomplings-2:hover {
+        background-color: #9E6100;
+      }
+
+      .nav__block--original-turkey-chomplings-2:hover span {
+        color: #FFF3DB;
+      }
+
+      .nav__block--original-turkey-chomplings-2 span {
+        color: #9E6100;
+      }
+    
+
+    
+      
+        Original Turkey Chomplings
+      
+
+      
+        
+      
+    
+  
+
+  
+
+  
+    
+      .nav__block--italian-style-beef-chomplings-3 {
+        background-color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-chomplings-3:hover {
+        background-color: #2E6A7E;
+      }
+
+      .nav__block--italian-style-beef-chomplings-3:hover span {
+        color: #CDFFF8;
+      }
+
+      .nav__block--italian-style-beef-chomplings-3 span {
+        color: #2E6A7E;
+      }
+    
+
+    
+      
+        Italian Style Beef Chomplings
+      
+
+      
+        
+      
+    
+  
+
+
+
+  
+    
+      Shop all Chomplings
+    
+  
+
+  
+    
+      
+        Shop all Chomplings
+        
+  
+
+      
+    
+  
+
+                          
+                        
+                      
+                    
+                    
+                      
+                        Subscribe & Save
+                        
+  
+
+                      
+                    
+                  
+                
+                  
+
+                  
+                    
+                      
+                        Collections
+                      
+
+                      
+                        
+                          
+                            
+                              Best Sellers
+                            
+                          
+                        
+                          
+                            
+                              Variety Packs
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+
+            
+      
+    
+      
+
+      
+        
+          
+        
+          
+            
+
+            
+              
+                
+                  
+                    
+                      
+                      
+                        Our Story
+                        
+  
+
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                      
+                        Chompians
+                        
+  
+
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                      
+                        Blog
+                        
+  
+
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                      
+                        Rewards
+                        
+  
+
+                      
+                    
+                  
+                
+                  
+                    
+                      
+                      
+                        Recipes
+                        
+  
+
+                      
+                    
+                  
+                
+              
+
+              
+  
+    
+
+
+  
+
+  
+
+  
+
+  
+    .image-24881247092805- {
+      max-width: 575px;
+      max-height: 260.0px;
+    }
+
+    .image-wrapper-24881247092805- {
+      max-width: 575px;
+    }
+  
+
+  .image-wrapper-24881247092805-::before {
+    
+    padding-top:45.21739130434783%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <img class="" src="//chomps.com/cdn/shop/files/Learn_Nav_a5b4c79d-37e7-4bf5-930d-7f3d534e3a36_2048x2048.jpg?v=1676325435" alt="">
+
+
+
+    
+      
+        
+      
+
+      
+        Stick some power in your pantry.
+      
+
+      
+        Subscribe to something even tastier than our newsletter. Like a party with all your favorite people (except you can eat them).
+      
+
+      
+        Subscribe & Save
+      
+    
+  
+
+            
+
+            
+      
+    
+
+    
+      
+    
+  
+
+
+
+      
+
+      
+        
+
+
+
+
+  
+    
+      
+        
+
+
+      
+    
+
+    
+  
+
+  
+    
+      
+        
+        Our Blog
+      
+
+      
+        Keto Diet Basics: The Basic Rules of a Keto Diet
+      
+
+      
+
+      
+        
+        Written by Addie Martanovic on February 21, 2020
+      
+
+      
+  
+    Share:
+  
+
+  
+    
+      
+        
+  
+  
+
+
+      
+    
+
+    
+      
+        
+  
+  
+
+
+      
+    
+
+    
+      
+        
+  
+  
+  
+
+
+      
+      Link copied!
+      
+    
+
+    
+      
+        
+  
+  
+
+
+      
+    
+  
+
+    
+  
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+      Burning fat by eating fat, sounds too good to be true, right? Wrong. If you haven't been living under a rock for the past few years, chances are you've heard of the ketogenic diet.
+The keto diet is a low-carb, high-fat diet that consists of about 75% fat, 20% protein, and 5% net carbs. Research has shown that this low-carb diet not only promotes fat loss but has the ability to improve certain conditions such as type 2 diabetes and cognitive decline[*][*].
+In this article, we'll discuss:
+
+What is a ketogenic diet?
+Different types of ketogenic diets
+Health benefits of the ketogenic diet
+Foods to eat on the ketogenic diet
+Foods to avoid on the keto diet
+A sample keto meal plan
+Tips for eating out on a ketogenic diet
+Helpful tips to get started on the keto diet
+
+
+
+WHAT IS A KETOGENIC DIET?
+The ketogenic diet, also known as the keto diet, is the idea of transitioning your body from burning fat for fuel instead of carbohydrates.
+So, how does the keto diet work? Let’s break it down, here is the keto diet explained. The body produces two substances when carbohydrate intake is high:
+
+
+Glucose: Glucose is the easiest molecule for the body to convert to energy. This is the reason that carbohydrate intake will negate the ability of the body to enter ketosis. If carbohydrate intake is high, the body defaults to using glucose for energy.
+
+
+Insulin: Insulin aids in the transport of glucose around the body. When you reduce your carb intake and replace it with fat, it puts your body into a metabolic state called ketosis.
+
+
+Ketosis is defined as the process by which your body breaks down fatty acids to produce ketones in the liver, which can supply both the brain and body with energy[*]. Ketones come in three forms[*]:
+
+Acetoacetate (AcAc)
+Beta-hydroxybutyric acid (BHB)
+Acetone
+
+Simply put: carbs must be avoided if you want to stay in ketosis. Generally, you want to stay under 25 grams of net carbs (total carbs minus fiber) per day.
+You also want to watch your protein intake. Protein is not the enemy, as with carbs. You want protein to make up a significant part of your diet. Protein provides plenty of essential functions that are still valuable to your body’s function in ketosis. However, keep this macronutrient to only a quarter of your diet.
+In ketosis, fat is king. The rest of your calories should come from fat. Your body will be breaking down fat for energy in the absence of carbs.
+THE DIFFERENT TYPES OF KETOGENIC DIETS
+When it comes to the keto diet, there are several types, allowing you to choose what is best for your lifestyle: 
+Standard Ketogenic Diet (SKD)
+The SKD is the standard diet an individual new to the keto diet would follow if they were first starting out. This diet follows the general guidelines of keto including low-carb, moderate protein and high-fat intake.
+Cyclical Ketogenic Diet (CKD)
+The CKD is more suited for athletes and active individuals alike who simply need the carbs to fuel their intense training sessions. This diet involves a period of higher-carb refeeds during the week. An example would be 5 days of following the SKD and then 2 days of high-carbs (anywhere from 400-600 grams).
+Targeted Ketogenic Diet (TKD)
+The TKD is also meant for more active individuals who struggle with energy during their workouts, but it's less intense compared to the CKD. The TKD follows the SKD for the most part, but with an additional 25-50 grams of net carbs around your workout times (about 30 minutes pre and post-workout).
+High-Protein Ketogenic Diet
+This type of ketogenic diet isn't too far off from the Standard Ketogenic Diet, however, it does include more protein. Compared to the 25% of protein included in the SKD, the high-protein ketogenic diet often includes up to 35%.
+HEALTH BENEFITS OF THE KETOGENIC DIET
+When it comes to the health benefits you can gain from the ketogenic diet, the list goes on and on in both the short term and the long term. It can not only help you lose weight, but studiesshow that the keto diet is superior to the often recommended low-fat diet for weight loss[*]. Some top health benefits include:
+1. Improves Weight Loss
+Overweight and obese individuals have had tremendous success with weight loss following the keto diet. One study, in particular, found that people on a keto diet lose 2.2 times the amount of weight than those on a calorie-restricted low-fat diet. The keto diet is also known to turn your body into a fat-burning machine. What does this lead to? Weight loss.
+2. Reduces Inflammation
+While inflammation is a natural biological response, chronic inflammation is a bad thing. A keto diet can help reduce inflammation in the body by switching off a number of different inflammatory pathways[*].
+3. Increases Energy Levels
+When you switch to a keto diet, your brain switches to ketones as fuel instead of carbs. Running off of ketones, you experience fewer energy slumps as you do when compared to eating a lot of carbs. Ketosis helps clear the brain of brain fog while creating more mitochondria (cells that help generate energy and power)[*].
+So we've discussed what the keto diet is along with some health benefits. But what can you eat on a keto diet, anyway?
+FOODS TO EAT ON A KETO DIET
+When it comes to deciding what to eat on the keto diet, the rules are pretty simple. Eat mostly healthy fats (about 75% of your daily calories should come from fats), moderate protein intake (about 20%) and minimal carbs (no more than 5%). Choose lower carb foods such as grass-fed meat, wild-caught fish, eggs, leafy vegetables, and high-quality fats. Some of these foods include:
+
+
+Fats: Avocado oil, cacao butter, coconut butter, cod liver oil, grass-fed butter, grass-fed ghee, MCT oil, bacon fat, egg yolk, lard, marrow and tallow, sunflower lecithin, coconut oil.
+
+
+Protein: Dark meats, sugar-free jerky, eggs, fish, gelatin, organ meats, pork, shellfish, chicken, turkey, wild-caught fish, and whey protein concentrate.
+
+
+Vegetables: Asparagus, avocado, butter greens, broccoli, brussels sprouts, cauliflower, cabbage, celery, chard, collards, cucumbers, kale, kohlrabi, lettuce, radish, spinach, summer squash, zucchini.
+
+
+Dairy: Grass-fed butter, grass-fed ghee, cheese (depending on the type).
+
+
+Beverages: Water, water with lemon, coffee, variety of different teas, carbonated water, non-dairy milk, bone broth, certain kombucha, coconut water, certain smoothies.
+
+
+FOODS TO AVOID ON THE KETO DIET
+Avoiding certain foods might be tricky when first starting the ketogenic diet, but not impossible. Make sure you pay attention to the number of carbs you're eating as you could easily throw off your progress and get kicked out of a ketogenic state. Some foods you should avoid on keto include:
+
+
+Grains: Wheat, barley, oats, rice, quinoa, sorghum. All of it. You do not want grains.
+
+
+Beans: Kidney beans, black beans, chickpeas, lentils, pinto beans, black-eyed peas.
+
+
+Fruits: Believe it or not, fruit is on the list. This includes high-carb fruits such as apples, oranges, bananas, papaya, mangoes, and grapes.
+
+
+Starchy vegetables: Corn, carrots, parsnips, peas, and yams.
+
+
+Sugars: Maple syrup, cane sugar, agave, and honey.
+
+
+Beverages: Soda, juices, sports drinks, high-sugar coffee drinks, beer, and other high-sugar alcoholic drinks.
+
+
+Now that you know the dos and don'ts of what to eat on the ketogenic diet, what does a keto meal plan look like? 
+A SAMPLE KETO MEAL PLAN
+If you're looking for an example of a keto meal plan, you're in luck. Try this sample keto meal plan for 5 days listed below:
+Monday
+
+
+Breakfast: Bacon, eggs, kale.
+
+
+Lunch: Bell peppers stuffed with ground beef and extra virgin olive oil.
+
+
+Dinner: Salmon with asparagus and broccoli.
+
+
+Tuesday
+
+
+Breakfast: Egg and goat cheese omelet.
+
+
+Lunch: Kale salad with chicken and avocado oil dressing.
+
+
+Dinner: Meatballs made with ground beef and cheese.
+
+
+Wednesday
+
+
+Breakfast: Eggs and avocado.
+
+
+Lunch: Ground turkey meatballs with feta cheese and broccoli.
+
+
+Dinner: Pork chops with blue cheese and a small side salad.
+
+
+Thursday
+
+
+Breakfast: Veggie omelet.
+
+
+Lunch: Shrimp salad with extra virgin olive oil.
+
+
+Dinner: Salmon with broccoli and kale.
+
+
+Friday
+
+
+Breakfast: A ketogenic milkshake (unsweetened almond milk, 1 scoop of whey protein concentrate, 1 tablespoon of MCT oil).
+
+
+Lunch: Chicken salad with olive oil and goat cheese.
+
+
+Dinner: Bun-less burger with bacon, egg, and avocado.
+
+
+SNACK OPTIONS
+We covered the meal plan, but what about things to munch on? After all, that's where most people struggle to lose weight.
+Snack on these healthy food items to decrease your waistline and improve your health markers:
+
+Chomps meat sticks
+A hard-boiled egg or two
+A piece of cheese
+A piece of meat
+A handful of nuts
+Greek yogurt
+Berries and whipped cream
+Cooked bacon bites
+Salami bites
+Coconut chips
+Parmesan crisps
+Pork rinds
+
+Dark chocolate (85% or more)
+
+
+Needless to say, you can still have quite a variety of foods in your keto diet without ever feeling bored or deprived. 
+TIPS FOR EATING OUT ON THE KETO DIET
+A real benefit to the keto diet is that on-the-go snacks, and fast-food restaurants offer options that work within its restrictions. This can be a real benefit for people like retail employees who order out or run next door on their short and unpredictable lunch breaks. It works for people who travel a lot and spend time in airports, away from easy ways to prepare their meals.
+Here are some tips for eating out on the keto diet:
+
+Ordering a cheeseburger on a lettuce bun.
+If you're visiting a Chipotle or somewhere similar, you can easily order a salad with no beans or rice and top it off with steak and guacamole.
+Go the carnivore route and get a steak with a side of green veggies instead of potatoes or other starchy vegetables.
+If you're stopping for a quick snack at the local gas station, grab some jerky or a bag of nuts for your journey instead.
+
+Did someone say yum?
+HELPFUL TIPS TO GET STARTED ON THE KETO DIET
+Starting any kind of diet can be tough, but especially the ketogenic diet. Keto for beginners is not only about changing your diet, but it's about changing your lifestyle. However, it doesn't have to be a challenge.
+Here are several helpful tips to help you follow a ketogenic diet without any stress:
+
+
+Increase your awareness and education. Learning how to read food labels is key in sticking within keto diet rules. Practice examining food labels and macronutrients to recognize carb count, net carbs, and fiber count so you can be sure you'll remain in a ketogenic state.
+
+
+Share your health goals with friends and family. If your friends and loved ones closest to you know that you're trying to start a new diet and lifestyle (and that it means a lot to you), they're more likely to be supportive and choose places with your goals in mind. If you're going out for Mexican food, you may be a bit too tempted to eat those chips. Choose spots that will allow you to relax a bit and have fun without the stress of food.
+
+
+Buy a keto cookbook. Getting a keto cookbook or finding recipes from a number of different websites and resources online is a great way to improve your creativity with your cooking and meals. Most people worry about being too restricted when it comes to the keto diet, but there's always a way to make it fun.
+
+
+Plan ahead. If you're traveling, be sure to plan ahead. Make sure you research places to eat and snack. Otherwise, stick to what you know when it comes to the keto diet: healthy fats, minimum carbs, and moderate protein intake with no artificial or processed ingredients.
+
+
+Bring your own food. If you're visiting family or going to a gathering, take keto-friendly snacks you know you can eat. This way you won’t feel left out of group meals and you don’t have to worry about feeling too picky.
+
+
+THE BOTTOM LINE
+While the ketogenic diet may be intimidating at first, there’s no cause for alarm. The ketogenic diet can help you safely lose weight while improving your overall health without stress. As with any diet, the ketogenic diet will only work if you remain consistent and disciplined.
+And while the ketogenic diet is great for some individuals, it’s important to remember it’s not for everyone. It may be less suitable for elite athletes or very active individuals looking to improve muscle mass or high-intensity training.
+
+    
+
+    
+  
+
+      
+    
+  
+
+
+
+  
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleBody": "Burning fat by eating fat, sounds too good to be true, right? Wrong. If you haven't been living under a rock for the past few years, chances are you've heard of the ketogenic diet.
+The keto diet is a low-carb, high-fat diet that consists of about 75% fat, 20% protein, and 5% net carbs. Research has shown that this low-carb diet not only promotes fat loss but has the ability to improve certain conditions such as type 2 diabetes and cognitive decline[*][*].
+In this article, we'll discuss:
+
+What is a ketogenic diet?
+Different types of ketogenic diets
+Health benefits of the ketogenic diet
+Foods to eat on the ketogenic diet
+Foods to avoid on the keto diet
+A sample keto meal plan
+Tips for eating out on a ketogenic diet
+Helpful tips to get started on the keto diet
+
+
+
+WHAT IS A KETOGENIC DIET?
+The ketogenic diet, also known as the keto diet, is the idea of transitioning your body from burning fat for fuel instead of carbohydrates.
+So, how does the keto diet work? Let’s break it down, here is the keto diet explained. The body produces two substances when carbohydrate intake is high:
+
+
+Glucose: Glucose is the easiest molecule for the body to convert to energy. This is the reason that carbohydrate intake will negate the ability of the body to enter ketosis. If carbohydrate intake is high, the body defaults to using glucose for energy.
+
+
+Insulin: Insulin aids in the transport of glucose around the body. When you reduce your carb intake and replace it with fat, it puts your body into a metabolic state called ketosis.
+
+
+Ketosis is defined as the process by which your body breaks down fatty acids to produce ketones in the liver, which can supply both the brain and body with energy[*]. Ketones come in three forms[*]:
+
+Acetoacetate (AcAc)
+Beta-hydroxybutyric acid (BHB)
+Acetone
+
+Simply put: carbs must be avoided if you want to stay in ketosis. Generally, you want to stay under 25 grams of net carbs (total carbs minus fiber) per day.
+You also want to watch your protein intake. Protein is not the enemy, as with carbs. You want protein to make up a significant part of your diet. Protein provides plenty of essential functions that are still valuable to your body’s function in ketosis. However, keep this macronutrient to only a quarter of your diet.
+In ketosis, fat is king. The rest of your calories should come from fat. Your body will be breaking down fat for energy in the absence of carbs.
+THE DIFFERENT TYPES OF KETOGENIC DIETS
+When it comes to the keto diet, there are several types, allowing you to choose what is best for your lifestyle: 
+Standard Ketogenic Diet (SKD)
+The SKD is the standard diet an individual new to the keto diet would follow if they were first starting out. This diet follows the general guidelines of keto including low-carb, moderate protein and high-fat intake.
+Cyclical Ketogenic Diet (CKD)
+The CKD is more suited for athletes and active individuals alike who simply need the carbs to fuel their intense training sessions. This diet involves a period of higher-carb refeeds during the week. An example would be 5 days of following the SKD and then 2 days of high-carbs (anywhere from 400-600 grams).
+Targeted Ketogenic Diet (TKD)
+The TKD is also meant for more active individuals who struggle with energy during their workouts, but it's less intense compared to the CKD. The TKD follows the SKD for the most part, but with an additional 25-50 grams of net carbs around your workout times (about 30 minutes pre and post-workout).
+High-Protein Ketogenic Diet
+This type of ketogenic diet isn't too far off from the Standard Ketogenic Diet, however, it does include more protein. Compared to the 25% of protein included in the SKD, the high-protein ketogenic diet often includes up to 35%.
+HEALTH BENEFITS OF THE KETOGENIC DIET
+When it comes to the health benefits you can gain from the ketogenic diet, the list goes on and on in both the short term and the long term. It can not only help you lose weight, but studiesshow that the keto diet is superior to the often recommended low-fat diet for weight loss[*]. Some top health benefits include:
+1. Improves Weight Loss
+Overweight and obese individuals have had tremendous success with weight loss following the keto diet. One study, in particular, found that people on a keto diet lose 2.2 times the amount of weight than those on a calorie-restricted low-fat diet. The keto diet is also known to turn your body into a fat-burning machine. What does this lead to? Weight loss.
+2. Reduces Inflammation
+While inflammation is a natural biological response, chronic inflammation is a bad thing. A keto diet can help reduce inflammation in the body by switching off a number of different inflammatory pathways[*].
+3. Increases Energy Levels
+When you switch to a keto diet, your brain switches to ketones as fuel instead of carbs. Running off of ketones, you experience fewer energy slumps as you do when compared to eating a lot of carbs. Ketosis helps clear the brain of brain fog while creating more mitochondria (cells that help generate energy and power)[*].
+So we've discussed what the keto diet is along with some health benefits. But what can you eat on a keto diet, anyway?
+FOODS TO EAT ON A KETO DIET
+When it comes to deciding what to eat on the keto diet, the rules are pretty simple. Eat mostly healthy fats (about 75% of your daily calories should come from fats), moderate protein intake (about 20%) and minimal carbs (no more than 5%). Choose lower carb foods such as grass-fed meat, wild-caught fish, eggs, leafy vegetables, and high-quality fats. Some of these foods include:
+
+
+Fats: Avocado oil, cacao butter, coconut butter, cod liver oil, grass-fed butter, grass-fed ghee, MCT oil, bacon fat, egg yolk, lard, marrow and tallow, sunflower lecithin, coconut oil.
+
+
+Protein: Dark meats, sugar-free jerky, eggs, fish, gelatin, organ meats, pork, shellfish, chicken, turkey, wild-caught fish, and whey protein concentrate.
+
+
+Vegetables: Asparagus, avocado, butter greens, broccoli, brussels sprouts, cauliflower, cabbage, celery, chard, collards, cucumbers, kale, kohlrabi, lettuce, radish, spinach, summer squash, zucchini.
+
+
+Dairy: Grass-fed butter, grass-fed ghee, cheese (depending on the type).
+
+
+Beverages: Water, water with lemon, coffee, variety of different teas, carbonated water, non-dairy milk, bone broth, certain kombucha, coconut water, certain smoothies.
+
+
+FOODS TO AVOID ON THE KETO DIET
+Avoiding certain foods might be tricky when first starting the ketogenic diet, but not impossible. Make sure you pay attention to the number of carbs you're eating as you could easily throw off your progress and get kicked out of a ketogenic state. Some foods you should avoid on keto include:
+
+
+Grains: Wheat, barley, oats, rice, quinoa, sorghum. All of it. You do not want grains.
+
+
+Beans: Kidney beans, black beans, chickpeas, lentils, pinto beans, black-eyed peas.
+
+
+Fruits: Believe it or not, fruit is on the list. This includes high-carb fruits such as apples, oranges, bananas, papaya, mangoes, and grapes.
+
+
+Starchy vegetables: Corn, carrots, parsnips, peas, and yams.
+
+
+Sugars: Maple syrup, cane sugar, agave, and honey.
+
+
+Beverages: Soda, juices, sports drinks, high-sugar coffee drinks, beer, and other high-sugar alcoholic drinks.
+
+
+Now that you know the dos and don'ts of what to eat on the ketogenic diet, what does a keto meal plan look like? 
+A SAMPLE KETO MEAL PLAN
+If you're looking for an example of a keto meal plan, you're in luck. Try this sample keto meal plan for 5 days listed below:
+Monday
+
+
+Breakfast: Bacon, eggs, kale.
+
+
+Lunch: Bell peppers stuffed with ground beef and extra virgin olive oil.
+
+
+Dinner: Salmon with asparagus and broccoli.
+
+
+Tuesday
+
+
+Breakfast: Egg and goat cheese omelet.
+
+
+Lunch: Kale salad with chicken and avocado oil dressing.
+
+
+Dinner: Meatballs made with ground beef and cheese.
+
+
+Wednesday
+
+
+Breakfast: Eggs and avocado.
+
+
+Lunch: Ground turkey meatballs with feta cheese and broccoli.
+
+
+Dinner: Pork chops with blue cheese and a small side salad.
+
+
+Thursday
+
+
+Breakfast: Veggie omelet.
+
+
+Lunch: Shrimp salad with extra virgin olive oil.
+
+
+Dinner: Salmon with broccoli and kale.
+
+
+Friday
+
+
+Breakfast: A ketogenic milkshake (unsweetened almond milk, 1 scoop of whey protein concentrate, 1 tablespoon of MCT oil).
+
+
+Lunch: Chicken salad with olive oil and goat cheese.
+
+
+Dinner: Bun-less burger with bacon, egg, and avocado.
+
+
+SNACK OPTIONS
+We covered the meal plan, but what about things to munch on? After all, that's where most people struggle to lose weight.
+Snack on these healthy food items to decrease your waistline and improve your health markers:
+
+Chomps meat sticks
+A hard-boiled egg or two
+A piece of cheese
+A piece of meat
+A handful of nuts
+Greek yogurt
+Berries and whipped cream
+Cooked bacon bites
+Salami bites
+Coconut chips
+Parmesan crisps
+Pork rinds
+
+Dark chocolate (85% or more)
+
+
+Needless to say, you can still have quite a variety of foods in your keto diet without ever feeling bored or deprived. 
+TIPS FOR EATING OUT ON THE KETO DIET
+A real benefit to the keto diet is that on-the-go snacks, and fast-food restaurants offer options that work within its restrictions. This can be a real benefit for people like retail employees who order out or run next door on their short and unpredictable lunch breaks. It works for people who travel a lot and spend time in airports, away from easy ways to prepare their meals.
+Here are some tips for eating out on the keto diet:
+
+Ordering a cheeseburger on a lettuce bun.
+If you're visiting a Chipotle or somewhere similar, you can easily order a salad with no beans or rice and top it off with steak and guacamole.
+Go the carnivore route and get a steak with a side of green veggies instead of potatoes or other starchy vegetables.
+If you're stopping for a quick snack at the local gas station, grab some jerky or a bag of nuts for your journey instead.
+
+Did someone say yum?
+HELPFUL TIPS TO GET STARTED ON THE KETO DIET
+Starting any kind of diet can be tough, but especially the ketogenic diet. Keto for beginners is not only about changing your diet, but it's about changing your lifestyle. However, it doesn't have to be a challenge.
+Here are several helpful tips to help you follow a ketogenic diet without any stress:
+
+
+Increase your awareness and education. Learning how to read food labels is key in sticking within keto diet rules. Practice examining food labels and macronutrients to recognize carb count, net carbs, and fiber count so you can be sure you'll remain in a ketogenic state.
+
+
+Share your health goals with friends and family. If your friends and loved ones closest to you know that you're trying to start a new diet and lifestyle (and that it means a lot to you), they're more likely to be supportive and choose places with your goals in mind. If you're going out for Mexican food, you may be a bit too tempted to eat those chips. Choose spots that will allow you to relax a bit and have fun without the stress of food.
+
+
+Buy a keto cookbook. Getting a keto cookbook or finding recipes from a number of different websites and resources online is a great way to improve your creativity with your cooking and meals. Most people worry about being too restricted when it comes to the keto diet, but there's always a way to make it fun.
+
+
+Plan ahead. If you're traveling, be sure to plan ahead. Make sure you research places to eat and snack. Otherwise, stick to what you know when it comes to the keto diet: healthy fats, minimum carbs, and moderate protein intake with no artificial or processed ingredients.
+
+
+Bring your own food. If you're visiting family or going to a gathering, take keto-friendly snacks you know you can eat. This way you won’t feel left out of group meals and you don’t have to worry about feeling too picky.
+
+
+THE BOTTOM LINE
+While the ketogenic diet may be intimidating at first, there’s no cause for alarm. The ketogenic diet can help you safely lose weight while improving your overall health without stress. As with any diet, the ketogenic diet will only work if you remain consistent and disciplined.
+And while the ketogenic diet is great for some individuals, it’s important to remember it’s not for everyone. It may be less suitable for elite athletes or very active individuals looking to improve muscle mass or high-intensity training.
+",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://chomps.com"
+    },
+    "headline": "Keto Diet Basics: The Basic Rules of a Keto Diet",
+    
+      "description": "",
+    
+    
+      
+      "image": [
+        "https://chomps.com/cdn/shop/articles/keto-diet-basics-feat-image_480x.jpg?v=1658342406"
+      ],
+    
+    "datePublished": "2020-02-21T12:00:00Z",
+    "dateCreated": "2018-07-17T22:51:10Z",
+    "author": {
+      "@type": "Person",
+      "name": "Addie Martanovic"
+    },
+    "publisher": {
+      "@type": "Organization",
+      
+        
+        "logo": {
+          "@type": "ImageObject",
+          "height": "480",
+          "url": "https://chomps.com/cdn/shop/articles/keto-diet-basics-feat-image_480x.jpg?v=1658342406",
+          "width": "480"
+        },
+      
+      "name": "Chomps "
+    }
+  }
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+    
+      
+
+          
+            
+              
+
+              
+                
+                  
+                    👇 Featured Product 💪
+                  
+                
+
+                
+                  
+                    
+
+
+  
+
+  
+
+  
+
+  
+    .image-32622541537349- {
+      max-width: 207.7777777777778px;
+      max-height: 280px;
+    }
+
+    .image-wrapper-32622541537349- {
+      max-width: 207.7777777777778px;
+    }
+  
+
+  .image-wrapper-32622541537349-::before {
+    
+    padding-top:134.75935828877004%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <img class="" src="//chomps.com/cdn/shop/products/OriginalBeef_Stick_2048x2048.png?v=1676438132" alt="Original Beef">
+
+
+
+                    
+
+                    
+                      
+  
+  
+  
+  
+  
+  
+  
+
+
+                    
+                  
+
+                  
+                    
+                      
+                        Snack Sticks
+                      
+
+                      
+                        
+
+                        
+                          1.15 oz
+                        
+                      
+                    
+
+                    
+                      Original Beef
+                    
+
+                    
+                      10 or 24 Pack
+                    
+
+                    
+                      Starting at
+
+                      
+                        $24.00
+                      
+
+                      
+                        View product
+                      
+                    
+                  
+                
+              
+            
+
+          
+        
+      
+
+          
+
+          
+
+            
+
+
+  
+  
+
+
+
+
+
+          
+        
+      
+    
+  
+
+
+
+  @media screen and (max-width: 1025px) {
+    #shopify-section-template--14649364480069__article-featured-blocks {
+      position: relative;
+      z-index: ;
+      
+        margin-top: ;
+      
+      
+        margin-bottom: ;
+      
+    }
+
+    #shopify-section-template--14649364480069__article-featured-blocks > .article-featured-blocks {
+      
+        padding-top: ;
+      
+      
+        padding-bottom: ;
+      
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    #shopify-section-template--14649364480069__article-featured-blocks {
+      
+        margin-top: ;
+      
+      
+        margin-bottom: ;
+      
+    }
+
+    #shopify-section-template--14649364480069__article-featured-blocks > .article-featured-blocks {
+      
+        padding-top: ;
+      
+      
+        padding-bottom: ;
+      
+    }
+  }
+
+
+
+
+
+  
+  
+
+  
+    
+      
+
+
+
+  
+    
+      
+        
+          
+            
+              
+                
+              
+              
+                
+              
+            
+          
+
+          
+            
+            You might also like
+            
+          
+
+          
+        
+      
+    
+
+    
+  
+
+
+      
+        
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            August 15, 2023
+          
+        
+      
+    
+
+    
+      Nightshade Vegetables List: What to Eat and Avoid
+    
+
+    
+      
+        Nightshades refer to the flowering plant family consisting of vegetables, spices, weeds, and fruits. We dig into if you should add them to your diet.
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            August 14, 2023
+          
+        
+      
+    
+
+    
+      Best Paleo Snack Ideas: 31 Easy and Healthy Options
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            July 24, 2023
+          
+        
+      
+    
+
+    
+      Happy Plate Method: Alternatives Ways to Build Positive Childhood Eating Habits
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            July 17, 2023
+          
+        
+      
+    
+
+    
+      Better for You Snacks: 7 On-the-Go Snacks
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            July 07, 2023
+          
+        
+      
+    
+
+    
+      No Carb Diet Plan: A Guide To What You Need to Know
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            May 30, 2023
+          
+        
+      
+    
+
+    
+      Gluten Free Diet Plan: A Beginner's Guide To Gluten Free Meal Planning
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            May 25, 2023
+          
+        
+      
+    
+
+    
+      The Perfect Gluten-Free Snack for People with Celiac Disease
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            April 06, 2023
+          
+        
+      
+    
+
+    
+      Rainbow Veggie Crudité Spread
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+            
+              
+                
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            February 06, 2023
+          
+        
+      
+    
+
+    
+      How I Built This: Chomps' Co-founders, Pete Maldonado and Rashid Ali
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+              
+            
+          
+        
+
+        
+          
+            
+              
+  
+
+            
+
+            
+              
+            
+
+            
+              
+  
+
+            
+          
+        
+      
+
+      
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            August 15, 2023
+          
+        
+      
+    
+
+    
+      Nightshade Vegetables List: What to Eat and Avoid
+    
+
+    
+      
+        Nightshades refer to the flowering plant family consisting of vegetables, spices, weeds, and fruits. We dig into if you should add them to your diet.
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            August 14, 2023
+          
+        
+      
+    
+
+    
+      Best Paleo Snack Ideas: 31 Easy and Healthy Options
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            July 24, 2023
+          
+        
+      
+    
+
+    
+      Happy Plate Method: Alternatives Ways to Build Positive Childhood Eating Habits
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            July 17, 2023
+          
+        
+      
+    
+
+    
+      Better for You Snacks: 7 On-the-Go Snacks
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            July 07, 2023
+          
+        
+      
+    
+
+    
+      No Carb Diet Plan: A Guide To What You Need to Know
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            May 30, 2023
+          
+        
+      
+    
+
+    
+      Gluten Free Diet Plan: A Beginner's Guide To Gluten Free Meal Planning
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            May 25, 2023
+          
+        
+      
+    
+
+    
+      The Perfect Gluten-Free Snack for People with Celiac Disease
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            April 06, 2023
+          
+        
+      
+    
+
+    
+      Rainbow Veggie Crudité Spread
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+          
+            
+              
+  
+    
+
+    
+      
+
+
+    
+  
+
+  
+    
+      
+        
+          
+            
+            Our Blog
+          
+        
+
+        
+          
+            February 06, 2023
+          
+        
+      
+    
+
+    
+      How I Built This: Chomps' Co-founders, Pete Maldonado and Rashid Ali
+    
+
+    
+      
+        
+      
+
+      
+        
+          Read more
+        
+      
+    
+  
+
+            
+          
+        
+      
+
+      
+        
+          View all articles
+        
+      
+    
+  
+
+  
+  @media screen and (max-width: 1025px) {
+    #shopify-section-template--14649364480069__related-articles {
+      position: relative;
+      z-index: 1;
+      
+      
+    }
+
+    #shopify-section-template--14649364480069__related-articles > .related-articles {
+      
+      
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    #shopify-section-template--14649364480069__related-articles {
+      
+      
+    }
+
+    #shopify-section-template--14649364480069__related-articles > .related-articles {
+      
+      
+    }
+  }
+
+
+
+
+
+      
+
+      
+  
+    
+      
+        
+
+
+  
+
+  
+
+  
+
+  
+    .image-24881246240837- {
+      max-width: 145px;
+      max-height: 48.66438356164383px;
+    }
+
+    .image-wrapper-24881246240837- {
+      max-width: 145px;
+    }
+  
+
+  .image-wrapper-24881246240837-::before {
+    
+    padding-top:33.56164383561644%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <img class="" src="//chomps.com/cdn/shop/files/footer-logo_292x_1f5a2b3d-5597-46c4-935e-718bb4d8eb3c_2048x2048.png?v=1676325435" alt="">
+
+
+      
+    
+
+    
+
+      
+        
+          
+
+          
+
+            Shop
+
+            
+              
+                Beef
+              
+                Turkey
+              
+                Venison
+              
+                Chomplings
+              
+                Shop All
+              
+            
+
+          
+        
+          
+
+          
+
+            Earn
+
+            
+              
+                Rewards
+              
+                Subscribe & Save
+              
+                Refer A Friend
+              
+                Get Paid to Post
+              
+                Affiliate
+              
+            
+
+          
+        
+          
+
+          
+
+            Learn
+
+            
+              
+                Our Story
+              
+                Careers
+              
+                Student Discount
+              
+                Blog
+              
+                Store Locator
+              
+            
+
+          
+        
+          
+
+          
+
+            Support
+
+            
+              
+                Account
+              
+                Shipping & Returns
+              
+                Contact
+              
+                FAQs
+              
+                Wholesale
+              
+            
+
+          
+        
+      
+
+      
+        
+          
+            
+  
+    
+      Sign-up and receive 10% off your first order
+    
+  
+
+  
+  
+
+  
+    
+  
+
+  
+    
+      *Email
+      
+    
+
+    
+
+    
+      Submit
+    
+
+    
+      
+        Subscribe to our newsletter and get access to top blogs, recipes, new launches, and more!
+      
+    
+  
+  
+    
+      
+        Thanks for subscribing!
+      
+
+      Check your email for confirmation.
+    
+    
+  
+
+
+
+
+
+  KlaviyoSubscribe.attachToForms('#newsletter-form-footer', {
+    hide_form_on_success: false,
+    custom_success_message: true,
+    extra_properties: {
+      $source: '$embed',
+      $method_type: "Klaviyo Form",
+      $method_id: 'embed'
+    },
+    success: function () {
+      const form = document.querySelector('#newsletter-form-footer');
+      form.querySelector('[data-newsletter-form-input]').classList.add('hide');
+      form.querySelector('[data-newsletter-form-title]') ? form.querySelector('[data-newsletter-form-title]').classList.add('hide') : '';
+    }
+  });
+
+
+          
+        
+      
+
+    
+
+    
+      
+        
+          
+            
+              
+                Privacy Policy
+              
+            
+          
+            
+              
+                Terms of Service
+              
+            
+          
+            
+              
+                Accessibility Statement
+              
+            
+          
+        
+      
+
+      
+        
+          
+            
+              Privacy Policy
+            
+            
+          
+            
+              Terms of Service
+            
+            
+          
+            
+              Accessibility Statement
+            
+            
+          
+        
+
+        
+          
+            
+              
+                
+  
+
+
+              
+            
+          
+
+          
+            
+              
+                
+  
+
+
+              
+            
+          
+
+          
+            
+              
+                
+  
+  
+  
+
+
+              
+            
+          
+
+          
+            
+              
+                
+  
+
+
+              
+            
+          
+
+          
+            
+              
+                
+  
+
+
+              
+            
+          
+
+          
+            
+              
+                
+  
+
+
+              
+            
+          
+        
+      
+    
+  
+
+
+
+
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+
+
+
+  
+
+
+
+  window.addEventListener('DOMContentLoaded', function () {
+    !function (_) {_.SHOPIFY_PERMANENT_DOMAIN = "chomps.myshopify.com", _.SHOPIFY_CUSTOMER_ID = "", _.SHOPIFY_CUSTOMER_EMAIL = ""}(window || {})
+
+    GorgiasChat.init().then(function () {
+      var chatDict = {
+        'requireEmailCaptureIntro': `Hi there, friend! Leave us your email and we will get back to you as soon as possible.<br><br><a style="font-size: 13px" href="https://hark.support/chomps" target="_blank">Or record your message instead! Action! 🎬</a><br><br><a href="https://chomps.com/pages/privacy-policy#gorgias-chat" target="_blank"><small><i><u>Chat Privacy Policy</u><i></small></a>`,
+      }
+      window.GORGIAS_CHAT_TEXTS = chatDict
+      GorgiasChat.updateTexts(chatDict)
+    })
+  })
+
+
+
+
+
+  var script = document.createElement('script');
+  script.src = 'https://xp2023-pix.s3.amazonaws.com/px_D27Na.js';
+  document.getElementsByTagName('head')[0].appendChild(script);
+
+
+
+
+
+
+  !function(){var o=window.tdl=window.tdl||[];if(o.invoked)window.console&&console.error&&console.error("Tune snippet has been included more than once.");else{o.invoked=!0,o.methods=["init","identify","convert"],o.factory=function(n){return function(){var e=Array.prototype.slice.call(arguments);return e.unshift(n),o.push(e),o}};for(var e=0;e<o.methods.length;e++){var n=o.methods[e];o[n]=o.factory(n)}o.init=function(e){var n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://js.go2sdk.com/v2/tune.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(n,t),o.domain=e}}}();
+
+  tdl.init("https://aspireiq.go2cloud.org")
+  tdl.identify()
+
+
+
+    
+
+
+
+
+
+
+  window.theme = {
+    storefront: {
+      store: "chomps.myshopify.com",
+      apiToken: "03bda164b8030e04d9f69094e4c16c2f"
+    },
+    strings: {
+      subscribeToday: "Subscribe today",
+      addToCart: "Add to Cart",
+      soldOut: "Sold Out",
+      unavailable: "Unavailable",
+      productLimitReached: "Only {{ limit }} available",
+      bundledProducts: "Bundled Products",
+      softBundleDefaultAppend: "- Bundle",
+      sellingPlanSingle: "One time order",
+      noReviews: "No reviews"
+    },
+    moneyFormat: "${{amount}}",
+    icons: {
+      plus: "\u003csvg class=\"icon-plus\" role=\"img\" aria-label=\"plus icon\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\u003e\n  \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 0C8.55228 0 9 0.447715 9 1V7H15C15.5523 7 16 7.44772 16 8C16 8.55228 15.5523 9 15 9H9V15C9 15.5523 8.55228 16 8 16C7.44772 16 7 15.5523 7 15V9H1C0.447715 9 0 8.55228 0 8C0 7.44772 0.447715 7 1 7H7V1C7 0.447715 7.44772 0 8 0Z\" fill=\"black\"\/\u003e\n\u003c\/svg\u003e",
+      minus: "\u003csvg class=\"icon-minus\" role=\"img\" aria-label=\"minus icon\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\u003e\n  \u003cline x1=\"1\" y1=\"8\" x2=\"15\" y2=\"8\" stroke=\"black\" stroke-width=\"2\" stroke-linecap=\"round\"\/\u003e\n\u003c\/svg\u003e",
+      trash: "\u003csvg class=\"icon-trash\" role=\"img\" aria-label=\"trash icon\" width=\"18\" height=\"20\" viewBox=\"0 0 18 20\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\u003e\n  \u003cpath d=\"M6.69206 8.19153C6.46175 8.19153 6.27539 8.37789 6.27539 8.60819V14.3496C6.27539 14.5799 6.46175 14.7662 6.69206 14.7662C6.92236 14.7662 7.10872 14.5799 7.10872 14.3496V8.60819C7.10872 8.37789 6.92236 8.19153 6.69206 8.19153Z\" fill=\"black\"\/\u003e\n  \u003cpath d=\"M10.7373 8.19153C10.507 8.19153 10.3207 8.37789 10.3207 8.60819V14.3496C10.3207 14.5799 10.507 14.7662 10.7373 14.7662C10.9677 14.7662 11.154 14.5799 11.154 14.3496V8.60819C11.154 8.37789 10.9677 8.19153 10.7373 8.19153Z\" fill=\"black\"\/\u003e\n  \u003cpath d=\"M16.805 3.01921H13.9347H12.6666C12.6783 2.94444 12.6896 2.86936 12.6896 2.79134V1.47868C12.6896 0.663249 12.0272 0 11.2134 0H6.21582C5.40202 0 4.7404 0.663249 4.7404 1.47868V2.79134C4.7404 2.86936 4.75169 2.94444 4.76339 3.01921H3.66455H0.625C0.279948 3.01921 0 3.29915 0 3.64421C0 3.98926 0.279948 4.26921 0.625 4.26921H2.08099C2.04422 4.40898 2.01823 4.55312 2.01823 4.70459V18.3162C2.01823 19.2448 2.75716 20 3.66455 20H13.9347C14.8421 20 15.5811 19.2448 15.5811 18.3162V4.70459C15.5811 4.55312 15.5551 4.40898 15.5183 4.26921H16.805C17.1501 4.26921 17.43 3.98926 17.43 3.64421C17.43 3.29915 17.1501 3.01921 16.805 3.01921ZM5.9904 1.47868C5.9904 1.35254 6.09131 1.25 6.21582 1.25H11.2134C11.3379 1.25 11.4396 1.35254 11.4396 1.47868V2.79134C11.4396 2.91667 11.3379 3.01921 11.2134 3.01921H6.21582C6.09131 3.01921 5.9904 2.91667 5.9904 2.79134V1.47868ZM14.3311 18.3162C14.3311 18.5555 14.1536 18.75 13.9347 18.75H3.66455C3.44564 18.75 3.26823 18.5555 3.26823 18.3162V4.70459C3.26823 4.46452 3.44564 4.26921 3.66455 4.26921H6.21582H11.2134H13.9347C14.1536 4.26921 14.3311 4.46452 14.3311 4.70459V18.3162Z\" fill=\"black\"\/\u003e\n\u003c\/svg\u003e\n",
+      qtyPlus: "\u003csvg class=\"icon-qty-plus\" role=\"img\" aria-label=\"qty-plus icon\" width=\"19\" height=\"19\" viewBox=\"0 0 19 19\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\u003e\n  \u003ccircle cx=\"9.5\" cy=\"9.50006\" r=\"9\" stroke=\"black\"\/\u003e\n  \u003cpath d=\"M9.7464 4.31931C9.7464 4.14299 9.60347 4.00006 9.42716 4.00006C9.25085 4.00006 9.10791 4.14299 9.10791 4.31931L9.10791 9.10798H4.31924C4.14293 9.10798 4 9.25091 4 9.42722C4 9.60353 4.14293 9.74647 4.31924 9.74647H9.10791L9.10791 14.5351C9.10791 14.7114 9.25085 14.8544 9.42716 14.8544C9.60347 14.8544 9.7464 14.7114 9.7464 14.5351L9.7464 9.74646L14.5351 9.74647C14.7114 9.74647 14.8543 9.60353 14.8543 9.42722C14.8543 9.25091 14.7114 9.10798 14.5351 9.10798L9.7464 9.10798L9.7464 4.31931Z\" fill=\"black\"\/\u003e\n  \u003cpath d=\"M9.7464 4.31931L10.0085 4.31931V4.31931H9.7464ZM9.10791 4.31931H8.84584V4.31931L9.10791 4.31931ZM9.10791 9.10798V9.37005H9.36999V9.10798H9.10791ZM9.10791 9.74647H9.36999V9.48439H9.10791V9.74647ZM9.10791 14.5351H8.84584H9.10791ZM9.7464 14.5351H10.0085H9.7464ZM9.7464 9.74646V9.48439H9.48433V9.74646H9.7464ZM14.5351 9.74647V10.0085V9.74647ZM14.5351 9.10798V8.8459V9.10798ZM9.7464 9.10798H9.48433V9.37005H9.7464V9.10798ZM9.42716 4.26213C9.45873 4.26213 9.48433 4.28773 9.48433 4.31931H10.0085C10.0085 3.99825 9.74821 3.73799 9.42716 3.73799V4.26213ZM9.36999 4.31931C9.36999 4.28773 9.39558 4.26213 9.42716 4.26213V3.73799C9.10611 3.73799 8.84584 3.99825 8.84584 4.31931H9.36999ZM9.36999 9.10798L9.36999 4.31931L8.84584 4.31931L8.84584 9.10798L9.36999 9.10798ZM4.31924 9.37005H9.10791V8.8459H4.31924V9.37005ZM4.26207 9.42722C4.26207 9.39565 4.28767 9.37005 4.31924 9.37005V8.8459C3.99819 8.8459 3.73793 9.10617 3.73793 9.42722H4.26207ZM4.31924 9.48439C4.28767 9.48439 4.26207 9.4588 4.26207 9.42722H3.73793C3.73793 9.74827 3.99819 10.0085 4.31924 10.0085V9.48439ZM9.10791 9.48439H4.31924V10.0085H9.10791V9.48439ZM9.36999 14.5351L9.36999 9.74647H8.84584L8.84584 14.5351H9.36999ZM9.42716 14.5923C9.39558 14.5923 9.36999 14.5667 9.36999 14.5351H8.84584C8.84584 14.8562 9.10611 15.1165 9.42716 15.1165V14.5923ZM9.48433 14.5351C9.48433 14.5667 9.45873 14.5923 9.42716 14.5923V15.1165C9.74821 15.1165 10.0085 14.8562 10.0085 14.5351H9.48433ZM9.48433 9.74646L9.48433 14.5351H10.0085L10.0085 9.74646H9.48433ZM14.5351 9.48439L9.7464 9.48439V10.0085L14.5351 10.0085V9.48439ZM14.5922 9.42722C14.5922 9.4588 14.5666 9.48439 14.5351 9.48439V10.0085C14.8561 10.0085 15.1164 9.74827 15.1164 9.42722H14.5922ZM14.5351 9.37005C14.5666 9.37005 14.5922 9.39564 14.5922 9.42722H15.1164C15.1164 9.10617 14.8561 8.8459 14.5351 8.8459V9.37005ZM9.7464 9.37005L14.5351 9.37005V8.8459L9.7464 8.8459V9.37005ZM9.48433 4.31931L9.48433 9.10798L10.0085 9.10798L10.0085 4.31931L9.48433 4.31931Z\" fill=\"black\"\/\u003e\n\u003c\/svg\u003e\n",
+      qtyMinus: "\u003csvg class=\"icon-qty-minus\" role=\"img\" aria-label=\"qty-minus icon\" width=\"19\" height=\"19\" viewBox=\"0 0 19 19\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"\u003e\n  \u003ccircle cx=\"9.5\" cy=\"9.5\" r=\"9\" stroke=\"black\"\/\u003e\n  \u003cline x1=\"4.5\" y1=\"9.5\" x2=\"14.5\" y2=\"9.5\" stroke=\"black\" stroke-linecap=\"round\"\/\u003e\n\u003c\/svg\u003e"
+    }
+  };
+
+  
+
+    
+
+
+
+    
+    
+  
+    
+      var google_tag_params = {
+        ecomm_prodid : '',
+        ecomm_pagetype: 'other',
+        ecomm_totalvalue: ''
+      };
+    
+  
+
+  
+    dataLayer.push({'event':'d_remark','google_tag_params':google_tag_params});
+  
+
+
+    
+  {
+    "@context": "http://schema.org/",
+    "@type": "Organization",
+    "name": "Chomps ",
+    "description": "Chomps Snack Sticks are sourced from 100% grass-fed & finished beef and venison, paleo & whole30 approved, and certified gluten free. If you’re looking for a delicious on-the-go snack that's packed with both protein and flavor, try Chomps!",
+    
+    
+      
+      "sameAs": [
+        
+          "https://twitter.com/gochomps",
+        
+          "https://pinterest.com/gochomps",
+        
+          "https://youtube.com/gochomps",
+        
+          "https://www.facebook.com/gochomps"
+        
+      ],
+    
+    "founders": [
+      { "name": "Pete Maldonado" },
+      {"name" : "Rashid Ali"}
+      ],
+    "url": "https://chomps.com"
+  }
