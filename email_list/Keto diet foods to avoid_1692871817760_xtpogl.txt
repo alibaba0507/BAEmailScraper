@@ -1,0 +1,1942 @@
+
+💸 SUBSCRIBE & SAVE 20% ON EVERY ORDER 💸
+      
+    
+  
+
+
+
+  Menu
+  
+    
+      
+    
+  
+  0
+
+
+
+  
+    
+      
+        
+          Home
+        
+      
+        
+          Shop Keto Bars
+        
+      
+        
+          Get Rewards
+        
+      
+      
+        
+          
+            Sign in
+          
+        
+      
+      
+      
+      
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+      
+    
+  
+
+  
+    
+      
+
+      
+        Your Cart is Empty
+      
+    
+  
+
+
+
+
+
+
+  
+    
+      
+        
+          
+            
+          
+
+          
+            
+          
+        
+      
+    
+
+    
+      
+        
+        
+          
+            
+          
+        
+        
+        
+          0
+          0
+        
+      
+
+      
+        
+        
+          
+            
+              Home
+            
+          
+        
+          
+            
+              Shop Keto Bars
+            
+          
+        
+          
+            
+              Get Rewards
+            
+          
+        
+      
+    
+
+  
+
+
+
+  div.promo_banner {
+    background-color: #aed4b9;
+    color: #6e3c21;
+  }
+  div.promo_banner a {
+    color: #6e3c21;
+  }
+  div.logo img {
+    width: 110px;
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+  }
+  .header div.logo a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+    .nav ul.menu {
+      padding-top: 0px;
+    }
+  
+
+  div.content,
+  .shopify-policy__container {
+    padding: 50px 0px 0px 0px;
+  }
+
+  @media only screen and (max-width: 798px) {
+    div.content,
+    .shopify-policy__container {
+      padding-top: 20px;
+    }
+  }
+
+
+
+
+
+
+      
+          .footer { 	margin-top: 0px !important; } Foods To Avoid On The Keto DietSome of the questions we'll answer:•What foods to avoid on keto?•Are black eyed peas keto?•Are pinto beans keto?•Can I eat beans on keto?•Are black beans keto?•Can you eat watermelon on keto?•Are grapes keto friendly?•Can you eat corn on keto diet?Can I have fruit on keto?On a keto diet, you want to aim for a low-carb diet breakdown of about 70-80 percent fat, 5-10 percent carbs, and 20-15 percent protein. Some foods are much higher in carbohydrates and may jeopardize your ability to stay in ketosis and restrict weight loss.Certain foods are rich in nutrients and fiber and may be able to be included in your diet in small enough quantities. However, these foods cannot be consumed liberally and should not be your staple food choices. Careful attention must be paid to serving sizes of these higher carb foods.Keep reading to learn more about what foods you can incorporate into a ketogenic diet in moderation, and which ones you should avoid to yield the results you want.Grains You Should AvoidOne agreed-upon truth about the keto diet is that you should avoid these flour-based, carbohydrate-rich foods–even whole grains. Consuming them can prevent ketosis and may increase blood sugar and insulin levels–which promotes body fat storage. To get the results you want, you're going to have to cut out grains. Avoid grains such as:• Wheat• Oats• Rice• Quinoa• Millet• Rye• Corn• Buckwheat• BarleyRemember, you should stay away from breads, pasta, pizza crusts, cookies, or crackers made with any of these grains. Try out a cauliflower pizza crust or zoodles if you want a keto-friendly alternative!Beans And Legumes To AvoidCarb counts for one cup of cooked beans:• Black beans: 40.8 grams• Pinto beans: 44.8 grams• Garbanzo beans (also known as chickpeas): 45 grams• Kidney beans: 40.4 grams• Red beans: 120 gramsLower-carb bean alternatives:Because calculating net carbs can be confusing, and because making a mistake can ruin ketosis, many people on the keto diet avoid beans altogether. Quitting beans "cold turkey" can be tough, though, as beans play such an important role in cuisine. Fortunately, you can incorporate several low-carb bean alternatives into your keto diet plan.• Beanless refried beans (check out this keto recipe) create the taste and texture of refried beans without the beans or the carbs. This dish uses eggplant or zucchini, bacon and spices – top with optional cheese or sour cream for an authentic south-of-the-border flavor.• Peas are legumes, most peas contain about half the carbohydrates as beans. A cup of green peas contains only 21 grams of carbs, for example. Green peas are also an excellent source of vitamin A, vitamin K and protein. Peas work well as bean replacements in chili, salads and curry, but due to their distinct flavor, peas may not work well in many other bean-based dishes.• Lentils are also legumes with a total carb count of 40 grams, but they contain 16 grams of fiber, which brings the net carbohydrates down to manageable levels.• Enoki mushrooms resemble bean sprouts and have a texture similar to cooked beans, making them a great substitute for beans. One cup of sliced enoki mushrooms has only 24 calories and a mere 5 grams of carbs. Enoki mushrooms are also a great source of vitamins and minerals, such as iron, magnesium, phosphorus, potassium, and B vitamins. Enoki mushrooms are available fresh and canned, which make them easy to add to soups, salads and many other dishes.• Nuts - Try buttery macadamia nuts, protein-rich almonds, or sweet pecans, which are chock full heart healthy vitamins but light on the carbohydrates.• Other vegetables - A number of vegetables can mimic the taste and texture of beans without the burden of high carbohydrates. Try diced mushrooms, chopped zucchini or riced cauliflower as bean replacementsClick and read on here for a deep dive on what beans you can and can't eat on keto. SuperFat also went more in-depth around the topic of peas on keto if you'd like to read more on that topic as well.Dairy Products To AvoidWhile you don't have to avoid all dairy on a keto diet, you should be strict about limiting:• Low-fat milk–stick to two percent or above, and don't drink more than one serving per day. Even better, opt for full-fat, raw milk.Heavy cream is also permitted.• Shredded cheese–sometimes it contains potato starch to keep the shreds separate. Stick with slices or block cheese. Always choose whole milk, high-fat cheese rather than reduced-fat or fat-free cheese.• Fat-free butter alternatives• Low-fat whipped cream• Low-fat cream cheese• Ice creamFruits To AvoidLike beans, fruit has a lot of benefits–but they also have a lot of naturally occurring sugars, and therefore, carbs. Steer clear of fruits such as:Check out the keto foods to consume page to learn more.• Apples• Bananas• Grapefruit• Grapes• Honeydew melon• Oranges• Pineapple• Watermelon• Fruit juices• Dried fruit• Smoothies• Papaya• Mangos• TangerinesSome fruits can be enjoyed sparingly. Add fruits with a lower sugar content into your meal plan, such as raspberries, blueberries, strawberries, and blackberries.Starchy Vegetables To AvoidA good rule of thumb in avoiding starchy, carbohydrate-rich veggies is where they are grown. If a vegetable grows underground, it's a most likely high-carb. Avoid starchy veggies such as:PotatoesSweet PotatoesCornCherry tomatoesParsnipsYuccaCarrotsFocus on incorporating lots of green, leafy, low-carb vegetables into your diet. Fill up on vegetables like spinach, cauliflower, zucchini, and broccoli.Sugars To AvoidIn general, sugars are a no-go on a ketogenic diet. However, did you know there are 56 different types of sugar you may encounter on nutrition labels? They are hiding everywhere you look, so you need to be vigilant. Avoid things that list any of the following:• Cane sugar• Honey• High-fructose corn syrup• Agave nectar• Turbinado sugar• Maple syrup• Raw sugar• Sucralose• Palm sugar• Coconut sugar• Aspartame• SaccharineIf you have a bit of a sweet tooth, you're not out of luck. Try low-carb, healthy sweeteners like stevia and monk fruit in your favorite recipes. Here 75 of the healthiest keto-friendly desserts you can test out at home.Nuts To AvoidWhile nuts are not traditionally viewed as carbohydrates, some types have a higher carb content that may prevent you from consuming less than 30 grams of net carbs per day, so be careful. Read a complete guide to the health benefits (and nutritional analysis) of nuts here.• Cashews• Peanuts• Pistachios• ChesnutsThe good news most nuts are perfectly acceptable on a keto diet–and they're packed with healthy fats that foster ketosis. Remember to eat them in moderation and dole yourself out a serving size before sitting down with an entire bag. The lowest carb nuts are pecans, brazil nuts, macadamia nuts, and walnuts. Avoid Meat And Fish Farmed In FactoriesWhen possible, choose organic animal meats and seafood that are grass-fed rather than grain-fed–they have more valuable nutrients. You should also avoid processed meats that have a lot of nitrates and additives that add no nutritional value to your diet. In general, avoid:• Hot dogs• Packaged sausages• Canned meat• Beef jerky and bacon–they are acceptable in limited quantities but have a high sodium content, so eat them in moderation• Salami• Chicken nuggets and fish sticks–unless they are homemade and breaded in coconut flour or another keto-friendly flour alternativeOils To AvoidWhile all oils have plenty of fat which is an important component of a keto diet–your body needs fatty acids to produce energy especially when you aren't eating many carbs. However, they aren't all created equal. You need to consume quality oils made from a healthy food source. Avoid processed or inflammatory oils, including:• Sunflower oil• Safflower oil• Soybean oil• Peanut oil• Corn oil• Grapeseed oil• Sesame oilThe best types of oil for your body are virgin olive oil, coconut oil, avocado oil, macadamia oil. Plus, they are delicious!Beverages To AvoidLike most diets, you should drink a lot of water when following a keto diet. However, if we are trying to limit carbs (and sugars) there are several drinks you should steer clear of, but it can be tricky to know what's acceptable. Avoid the following high-carb beverages:Beer–especially heavy beers such as stouts, porters, and ale. It's like drinking liquid bread.Most wine, especially sweet wines. Go for a dry red or white if you're having a glass or two.Cocktails–many spirits are fairly low in carbs but the mixers can do you in.Avoid mixers such as cranberry or pineapple juice and simple syrup.Club soda is a good zero-calorie, low-carb mixer.Flavored liquorsFruit and vegetable juicesSodaDiet sodas–many of the artificial sweeteners upset blood sugar, ketosis, and cause cravingsSweetened milk-based drinks, including coffee-based drinks and milkshakesTea drinks with added sugarKeep in mind, alcohol is ethanol, which your liver will focus on breaking down–and your body doesn't prioritize burning fat during that. So, drinking can seriously slow down weight loss even if you're following a strict keto diet. Check out this informative guide about drinking on a keto diet.The Bottom LineJust because a particular food appears healthy, it doesn't mean it's keto-approved. You have to retrain your thinking about the traditional food pyramid if you want to live a keto lifestyle and reap the benefits of this particular diet.In general, avoid grains, starchy vegetables that grow in the ground, beans and legumes, processed oils, and fruits high in sugar. Limit alcohol and stay away from carb-heavy beers, wines, and mixers, and other sugary beverages. Focus on low-carb foods such as organic meats and seafood, green, leafy greens, water, low-carb nuts, soda, artificial sweeteners, and low-fat or fat-free dairy products.If you're also looking for a keto diet food list - for what you should consume on keto - look no further than right here!Natalie Butler, RDN, LDNatalie gained an understanding of the organic and natural food industries, the supplement industry and clinical dietetics through her various job experiences. Natalie started her own private practice, Nutrition By Natalie, in 2005 to further help people reconnect with nourishing, wholesome food. She advocates for a personalized, nutrigenomics and functional-medicine based approach to disease prevention and treatment. Natalie specializes in medical review, consulting and corporate wellness services for various large tech and health information companies. She also works with Healthline as a medical reviewer, for Mind Body Green as a health writer, is on the advisory board for Head Health, Inc. and consults for the popular intermittent fasting app, Simple.Published:August 17, 2020 Updated:August 17, 2020Love this blog post? Share it on social! WHAT TO READ NEXT
+						
+					 Keto Baking Essentials
+						
+					 How To Do Keto On a Budget
+						
+					 Keto Myths That Make You SqueakKETO MYTHS THAT MAKE US SQUEAK 
+
+Written by Tony Berardo on April 29th, 2022 
+
+Starting a new fitness program or changing your eating habits can be intimidating and confusing.
+
+For decades we’ve been told that certain foods are bad for us. However, as more research is done, it turns out that some of those foods, like fat, could actually be very beneficial.
+
+The goal of a ketogenic, or keto, diet is to get more of your calories from protein and fat than carbohydrates. This makes sense since we all know that carbohydrates from sugar, soda and pastries are not ideal for daily consumption. 
+ 
+You’ve probably noticed that you feel different after you eat these foods. Think about how you feel after eating a bunch of bread before your appetizers or a nice slice of cheesecake after your meal.
+
+Just as not all carbs are bad, neither are all fats and sugar. 
+
+If you think a keto diet might be right for you, it’s important to distinguish the facts from the myths in order to achieve the best results and make your experience as stress free as possible.
+
+MYTH: KETO IS ONLY USED FOR WEIGHT MANAGEMENT
+As you would expect when eliminating certain foods from your diet, especially carbs, you will notice some weight loss. However, that is not the only change you will experience while on a keto diet. Following a proper keto diet has been shown to support overall metabolic health, body composition and improved cognitive function.
+
+But can you gain weight while on the keto diet? As with any diet, weight gain is a possibility if the diet is not followed correctly. With a keto diet, weight gain could happen if you are not actually in a state of ketosis. If someone is following a diet and their caloric intake is less than their needs, they may lose weight over time. If their caloric intake is more than their needs, they may gain weight over time, even if the calories come from fat or protein. 
+
+This is why a ketogenic diet takes research and planning to ensure all the necessary steps are taken to achieve optimum results. 
+
+MYTH: EAT AS MUCH FAT AS YOU WANT
+This is probably the most common myth. Although research has shown that some fats are very beneficial for a healthy lifestyle, it doesn’t mean that you should eat as much fat as you want. There is a difference between saturated and unsaturated fats, with unsaturated fats being the preferred type for a keto diet. On a keto diet, 75% of your daily calories should come from these unsaturated fat sources. Some good examples of those fats are nuts, fatty fish, eggs and avocado.
+
+MYTH: GOING KETO MEANS ZERO ALCOHOL 
+Although beer and wine are generally full of carbohydrates, there are other options, like dry wines, light beers and most liquors, if you wish to indulge. Just watch out for those mixers and chasers! You may notice that your tolerance to alcohol changes, so always be sure to drink responsibly. 
+
+MYTH: IT’S A HIGH PROTEIN DIET
+This is another common myth. As stated earlier, close to 75% of your daily calories should be coming from fat, not protein, which should only account for 20% of your caloric intake, with carbohydrates contributing the remaining 5%. If you’re having trouble meeting your fat, carb and protein goals, supplementation could be an easy way to stay keto-friendly.  Whether you’re in between meals or hungry after a workout, Keto Bars has some delicious and filling Keto Bars and foods that will help keep you on track. 
+
+MYTH: KETO IS THE SAME FOR MEN & WOMEN
+Although studies suggest women could be more sensitive to dietary changes than men, women can still safely follow a keto diet as long as they do so carefully.
+
+It’s recommended that women focus on eating a clean, alkaline diet in addition to following a keto diet. This means that they should eat more non-starchy vegetables to ensure they are getting plenty of electrolytes and nutrients.
+
+Of course, this advice should always be used while listening to your body. If you’re switching up your diet, your body will tell you if something is wrong. When starting a new diet, be sure to keep a food journal or download a meal tracking app on your phone so you can easily identify what bothers you if you have any issues. 
+
+MYTH: EAT LESS FOOD WHEN ON KETO
+When you first start a keto diet, it may seem like you’re eating less food. The nutrients in your food are what really matter. A decrease in your carb intake will make it feel like you are eating less in the beginning, but that is normal. You won’t be eating less food, just fewer carbs! A keto diet allows you to be more aware of the types of nutrients you consume.
+
+MYTH: KETO FOODS ARE BLAND 
+Quite the opposite is true. When first starting a keto diet, most people just focus on reading labels and trying to figure it out all on their own. The addition of supplements, protein bars, shakes and healthy snacks into your diet of whole foods like fruits, veggies and meats can make eating keto delicious and healthy.
+
+There are many more myths about keto out there, but it is important to remember that like people, not all diets are created equal. However, when combined with exercise and patience, a keto diet could be the key to reaching your overall fitness goals.
+
+For more help on reaching your goals and keto advice, follow our blog at https://www.ketobars.com/blogs
+
+Love this blog post? Share it on social! 
+
+ 
+
+						
+					 The Best Keto Pre-Workout Snacks and Meals to Buy or MakeSHOP KETOBARS.COMSectionwindow.__pagefly_setting__={"baseURL":"https://apps.pagefly.io","analyticsURL":"https://analytics.pagefly.io","isBackend":false,"cdnURL":"https://cdn.pagefly.io","pageflyVersion":"3.1.9","shopDomain":"keto-bars.myshopify.com","elementData":{},"pageTitle":"Foods To Avoid On The Keto Diet","pageType":"blog","pageId":"2160d402-561e-4b60-b4be-d4f992b4322a","lazyLoad":true,"forceByPassGoogleLightHouse":false,"imageLazyLoad":true,"nativeImageLazyLoad":true,"useThemeJQ":false,"fontLink":"https://fonts.googleapis.com/css2?family=Archivo+Black:wght@400&family=Nunito+Sans:wght@400&family=Nunito:wght@400&display=swap","trackingIDs":[],"shopifyProxyPath":"/a/pf_preview"};window.__pagefly_setting__.moneyFormat="$ {{amount}}"; 
+      
+
+      
+      
+  
+
+    
+      
+        Follow
+        
+          
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+        
+      
+      
+        PrivacyTerms
+      
+    
+
+    
+      
+        
+          
+            
+              FAQ + Contact Us
+            
+            
+          
+            
+              Rewards Program FAQ
+            
+            
+          
+            
+              Keto Bars Blog
+            
+            
+          
+            
+              Wholesale Login
+            
+            
+          
+            
+              Become An Affiliate
+            
+            
+          
+            
+              Affiliate Login
+            
+            
+          
+            
+              Instagram Shop
+            
+            
+          
+            
+              Our Story
+            
+            
+          
+            
+              Ingredients & Nutrition
+            
+            
+          
+            
+              Store Locator
+            
+            
+          
+            
+              Sitemap
+            
+            
+          
+        
+      
+
+      
+        
+          Join our email list for new product releases, keto fun, and FREE SHIPPING on your next order.
+        
+        
+
+
+  
+    
+
+      
+        
+      
+
+      
+        
+        
+
+        
+          
+        
+
+        
+        
+        
+      
+    
+  
+
+
+      
+
+      
+
+      
+
+      
+        © 2023 Keto Bars.
+        
+
+      
+
+      
+
+      
+    
+  
+
+
+
+
+
+
+
+
+    
+
+    
+      
+        
+       
+    
+
+    
+        
+        
+        
+    
+
+
+
+
+  (function() {
+    window.cartProgress = {
+      cartTotal: 0, /* Cart value in cents */
+      messages: {
+        freeShipping: 'Add <span class="js-cart-progress-remaining"></span> to get FREE shipping!',
+        discount10: 'Add <span class="js-cart-progress-remaining"></span> to get 10% OFF',
+        discount15: 'Add <span class="js-cart-progress-remaining"></span> to get 15% OFF',
+        lastTier: 'Congrats! 🎉 You earned a 15% discount off your order!',
+      },
+      getProgressWidth: function(cartTotal) {
+        var width = 0;
+
+        if (cartTotal <= 5000) { /* First tier */
+          width = cartTotal / 50;
+        } else if (cartTotal > 5000 && cartTotal <= 7500) { /* Second tier */
+          width = cartTotal / 75;
+        } else if (cartTotal > 7500 && cartTotal < 10000) { /* Last tier */
+          width = cartTotal / 100;
+        } else if (cartTotal >= 10000) {
+          width = 100;
+        }
+
+        return width;
+      },
+      getReferenceBarWidth: function(cartTotal) {
+        /* By default, the width of the reference bar is one third of the full width */
+        var width = 33.333;
+
+        if (cartTotal > 5000 && cartTotal <= 7500) {
+          width = 66.666;
+        } else if (cartTotal > 7500) {
+          width = 100;
+        }
+
+        return width;
+      },
+      getProgressMessage: function(cartTotal) {
+        var message = '';
+
+        if (cartTotal < 5000) {
+          message = this.messages.freeShipping;
+        } else if (cartTotal > 5000 && cartTotal <= 7500) {
+          message = this.messages.discount10;
+        } else if (cartTotal > 7500 && cartTotal < 10000) {
+          message = this.messages.discount15;
+        } else if (cartTotal >= 10000) {
+          message = this.messages.lastTier;
+        }
+
+        return message;
+      },
+      getRemainingAmount: function(cartTotal) {
+        var remaining = 0;
+
+        if (cartTotal < 5000) {
+          remaining = 5000 - cartTotal;
+        } else if (cartTotal > 5000 && cartTotal < 7500) {
+          remaining = 7500 - cartTotal;
+        } else if (cartTotal > 7500) {
+          remaining = 10000 - cartTotal;
+        }
+
+        return '$' + (remaining / 100);
+      },
+      getDiscountCode: function() {
+        var code = '';
+
+        if (this.cartTotal >= 7500 && this.cartTotal < 10000) {
+          code = 'DISCOUNT10';
+        } else if (this.cartTotal >= 10000) {
+          code = 'DISCOUNT15';
+        }
+
+        return code;
+      }
+    };
+
+    var cartTotal = window.cartProgress.cartTotal;
+
+    if (cartTotal == 0) {
+      document.querySelector('.js-cart-progress').classList.add('hide');
+    }
+
+    // Set the width of the reference bar
+    document.querySelector('.js-cart-progress-reference').style.width = window.cartProgress.getReferenceBarWidth(cartTotal) + '%';
+
+    // Set the width of the progress bar
+    document.querySelector('.js-cart-progress-bar').style.width = window.cartProgress.getProgressWidth(cartTotal) + '%';
+
+    // Insert the progress message
+    document.querySelector('.js-cart-progress-text').innerHTML = window.cartProgress.getProgressMessage(cartTotal);
+
+    // Insert the remaining amount to get the next surprise
+    if (document.querySelector('.js-cart-progress-remaining') !== null) {
+      document.querySelector('.js-cart-progress-remaining').innerHTML = window.cartProgress.getRemainingAmount(cartTotal);
+    }
+
+    document.addEventListener('click', function(e) {
+      var $el = $(e.target);
+      
+      if ($el.hasClass('js-checkout-btn')) {
+        e.preventDefault();
+        
+        var discountCode = window.cartProgress.getDiscountCode();
+
+        window.location.href = (discountCode != '') ? ('/discount/' + discountCode + '?redirect=/cart') : '/cart';        
+      }
+      
+    })
+
+  })();
+  
+
+
+
+
+      
+        
+          
+            
+              
+                
+              
+              
+              
+              
+            
+          
+        
+      
+    
+
+    
+    
+
+    
+    
+  
+    
+ 
+	
+	 
+	    
+            Sale
+			
+			 
+                    
+					  
+                                   
+                      
+                       
+                    
+             
+			
+          
+            
+             
+              		
+            	
+            
+        
+
+		
+		
+          	
+			
+					
+			
+			
+			
+					
+			
+			
+			
+					
+			
+			
+			
+				 	View full product details → 
+			
+		
+            
+	               
+                
+                
+                  
+                  
+							
+		            
+                  
+                  	    
+                    Quantity
+          	        
+                  
+				  
+                  
+                     Unavailable
+                     Sold Out
+                     
+                     
+                  
+                  
+                
+               
+            
+         
+	   
+	   
+    
+	
+ 
+
+
+
+
+  
+ 
+
+
+
+	
+		// Subscriptions Powered by ReCharge Payments: JavaScript
+		(function() {
+			// Basic function to load script files, will be used to include jQuery
+			var loadScript = function(url, callback) {
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				// If the browser is Internet Explorer
+				if (script.readyState){
+					script.onreadystatechange = function() {
+						if (script.readyState == "loaded" || script.readyState == "complete") {
+							script.onreadystatechange = null;
+							callback();
+						}
+					};
+				// For any other browser
+				} else {
+					script.onload = function() {
+						callback();
+					};
+				}
+				script.src = url;
+				document.getElementsByTagName("head")[0].appendChild(script);
+			};
+			// This is our JavaScript that we'll run after jQuery is included
+			var reChargeThemeFooterJS = function($) {
+				function reChargeSaveCartNoteAndRedirectToCart() {
+					var has_cart_note_or_attribute = false;
+					try {
+						var data = {};
+						if ($('[name="note"]').val() != undefined) {
+							var note = $('[name="note"]').val();
+							data['note'] = note;
+							has_cart_note_or_attribute = true;
+						}
+						if (has_cart_note_or_attribute) {
+							$.ajax({
+								type: 'POST',
+								data: data,
+								url: '/cart/update.js',
+								dataType: 'json',
+								success: function() {
+									window.location.href = '/cart';
+								}
+							});
+						} else {
+							window.location.href = '/cart';
+						}
+					} catch (e) {
+						window.location.href = '/cart';
+					}
+				}
+				var checkout_button_selectors = '[href="/checkout"], form[action="/cart"] button[type="submit"], form[action="/cart"] input[type="submit"], form[action="/checkout"] input[type="submit"], form[action="/checkout"] button[type="submit"]';
+				$(document).on('click', checkout_button_selectors, function(e) {
+					if (!e.target.hasAttribute('data-disable-recharge')) {
+						e.preventDefault();
+						reChargeSaveCartNoteAndRedirectToCart();
+						window.location.href = '/cart';
+					} else {
+						console.info('ReCharge disabled');
+					}
+				});
+			}
+			// Check if jQuery is added, if not, then we'll loadScript, otherwise, run reChargeJS
+			if ((typeof(jQuery) == 'undefined') || (parseInt(jQuery.fn.jquery) == 1 && parseFloat(jQuery.fn.jquery.replace(/^1\./,"")) < 7.2)) {
+				// We'll get our jQuery from Google APIs
+				loadScript('//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', function() {
+					jQuery172 = jQuery.noConflict(true);
+					reChargeThemeFooterJS(jQuery172);
+				});
+			} else {
+				reChargeThemeFooterJS(jQuery);
+			}
+		})();
+	
+
+
+
+
+ 
+
+
+
+
+
+
+  
+  button > * {
+    pointer-events: none;
+  }
+
+
+//Isolate script scope
+(function (){
+  window.baMsg = {
+     "remote_id": "3228553",
+     "shopify_domain": "keto-bars.myshopify.com",
+     "fb_page_id": "270182456488430",
+     "locale": "en_US",
+     "app_id": 369783430202516,
+     "use_stm_callback": "",
+     "user_ref": 'ba_3228553_' + Math.random().toString(36).substring(5) + '_' + Math.floor(Math.random() * (9999999 - 1000000)),
+     "atc_preference": "fb",
+     "active_fb_atc_shown": false,
+     "active_sms_atc_shown": false,
+     "app_url": "/apps/ba_fb_app",
+     "page_url": window.location.href,
+     "is_preview": (window.location.href.indexOf("ba-preview") != -1),
+     "is_generating": (window.location.href.indexOf("ba_action=generate") != -1),
+     "fb_active": true,
+     "sms_active": false,
+     "push_active": false,
+     "ab_active": false
+  };
+
+  baMsg.debug = function (enabled) {
+    if (enabled === false) {
+      baMet.destroyCookie("baMsg_debug");
+    } else {
+      baMet.setCookie("baMsg_debug", "t", 365 * 24 * 60);
+    }
+    return true;
+  };
+
+  baMsg.log = function(message){
+    if (baMet.getCookie("baMsg_debug")) {
+      window.console.log(message);
+    }
+  }
+
+
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+
+  function getUrlParam(paramName) {
+    var params = {};
+    window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str,key,value) {
+      params[key] = value;
+    });
+    return params[paramName];
+  }
+
+  function hasFlag(flag){
+    return window.baMsg.settings.flags[flag] == true
+  }
+
+  function getAtcButton(){
+    var addToCartBtn = document.querySelector('[name=add]');
+    if (!addToCartBtn || addToCartBtn.length === 0){
+      addToCartBtn = document.getElementsByClassName("btn-addtocart")[0];
+    }
+    if (!addToCartBtn || addToCartBtn.length === 0){
+      addToCartBtn = document.getElementsByClassName("button-cart")[0];
+    }
+    if (!addToCartBtn || addToCartBtn.length === 0){
+      addToCartBtn = document.getElementsByClassName("product-add")[0];
+    }
+    if (!addToCartBtn || addToCartBtn.length === 0){
+      addToCartBtn = document.getElementsByClassName("add-to-cart")[0] !== undefined ? document.getElementsByClassName("add-to-cart")[0].getElementsByTagName('input')[0] : null;
+    }
+    return addToCartBtn;
+  }
+
+  function canDisplayByDevice(devices) {
+    if (devices !== 'all') {
+      var isMobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+      if (devices === 'desktop' && isMobile){ return false;}
+      if (devices === 'mobile' && !isMobile){ return false;}
+    }
+    return true;
+  }
+
+  function getProductForm() {
+    var form = document.getElementById('add-item-form');
+    if (!form || form.length === 0){
+        form = document.getElementsByClassName("product-form")[1];
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action='/cart/add']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action^='/cart/add']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action$='/cart/add']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action='/cart/add.js']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action='/cart/add?return=/']");
+    }
+    if (!form || form.length === 0){
+        form = document.getElementsByClassName("product-form")[0];
+    }
+    if (!form || form.length === 0){
+        form = document.getElementsByClassName("btn-addtocart")[0];
+    }
+    return form
+  }
+
+  function canDisplayByRules(rules) {
+    var pageURL = window.location.href;
+    var url = new URL(pageURL);
+    var pathname = (url.pathname.length === 1) ? '' : url.pathname.length;
+    var urlWOParams = url.origin + pathname;
+
+    var canDisplay = rules.length === 0;
+
+    for (var i = 0; i < rules.length; i++) {
+      var rule = rules[i];
+
+      if (rule.rule === 'match') {
+        if (rule.operator === 'true') {
+          if (rule.string === pageURL || rule.string === urlWOParams) {
+            canDisplay = true;
+          }
+        } else if (rule.string === pageURL || rule.string === urlWOParams) {
+          canDisplay = false;
+          break;
+        }
+      }
+
+      if (rule.rule === 'begin_with') {
+        var stringLength = rule.string.length;
+
+        if (rule.operator === 'true') {
+          if (rule.string === pageURL.substr(0, stringLength) || rule.string === urlWOParams.substr(0, stringLength)) {
+            canDisplay = true;
+          }
+        } else if (rule.string === pageURL.substr(0, stringLength) || rule.string === urlWOParams.substr(0, stringLength)) {
+          canDisplay = false;
+          break;
+        }
+      }
+
+      if (rule.rule === 'contains') {
+        if (rule.operator === 'true') {
+          if (pageURL.indexOf(rule.string) !== -1 || urlWOParams.indexOf(rule.string) !== -1) {
+            canDisplay = true;
+          }
+        } else if (pageURL.indexOf(rule.string) !== -1 || urlWOParams.indexOf(rule.string) !== -1) {
+          canDisplay = false;
+          break;
+        }
+      }
+    }
+
+    return canDisplay;
+  }
+
+  function updateSubscriberHash(updateHash){
+    var updatedSubscriberHash = window.baMsg.subscriber_hash;
+    for (var prop in updateHash) {
+      updatedSubscriberHash[prop] = updateHash[prop];
+    }
+    var subscriberKey = "ba_msg_subscriber_" + baMet.getVisitorToken();
+    localStorage.setItem(subscriberKey, JSON.stringify(updatedSubscriberHash));
+  }
+
+  function applyMet(metName){
+    eventHash = {}
+    //baMet.apply(metName, eventHash, "ba_msg");
+  }
+
+  function getCartSessionId(){
+    return baMet.getCookie("baMet_cs_id");
+  }
+
+  function isHidden(el) {
+    return (el.offsetParent === null)
+  }
+
+  function handleAtcClick(event){
+    var subscriberHash = window.baMsg.subscriber_hash;
+    var atcPref = window.baMsg.atc_preference;
+    if (atcPref == 'fb'){
+      window.baMsg.showFbAtcModal(event);
+    } else if (atcPref == 'sms'){
+      window.baMsg.showSmsAtcModal(event);
+    }
+  }
+
+  function listentoAtc(){
+    window.baMet.onBaEv("click", ".product-form__cart-submit, .product-form__cart-submit span, #AddToCart-product-template, .product-atc-btn, .product-menu-button.product-menu-button-atc, .button-cart, .product-add, .add-to-cart input, .btn-addtocart, [name=add]", function (e){
+      baMsg.log(e)
+      var addToCartBtn = (e.target);
+      window.baMsg.active_atc = addToCartBtn;
+      addToCartBtn.classList.add('ba-click-ready');
+      try {
+        handleAtcClick(e)
+      } catch(err){
+        console.log(err);
+      }
+    });
+  }
+
+  function documentReady(callback) {
+    document.readyState === "interactive" || document.readyState === "complete" ? callback() : document.addEventListener("DOMContentLoaded", callback);
+  }
+
+documentReady(function() {
+  var baFbPresent = (document.getElementsByTagName('head')[0].innerHTML.search("ba_fb_" + window.baMsg.remote_id) > 0);
+  if (!baFbPresent){return;}
+
+  window.baMsg.visitor_token = window.baMet.getVisitorToken();
+  window.baMsg.session_token = window.baMet.getVisitToken();
+  window.baMsg.cart_uid  = baMet.getCookie('baMet_cs_id');
+  window.baMsg.browser_info = window.baMet.getBrowserInfo();
+
+  var baSubscriberKey = "ba_msg_subscriber_" + window.baMsg.visitor_token;
+  var rawSubscriber   = localStorage.getItem(baSubscriberKey);
+  var baSubscriberHash = JSON.parse(rawSubscriber || "{}");
+  window.baMsg.subscriber_hash = baSubscriberHash;
+
+  var baId = window.baMet.getCookie("baid");
+  var ba_fb_opted_in_cookie = window.baMet.getCookie("ba_opted_in");
+
+  if(baId && ba_fb_opted_in_cookie && !rawSubscriber){
+    window.baMsg.handle_legacy = true;
+    //This is a V1 subscriber. Upgrade to V2
+    var fbchk_opted_in_cookie = window.baMet.getCookie("fbchk_opted_in");
+    var ba_modal_opted_in_cookie = window.baMet.getCookie("ba_modal_opted_in");
+    var ba_atc_popup_opted_in_cookie = window.baMet.getCookie("ba_atc_popup_opted_in");
+    var rightNow = parseInt(new Date().getTime());
+    var updateHash = {legacy: true};
+    if (ba_fb_opted_in_cookie){
+      updateHash["ba_fb_opted_in"] = rightNow;
+    }
+    if (fbchk_opted_in_cookie){
+      updateHash["ba_fbchk_opted_in"] = rightNow;
+    }
+    if (ba_modal_opted_in_cookie){
+      updateHash["ba_fb_modal_opted_in"] = rightNow;
+    }
+    if (ba_atc_popup_opted_in_cookie){
+      updateHash["ba_fb_atc_popup_opted_in"] = rightNow;
+    }
+    updateSubscriberHash(updateHash);
+    var data = {
+      action_type: 'update_legacy_sub', session_token: baId,
+      visitor_token: window.baMsg.visitor_token, cart_uid: window.baMsg.cart_uid,
+      tz_offset: window.baMsg.browser_info.tz_offset, cart_token: window.baMet.getCookie('cart')
+    }
+    baMet.sendRequest(window.baMsg.app_url, data, function(resp) {
+      baMsg.log('legacy sub updated')
+      updateSubscriberHash({legacy_updated: rightNow});
+    });
+  }
+
+
+  if (window.BoosterApps.common.customer && !window.baMsg.subscriber_hash.customer_synced_at){
+    var data = {
+      action_type: 'sync_customer', visitor_token: window.baMsg.visitor_token,
+      sync_data: window.BoosterApps.common.customer
+    }
+    baMet.sendRequest(window.baMsg.app_url, data, function(resp) {
+      baMsg.log('sub sync updated')
+      rightNow = parseInt(new Date().getTime());
+      updateSubscriberHash({customer_synced_at: rightNow, cus_id: window.BoosterApps.common.customer.id});
+    });
+  }
+
+
+  window.baMsg.settings = {
+    fb_base: {
+      "id":48,
+      "shop_id":3228553,
+      "active": 1,
+      "visible":1,
+      "type":"default",
+      "text":"Stay up to date with order notifications",
+      "checked_text": "Your discount: %discountCode!",
+      "placement": "under_cart",
+      "text_placement": "above",
+      "background_color": "#fff",
+      "icon_background_color": "#f7f7f7",
+      "color":"#000",
+      "checked_color": "#000",
+      "border_color":"#e5e5e5",
+      "font_size":14,
+      "font_style":"normal",
+      "margin_top":15,
+      "margin_bottom":10,
+      "icon":"discount_1",
+      "checked_icon":"check_1",
+      "border_width":1,
+      "border_style":"solid",
+      "border_radius":5,
+      "align":"left",
+      "button_text":"Get Discount Code",
+      "button_background_color":"#F6F6F6",
+      "button_text_color":"#555555",
+      "button_font_size":14,
+      "button_font_style":"bold",
+      "button_border_color":"#eee",
+      "button_border_width":1,
+      "button_border_radius":5,
+      "discount_code":"YOUR_DISCOUNT_CODE_HERE",
+      "subtitle": ""
+    },
+    fb_modal: {
+      "shop_id":3228553,
+      "active":0,
+      "title":"Hi! Opt-in and recieve a discount!",
+      "subtitle":"Just click on &quot;Send To Messenger&quot; and you will automatically be opted-in!",
+      "submitted_title":"Thanks for opt-ing in!",
+      "submitted_subtitle":"Your discount code is: %discountCode!",
+      "button_text":"View in Messenger",
+      "send_color":"blue",
+      "send_size":"large",
+      "background_color":"#fff",
+      "title_color":"#000",
+      "subtitle_color":"#808080",
+      "button_color":"#fff",
+      "button_text_color":"#000",
+      "border_color":"#eee",
+      "display":"immediately",
+      "delay":3,
+      "devices":"all",
+      "message":"Hi! Thanks for opt-ing in. Your discount code is: %discountCode! Enjoy!",
+      "image_name":"",
+      "submitted_image_name":"",
+      "image_placement":"above_title",
+      "submitted_image_placement":"above_title",
+      "discount_code":"DISCOUNT_CODE_HERE",
+      "rules": JSON.parse('[] ')
+    },
+    fb_atc_popup: {
+      "shop_id":3228553,
+      "active":1,
+      "title":"Join us on Messenger",
+      "paragraph":"Sign up and gain access to new products, exclusive deals, and discounts before anybody else!",
+      "no_thanks_text":"No thanks",
+      "close_button":"1",
+      "plugin_type":"send_to_messenger",
+      "button_cta":"SEND_TO_MESSENGER",
+      "button_cta_color":"blue",
+      "header_bg_color":"#f4f6f8",
+      "body_bg_color":"#fff",
+      "header_text_color":"#626974",
+      "paragraph_text_color":"#626974",
+      "no_thanks_text_color":"#626974"
+    }
+  }
+
+  //update last seen at if subscriber active
+  if (window.baMsg.subscriber_hash.ba_fb_opted_in && window.baMsg.ab_active && window.baMsg.cart_uid && !window.baMsg.handle_legacy){
+    var data = {"action_type": 'heartbeat', visitor_token: window.baMsg.visitor_token, "cart_uid": window.baMsg.cart_uid}
+    baMet.sendRequest(window.baMsg.app_url, data, function(resp) {
+      baMsg.log('heartbeat recorded')
+    });
+  }
+
+  if (window.baMsg.is_generating == true){
+    var cartUid = getParameterByName('cart_uid');
+    var baId    = getParameterByName('baid');
+    if (cartUid || baId){
+      var abStep = getParameterByName('ab_step');
+      var baCheckoutUrl = getParameterByName('ba_checkout_url');
+      var baChannel = getParameterByName('channel');
+      var overlayWrapper = document.createElement('div');
+      overlayWrapper.id = 'ba-overlay';
+      overlayWrapper.setAttribute('style', 'position: fixed;display: block;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0,0,0,0.8);z-index: 9999999999999;cursor: pointer;');
+      var overlayTextDiv = document.createElement('div');
+      overlayTextDiv.innerHTML = "Please wait... Generating cart";
+      overlayTextDiv.setAttribute('style', 'position: absolute;top: 50%;left: 50%;font-size: 22px;color: white;transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);');
+      overlayWrapper.appendChild(overlayTextDiv);
+      document.getElementsByTagName('body')[0].appendChild(overlayWrapper);
+
+      //get the cart
+      var data = {"action_type": 'generate_cart', "ab_step": + abStep,
+        "cart_uid": window.baMsg.cart_uid, "baid": baId, "channel": baChannel
+      }
+      baMet.sendRequest(window.baMsg.app_url, data, function(resp) {
+        window.location = baCheckoutUrl + "?attributes[from]=Booster%20Apps%20Abandoned%20Cart%20Notification";
+      });
+      return;
+    }
+  }
+
+  function boosterFBLoader(){
+  this.load = function () {
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)){return;}
+      js = d.createElement(s);
+      js.id = id;
+      // js.src = "https://connect.facebook.net/" + locale + "/sdk.js";
+      js.src = "https://connect.facebook.net/" + window.baMsg.locale + "/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    window.fbLoaded = (new Deferred());
+    window.fbAsyncInit = function () {
+      initFb();
+      window.fbScriptHasLoaded = true;
+    };
+
+    setTimeout(function () {
+      if (!window.fbScriptHasLoaded) {
+        if (typeof FB === 'undefined') {
+          setTimeout(function () {
+            initFb();
+          }, 2000);
+        } else {
+          initFb();
+        }
+      }
+    }, 3000);
+  };
+
+  function initFb() {
+    FB.init({
+      appId: window.baMsg.app_id,
+      autoLogAppEvents: true,
+      xfbml: true,
+      version: 'v3.0'
+    });
+    window.fbLoaded.resolve();
+  }
+
+  function Deferred() {
+    var self = this;
+    this.promise = new Promise(function (resolve, reject) {
+      self.reject = reject;
+      self.resolve = resolve;
+    });
+  }
+
+  this.loadChat = function (chatSettings) {
+    var isChatInPreview = (document.location.search.indexOf("ba-chat-preview") != -1)
+
+    if (chatSettings.active || isChatInPreview) {
+      window.fbLoaded.promise.then(function(){
+        var chatBox = document.createElement('div');
+        chatBox.classList = 'fb-customerchat';
+        chatBox.setAttribute('page_id', window.baMsg.fb_page_id);
+        chatBox.setAttribute('greeting_dialog_display', chatSettings.minimized ? 'hide' : 'show');
+        chatBox.setAttribute('theme_color', chatSettings.theme_color);
+        var dataRef = 'CUSTOMER_CHAT_PLUGIN:customer_chat_plugin:';
+
+        if (window.baMsg.visitor_token !== ''){
+          dataRef += window.baMsg.visitor_token;
+        }
+        chatBox.setAttribute('ref', dataRef);
+
+        if (chatSettings.logged_in_greeting !== null){chatBox.setAttribute('logged_in_greeting', chatSettings.logged_in_greeting);}
+        if (chatSettings.logged_out_greeting !== null){chatBox.setAttribute('logged_out_greeting', chatSettings.logged_out_greeting);}
+        document.body.appendChild(chatBox);
+      });
+    }
+  };
+
+  return this;
+}
+
+function hideFbOptIns(element){
+  if (element == 'atc_popup'){
+    document.getElementById('fb-messenger-checkbox').setAttribute('style', 'display:none;');
+  }
+}
+
+function trackFbOptIn(cartData, element){
+  var parsedCartData = JSON.parse(cartData);
+  var data = {
+    channel: 'fb',
+    element: element,
+    visitor_token: window.baMsg.visitor_token,
+    fb_pid: window.baMsg.fb_page_id,
+    cart_data: parsedCartData,
+    action_type: 'track_opt_in',
+    user_ref: window.baMsg.user_ref,
+    cart_uid: window.baMsg.cart_uid,
+    tz_offset: window.baMsg.browser_info.tz_offset,
+    os: window.baMsg.browser_info.os,
+    browser: window.baMsg.browser_info.browser
+  };
+  baMet.sendRequest(window.baMsg.app_url, data, function(){
+    baMsg.log(data);
+    hideFbOptIns(element);
+  });
+}
+
+
+function boosterFbCheckboxes() {
+  var self    = this;
+  this.alignWraper = function(wrapperElement,align)  {
+    //Default value is center
+    wrapperElement.style.marginRight = 'auto';
+    wrapperElement.style.marginLeft  = 'auto';
+    if (align === 'left')  {
+      wrapperElement.style.marginLeft = '0px';
+    }
+    if (align === 'right')  {
+      wrapperElement.style.marginRight = '0px';
+    }
+  }
+
+  
+  var checkboxChecked = !1;
+  this.generate = function(settings) {
+    if (window.baMsg.page_url.indexOf('products') !== -1) {
+
+      if (!window.baMsg.is_preview){
+        if (!settings.active){return;}
+        if (window.baMsg.subscriber_hash.ba_fbchk_opted_in){return;}
+        if (window.baMsg.subscriber_hash.ba_fb_opted_in){return;}
+      }
+
+      var form = getProductForm();
+      if (!form || form.length === 0 || (window.baMsg.subscriber_hash.ba_fbchk_opted_in && !window.baMsg.is_preview)){
+        return;
+      }
+      var addToCartBtn = getAtcButton();
+      //add listener here for FB regulations
+      if (addToCartBtn !== null && addToCartBtn !== undefined){
+        addToCartBtn.addEventListener('click', confirmFbChkOptIn('regular', false));
+      } else {
+        baMsg.log('addToCartBtn undefined');
+      }
+      var messengerWrapper = document.createElement('div');
+      messengerWrapper.style.backgroundColor = settings.background_color;
+      messengerWrapper.style.color = settings.color;
+      messengerWrapper.style.fontSize = settings.font_size + 'px';
+      messengerWrapper.style.marginTop = settings.margin_top + 'px';
+      messengerWrapper.style.marginBottom = settings.margin_bottom + 'px';
+      messengerWrapper.style.borderColor = settings.border_color;
+      messengerWrapper.style.borderWidth = settings.border_width + 'px';
+      messengerWrapper.style.borderStyle = settings.border_style;
+      messengerWrapper.style.borderRadius = settings.border_radius + 'px';
+      messengerWrapper.style.padding = '0 10px';
+      messengerWrapper.style.display = 'block';
+      messengerWrapper.style.textAlign = 'center';
+      messengerWrapper.style.WebkitTransition = 'opacity 1s';
+      messengerWrapper.style.MozTransition = 'opacity 1s';
+      messengerWrapper.style.transition = 'opacity 1s';
+      messengerWrapper.style.clear = 'both';
+      messengerWrapper.style.minWidth = '250px';
+      if (settings.font_style === 'italic-bold') {
+        messengerWrapper.style.fontWeight = 'bold';
+        messengerWrapper.style.fontStyle = 'italic';
+      } else {
+        messengerWrapper.style.fontWeight = settings.font_style;
+        messengerWrapper.style.fontStyle = settings.font_style;
+      }
+      var buttonWidth = (addToCartBtn !== null && addToCartBtn !== undefined) ? addToCartBtn.offsetWidth : 0;
+      var selects = form.getElementsByTagName('select');
+      messengerWrapper.style.width = (buttonWidth > 0 && (selects.length === 0 || selects[0].offsetParent === null)) ? buttonWidth + 'px' : 'auto';
+      this.alignWraper(messengerWrapper,settings.align)
+      var messengerDiv = document.createElement('div');
+      messengerDiv.classList = 'fb-messenger-checkbox';
+      messengerWrapper.id = 'fb-messenger-checkbox';
+      messengerDiv.setAttribute('style', 'display:inline-block!important;position:relative!important;max-width:180px;overflow:hidden;');
+      messengerDiv.setAttribute('origin', 'https://www.ketobars.com');
+      messengerDiv.setAttribute('page_id', window.baMsg.fb_page_id);
+      messengerDiv.setAttribute('messenger_app_id', window.baMsg.app_id);
+      messengerDiv.setAttribute('user_ref', window.baMsg.user_ref);
+      messengerDiv.setAttribute('prechecked', !0);
+      messengerDiv.setAttribute('allow_login', !0);
+      messengerDiv.setAttribute('size', 'large');
+      var textDiv = document.createElement('div');
+      textDiv.innerHTML = settings.text;
+      if (settings.text_placement === 'above') {
+          textDiv.setAttribute('style', 'display:block;padding: 10px 20px 0;');
+          messengerWrapper.appendChild(textDiv);
+          messengerWrapper.appendChild(messengerDiv);
+      } else {
+          textDiv.setAttribute('style', 'display:block;padding: 0 20px 10px;');
+          messengerWrapper.appendChild(messengerDiv);
+          messengerWrapper.appendChild(textDiv);
+      }
+      window.fbLoaded.promise.then(function(){
+        if (settings.placement === 'custom') {
+          var checkbox = document.getElementsByClassName('ba-checkbox');
+          if (checkbox.length > 0) {
+            checkbox = checkbox[0];
+            checkbox.appendChild(messengerWrapper);
+          }
+        } else {
+          form.parentNode.insertBefore(messengerWrapper, settings.placement === 'under_cart' ? form.nextSibling : form);
+          form.addEventListener('submit', confirmFbChkOptIn('regular', false));
+          applyMet('fb_chk_view');
+          FB.Event.subscribe('messenger_checkbox', function(e) {
+            if (e.event === 'checkbox' && e.state === 'checked'){
+              checkboxChecked = !0
+            }
+          })
+        }
+      });
+      window.onresize = function() {
+        buttonWidth = addToCartBtn !== null ? addToCartBtn.offsetWidth : 0;
+        messengerWrapper.style.width = (buttonWidth > 0 && (selects.length === 0 || selects[0].offsetParent === null)) ? buttonWidth + 'px' : 'auto';
+        self.alignWraper(messengerWrapper,settings.align)
+      }
+    }
+  };
+  
+
+  function confirmFbChkOptIn(chkType, optedIn) {
+    if (chkType == 'regular' && !checkboxChecked){
+      return;
+    } else if (chkType == 'discount' && (!optedIn || window.baMsg.subscriber_hash.ba_fbchk_opted_in)){
+      return;
+    }
+
+    baMet.getCartData(function(data){
+      var cartToken = JSON.parse(data).token;
+      if (!window.baMsg.subscriber_hash.ba_fbchk_opted_in){
+        var rightNow = parseInt(new Date().getTime());
+        var updateHash = {
+          ba_fbchk_opt_in_cart_token: cartToken,
+          ba_fbchk_opted_in: rightNow,
+          ba_fb_opted_in: rightNow
+        }
+        updateSubscriberHash(updateHash);
+        FB.AppEvents.logEvent('MessengerCheckboxUserConfirmation', null, {
+            'app_id': window.baMsg.app_id,
+            'page_id': window.baMsg.fb_page_id,
+            'user_ref': window.baMsg.user_ref,
+            'ref': cartToken + '|' + window.baMsg.visitor_token,
+        })
+        trackFbOptIn(data, 'checkbox');
+      }
+    });
+  }
+  return this;
+}
+
+
+
+function boosterFbModal() {
+  window.baLoaded = false;
+
+  this.generate = function (settings) {
+    if (window.baMsg.page_url.indexOf('/checkouts/') !== -1 && window.baMsg.page_url.indexOf('/thank_you') !== -1){
+      return;
+    }
+
+    if (window.baMsg.page_url.indexOf('ba-modal-preview') === -1) {
+      if (!settings.active){return;}
+      if (window.baMsg.subscriber_hash.ba_fb_modal_opted_in){return;}
+      if (window.baMsg.subscriber_hash.ba_fb_opted_in){return;}
+      if (window.baMsg.subscriber_hash.ba_fb_modal_closed){return;}
+      if (!canDisplayByDevice(settings.devices)){return;}
+      //TODO if (!canDisplayByRules(settings.rules)){return;}
+    }
+
+    var modalShade = document.createElement('div');
+    modalShade.classList = 'ba-modal-shade';
+    modalShade.setAttribute('style', 'position: fixed; z-index: 100000; background: rgba(0,0,0,.42); width:100%; height: 100%; opacity: 0;display:none;');
+    modalShade.style.overflow = 'none';
+    modalShade.style.transition = 'all 0.5s';
+
+    window.fbLoaded.promise.then(function(){
+      var s = document.body.firstChild;
+      s.parentNode.insertBefore(modalShade, s);
+    });
+
+    var modal = document.createElement('div');
+    modal.id = 'ba-send-to-messenger-modal';
+    modal.setAttribute('style', 'max-width: 430px; height: auto;z-index:2147483647; border-radius:5px;text-align:center;');
+    modal.style.position = 'relative';
+    modal.style.left = 0;
+    modal.style.right = 0;
+    modal.style.margin = '20px auto';
+    modal.style.marginTop = '10%';
+    modal.style.marginTop = '10vh';
+    modal.style.padding = '15px';
+    modal.style.overflow = 'hidden';
+    modal.style.backgroundColor = settings.background_color;
+
+    if (window.innerHeight < 600) {
+      modalShade.style.overflowY = 'scroll';
+      modalShade.style.zIndex = 2147483647;
+      modal.style.marginTop = '5%';
+      modal.style.marginTop = '5vh';
+    } else if (window.innerHeight < 700) {
+      modalShade.style.overflowY = 'scroll';
+      modalShade.style.zIndex = 2147483647;
+      modal.style.marginTop = '10%';
+      modal.style.marginTop = '10vh';
+    }
+
+    var exitIcon = document.createElement('span');
+    exitIcon.classList = 'ba-modal-close';
+    exitIcon.setAttribute('style', 'position: absolute;right: 10px;top: 5px;cursor: pointer;color: #000;opacity:0.3;font-size:30px;');
+    exitIcon.innerHTML = '&times;';
+
+    modal.appendChild(exitIcon);
+
+    var title = document.createElement('div');
+    title.setAttribute('id', 'ba-fb-modal-title');
+    title.setAttribute('style', 'text-align: center; padding: 20px 20px 15px;font-size: 20px; line-height:24px;');
+    title.style.color = settings.title_color;
+    title.innerHTML = settings.title;
+
+    modal.appendChild(title);
+
+    var description = document.createElement('div');
+    description.setAttribute('style', 'text-align: center;font-size:17px;padding:10px 20px 35px;');
+    description.style.color = settings.subtitle_color;
+    description.innerHTML = settings.subtitle;
+    description.setAttribute('id', 'ba-fb-modal-desc');
+    modal.appendChild(description);
+    var image = document.createElement('img');
+    if (settings.image_name !== null) {
+      image.style.width = '100%';
+      image.src = settings.image_name;
+      if (settings.image_placement === 'above_title') {
+        modal.style.paddingTop = '40px';
+        modal.insertBefore(image, modal.childNodes[0]);
+      } else if (settings.image_placement === 'under_title') {
+        modal.insertBefore(image, title.nextSibling);
+      } else {
+        modal.appendChild(image);
+      }
+    }
+    var width = 125;
+
+    if (settings.send_size === 'standard'){
+      width = 125;
+    } else if (settings.send_size === 'large'){
+      width = 155;
+    } else if (settings.send_size === 'xlarge'){
+      width = 180;
+    }
+
+    var optInBoxWrapper = document.createElement('div');
+    optInBoxWrapper.setAttribute('style', 'margin: 20px auto 30px;');
+    optInBoxWrapper.style.width = width + 'px';
+    modal.appendChild(optInBoxWrapper);
+
+    var dataRef = 'OPT_IN_FROM_SEND_TO_MESSENGER:modal:';
+    if (window.baMsg.visitor_token !== ''){
+      dataRef += window.baMsg.visitor_token;
+    }
+    var optInBox = document.createElement('div');
+    optInBox.classList = 'fb-send-to-messenger';
+    optInBox.setAttribute('messenger_app_id', window.baMsg.app_id);
+    optInBox.setAttribute('page_id', window.baMsg.fb_page_id);
+    optInBox.setAttribute('data-ref', dataRef);
+    optInBox.setAttribute('color', settings.send_color);
+    optInBox.setAttribute('size', settings.send_size);
+    modal.appendChild(optInBox);
+    optInBoxWrapper.appendChild(optInBox);
+    var buttonWrapper = document.createElement('div');
+    buttonWrapper.setAttribute('style', 'margin: 0 auto;padding-bottom: 20px;display:none;');
+    modal.appendChild(buttonWrapper);
+    var button = document.createElement('a');
+    button.setAttribute('target', '_blank');
+    button.href = 'https://m.me/' + window.baMsg.fb_page_id;
+    button.innerHTML = settings.button_text;
+    button.setAttribute('style', 'text-align:center;padding: 10px 20px; border-radius: 5px; margin-bottom: 15px;margin-top:10px;text-decoration: none;');
+    button.style.backgroundColor = settings.button_color;
+    button.style.color = settings.button_text_color;
+    button.style.border = '1px solid ' + settings.border_color;
+    button.onmouseover = function () {button.style.opacity = 0.8;};
+    button.onmouseout = function () {button.style.opacity = 1;};
+    button.onclick = function () {closeModal(false);};
+    buttonWrapper.appendChild(button);
+    modalShade.appendChild(modal);
+
+    switch (settings.display) {
+      case 'immediately':
+        showModal();
+        break;
+      case 'exit_intent':
+        document.addEventListener("mouseleave", function (e) {
+          if (e.clientY < 0) {
+            showModal();
+          }
+        }, false);
+        break;
+      case 'seconds_passed':
+        setTimeout(function () {
+          showModal();
+        }, settings.delay * 1000);
+        break;
+    }
+
+    exitIcon.onclick = function () {
+      closeModal(true);
+    };
+
+    function showModal(){
+      modalShade.style.display = 'block';
+      modalShade.style.opacity = 1;
+      window.baMsg.use_stm_callback = 'modal';
+      applyMet('fb_modal_view');
+    }
+
+    function closeModal(markAsClosed) {
+      modalShade.style.opacity = '0';
+      window.baMsg.use_stm_callback = '';
+      if (markAsClosed){
+        updateSubscriberHash({ba_fb_modal_closed: parseInt(new Date().getTime())});
+        applyMet('ba_fb_modal_close')
+      }
+      setTimeout(function () {
+        document.body.removeChild(modalShade);
+      }, 500);
+    }
+  };
+
+  return this;
+}
+
+function boosterFbAtcModal() {
+  window.baLoaded = false;
+  try{
+    var css = document.createElement('style');
+    css.type = 'text/css';
+    var styles = '@import url("https://fonts.googleapis.com/css?family=Roboto");';
+    css.appendChild(document.createTextNode(styles));
+    document.getElementsByTagName("head")[0].appendChild(css);
+  } catch (err){
+    console.log(err)
+  }
+
+  this.generate = function (settings) {
+    window.baMsg.showFbAtcModal = function(event){
+      if (window.baMsg.active_fb_atc_shown == false && window.baMsg.settings.fb_atc_popup.active){
+        if (window.baMsg.subscriber_hash.ba_fb_opted_in){return;}
+        if (window.baMsg.subscriber_hash.ba_fb_atc_popup_closed){return;}
+        event.preventDefault();
+        window.baMsg.active_atc.classList.remove("ba-click-ready");
+        //var atcModal = document.getElementById("ba-fb-atc-popup");
+        createModal.classList.add("show-pop");
+        createModal.style.display = "block";
+        window.baMsg.active_atc.removeEventListener('click', function(){});
+        window.baMsg.use_stm_callback = 'fb_atc_popup';
+        applyMet('fb_atc_view');
+        window.baMsg.active_fb_atc_shown = true;
+        return false;
+      }
+    }
+
+    window.baMsg.closeFbAtcModal = function(markAsClosed){
+      createModal.classList.remove("show-pop");
+      createModal.style.display = "none";
+      window.baMsg.use_stm_callback = '';
+      window.baMsg.active_atc.removeEventListener('click',function(){});
+      if (markAsClosed){
+        updateSubscriberHash({ba_fb_atc_popup_closed: parseInt(new Date().getTime())});
+        applyMet('fb_atc_close');
+      }
+      setTimeout(function (){
+        window.baMsg.active_atc.click();
+      }, 500);
+    }
+
+    if (!window.baMsg.is_preview){
+      if (!settings.active){return;}
+      if (window.baMsg.subscriber_hash.ba_fb_atc_popup_opted_in){return;}
+      if (window.baMsg.subscriber_hash.ba_fb_opted_in){return;}
+      if (window.baMsg.subscriber_hash.ba_fb_atc_popup_closed){return;}
+    }
+
+    if (window.baMsg.page_url.indexOf('products') !== -1) {
+      if (!settings.active && !window.baMsg.is_preview){
+        return;
+      }
+      var form = getProductForm();
+      if (!form || form.length === 0 || (window.baMsg.subscriber_hash.ba_fb_atc_popup_opted_in && !window.baMsg.is_preview)){
+        return;
+      }
+    }
+
+    var modalShade = document.createElement('div');
+    modalShade.classList = 'ba-modal-shade';
+    modalShade.setAttribute('style', 'position: fixed; z-index: 100000; background: rgba(0,0,0,.42); width:100%; height: 100%; opacity: 0;display:none;');
+    modalShade.style.overflow = 'none';
+    modalShade.style.transition = 'all 0.5s';
+
+    window.fbLoaded.promise.then(function(){
+      var s = document.body.firstChild;
+      s.parentNode.insertBefore(modalShade, s);
+    });
+
+    var createModal = document.createElement('div');
+    createModal.setAttribute('id', 'ba-fb-atc-popup');
+    var appendModal = document.body.appendChild(createModal);
+    var modalClass = appendModal.classList.add("ba-fb-add-tc-popup__overlay");
+    createModal.setAttribute('style','position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 2147483647;display: none;');
+
+    var modalWrapper = document.createElement('div');
+    var modalWrapperMain = createModal.appendChild(modalWrapper);
+    modalWrapperMain.classList.add('ba-fb-add-tc-popup__wrapper');
+    modalWrapper.setAttribute('style','display: block;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 720px;max-width: 93%;');
+
+    var modalContainer = document.createElement('div');
+    modalWrapperMain.appendChild(modalContainer);
+    modalContainer.classList.add('ba-fb-add-tc-popup__container');
+    modalContainer.setAttribute('style','background: #FFFFFF;border: 1px solid #DADADA;border-radius: 7px;box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);position: relative;');
+
+    if(settings.close_button == "1"){
+      var closeButton = document.createElement('button');
+      modalContainer.appendChild(closeButton);
+      closeButton.classList.add('ba-fb-add-tc-popup__close','ba-fb-tc-modal-close');
+      closeButton.innerHTML = "✖";
+      closeButton.setAttribute('style','width: 30px;height: 30px;line-height: 30px;position: absolute;top: 15px;right: 15px;border: none;background: none;z-index: 10;');
+    }
+
+    var modalHeader = document.createElement('div');
+    modalContainer.appendChild(modalHeader);
+    modalHeader.classList.add('ba-fb-add-tc-pop-head');
+
+    var modalHeaderImage = document.createElement('div');
+    modalHeader.setAttribute('style','background: #F2F5F9;border-bottom: 1px solid #DADADA;border-radius: 7px 7px 0 0;height: 130px;position: relative;');
+    modalHeader.appendChild(modalHeaderImage);
+    modalHeaderImage.setAttribute('style','position: absolute;bottom: 0px;width: 100%;height: 200%;background-image: url("https://cdn.shopify.com/s/files/1/2701/3534/t/1/assets/phone-hand.svg?10344228977754903280");background-size: 260px;background-position: center bottom;background-repeat: no-repeat;');
+    modalHeaderImage.classList.add('ba-fb-add-tc-popup-head-img');
+
+    var modalBody = document.createElement('div');
+    modalContainer.appendChild(modalBody);
+    modalBody.classList.add('ba-fb-add-tc-popup__body');
+    modalBody.setAttribute('style','padding: 30px;text-align: center;background: #ffffff;');
+
+    var modalHeaderTag = document.createElement('h3');
+    modalBody.appendChild(modalHeaderTag);
+    modalHeaderTag.classList.add('ba-fb-add-tc-pop-title');
+    modalHeaderTag.setAttribute('style','margin: 10px 0 25px;font-family: "Roboto", sans-serif;font-size: 25px;text-align: center;');
+    modalHeaderTag.innerHTML = settings.title;
+    modalHeaderTag.style.color = settings.header_text_color;
+
+    var modalParaTag = document.createElement('p');
+    modalParaTag.innerHTML = settings.paragraph;
+    modalBody.appendChild(modalParaTag);
+    modalParaTag.classList.add('ba-fb-add-tc-pop-desc');
+    modalParaTag.setAttribute('style','margin: 0 0 20px;font-family: "Roboto", sans-serif;font-size: 17px;text-align: center;line-height: 25px;');
+    modalParaTag.style.color = settings.paragraph_text_color;
+
+    var optInBoxWrapper = document.createElement('div');
+    optInBoxWrapper.setAttribute('style', 'margin: 10px auto 30px;');
+    modalBody.appendChild(optInBoxWrapper);
+
+    var dataRef = 'OPT_IN_FROM_SEND_TO_MESSENGER:atc_popup';
+    if (window.baMsg.visitor_token !== ''){
+      dataRef += ':' + window.baMsg.visitor_token;
+    }
+
+    var optInBox = document.createElement('div');
+    optInBox.classList = 'fb-send-to-messenger';
+    optInBox.setAttribute('messenger_app_id', window.baMsg.app_id);
+    optInBox.setAttribute('page_id', window.baMsg.fb_page_id);
+    optInBox.setAttribute('data-ref', dataRef);
+    optInBox.setAttribute('color', settings.button_cta_color);
+    optInBox.setAttribute('size', 'xlarge');
+    optInBox.setAttribute('cta_text', settings.button_cta);
+    optInBox.setAttribute('style', 'width:176px !important;margin-top:15px;');
+    modalBody.appendChild(optInBox);
+    optInBoxWrapper.appendChild(optInBox);
+
+    var modalFooter = document.createElement('small');
+    modalFooter.innerHTML = settings.no_thanks_text;
+    modalBody.appendChild(modalFooter);
+    modalFooter.classList.add('ba-fb-add-tc-pop-footer','ba-fb-tc-modal-close');
+    modalFooter.setAttribute('style','display: block;margin: 5px auto 0;font-family: "Roboto", sans-serif;font-size: 12px;text-align: center;cursor: pointer;');
+    modalFooter.style.color = settings.no_thanks_text_color;
+
+    var closePopup = document.querySelector(".ba-fb-tc-modal-close");
+    closePopup.addEventListener("click", function(e) {
+      e.preventDefault();
+      window.baMsg.closeFbAtcModal(true);
+    });
+    modalFooter.addEventListener("click", function(e) {
+      e.preventDefault();
+      window.baMsg.closeFbAtcModal(true);
+    });
+
+    return this;
+
+  };
+
+  function getProductForm() {
+    var form = document.getElementById('add-item-form');
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action='/cart/add']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action^='/cart/add']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action$='/cart/add']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action='/cart/add.js']");
+    }
+    if (!form || form.length === 0){
+        form = document.querySelector("form[action='/cart/add?return=/']");
+    }
+    if (!form || form.length === 0){
+        form = document.getElementsByClassName("form.product-form")[0];
+    }
+    if (!form || form.length === 0){
+        form = document.getElementsByClassName("btn-addtocart")[0];
+    }
+    return form
+  }
+
+  setTimeout(function () {
+    FB.Event.subscribe('send_to_messenger', function (e) {
+      if (window.baMsg.use_stm_callback == 'modal'){
+        if (e.event === 'clicked') {
+          applyMet('ba_fb_modal_click');
+          var fbModalTitle = document.getElementById('ba-fb-modal-title');
+          var fbModalDesc = document.getElementById('ba-fb-modal-desc');
+
+          if (window.baMsg.settings.fb_modal.discount_code === null) {
+            fbModalTitle.innerHTML = window.baMsg.settings.fb_modal.submitted_title;
+            fbModalDesc.innerHTML = window.baMsg.settings.fb_modal.submitted_subtitle;
+          } else {
+            fbModalTitle.innerHTML = window.baMsg.settings.fb_modal.submitted_title.replace('%discountCode', '<b>' + window.baMsg.settings.fb_modal.discount_code + '</b>');
+            fbModalDesc.innerHTML = window.baMsg.settings.fb_modal.submitted_subtitle === null ? null : window.baMsg.settings.fb_modal.submitted_subtitle.replace('%discountCode', '<b>' + window.baMsg.settings.fb_modal.discount_code + '</b>');
+          }
+
+          if (window.baMsg.settings.fb_modal.image_name !== null){
+            //image.parentNode.removeChild(image);
+          }
+        }
+
+        if (e.event === 'opt_in') {
+          if (window.baMsg.subscriber_hash.ba_fb_modal_opted_in){return;}
+
+          baMet.getCartData(function(data){
+            var cartToken = JSON.parse(data).token;
+
+            if (!window.baMsg.subscriber_hash.ba_fb_modal_opted_in){
+              var rightNow = parseInt(new Date().getTime());
+              var updateHash = {
+                ba_fb_modal_opted_in: rightNow,
+                ba_fb_opted_in: rightNow,
+                ba_fb_modal_opt_in_cart_token: cartToken
+              }
+              updateSubscriberHash(updateHash);
+              trackFbOptIn(data, 'ba_fb_modal');
+            }
+          });
+        }
+
+      } else if (window.baMsg.use_stm_callback == 'fb_atc_popup'){
+        // if (e.event === 'clicked') {
+        //   trackClick();
+        // }
+
+        if (e.event === 'opt_in') {
+          if (window.baMsg.subscriber_hash.ba_fb_atc_popup_opted_in === 'true'){return;}
+
+          baMet.getCartData(function(data){
+            var cartToken = JSON.parse(data).token;
+
+            if (!window.baMsg.subscriber_hash.ba_fb_atc_popup_opted_in){
+              var rightNow = parseInt(new Date().getTime());
+              var updateHash = {
+                ba_fb_atc_popup_opted_in: rightNow,
+                ba_fb_opted_in: rightNow,
+                ba_fb_atc_popup_opt_in_cart_token: cartToken
+              }
+              updateSubscriberHash(updateHash);
+              trackFbOptIn(data, 'atc_popup');
+            }
+          });
+          window.baMsg.closeFbAtcModal(false);
+        }
+      }
+    });
+  }, 1000);
+
+
+  return this;
+}
+  
+  
+
+  (function() {
+
+      if (window.baMsg.fb_active && window.baMsg.fb_page_id){
+        //fb
+        var loader = new boosterFBLoader();
+        loader.load();
+        loader.loadChat({
+          "active":1,
+          "minimized":0,
+          "theme_color":'#0084FF',
+          "logged_in_greeting":"Hi there! How can we help you?",
+          "logged_out_greeting":"Hi! We\'re here to answer any questions you may have."
+        });
+        new boosterFbCheckboxes().generate(window.baMsg.settings.fb_base);
+        new boosterFbModal().generate(window.baMsg.settings.fb_modal);
+        new boosterFbAtcModal().generate(window.baMsg.settings.fb_atc_popup);
+      }
+      //push
+      if (window.baMsg.push_active){
+        new boosterPushSession().generate({
+          "active": false
+        });
+      }
+
+      if (window.baMsg.sms_active){
+        new boosterSMSAtcModal().generate({
+           "active":0,
+           "title":"",
+           "paragraph":"",
+           "no_thanks_text":"",
+           "close_button":"",
+           "plugin_type":"send_to_messenger",
+           "button_cta":"",
+           "button_cta_color":"",
+           "header_bg_color":"",
+           "body_bg_color":"",
+           "header_text_color":"",
+           "paragraph_text_color":"",
+           "no_thanks_text_color":"",
+           "disclaimer":""
+        });
+      }
+
+    })();
+
+  listentoAtc();
+
+  });
+}())
+
+
+  
+
+
+
+
+
+
+
+
+  var _BISConfig = _BISConfig || {};
+
+
+
+
+
+
+
+
+
+	    
+	          try {
+	          setTimeout(function () {
+	            window.__pagefly_helper_store__ &&
+	              window.__pagefly_helper_store__.subscribe(function (res) {
+	            $.getJSON('/cart.json').then(cart => {
+              	refreshCart(cart)
+               window.setTimeout(function(){ $('.cart-button').click(); }, 500);
+	                              });
+			});
+	          }, 2500);
+	        } catch (e) {
+	          console.warn(e);
+	        }

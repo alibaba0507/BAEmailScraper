@@ -73,6 +73,8 @@ exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,r
         }
         //console.log("============ TEXT ===========[" + text + "]======================" );
 		saveToFile(text,generateUniqueFileName() + '.html');
+		let searchFor = scrapeGoogleSearch(text, ['div.UwRFLe','div.Lt3Tzc' ] );
+		saveToFile(JSON.stringify(searchFor),generateUniqueFileName() + '.json');
         var urlRegex = /(https?:\/\/[^\s]+)/g;
         text.replace(urlRegex, function(url) {
             if (url.indexOf("&amp;") !== -1) {
@@ -270,6 +272,30 @@ exports.start = function(query, googlePageToStartFrom, maxGooglePage, fileName,r
 
         return b;
     }
+	
+	function scrapeGoogleSearch(htmlText, selectors) {
+	  try {
+		const $ = cheerio.load(htmlText);
+
+		const extractedData = {};
+
+		for (const selector of selectors) {
+		  const selectedData = [];
+		  //console.log('--------- selector[' + selector + '] -----');
+		  $(selector).each((index, element) => {
+			// console.log('--------- selector Found[' + $(element).text() + '] -----');
+			selectedData.push($(element).text());
+		  });
+		  extractedData[selector] = selectedData;
+		}
+        //console.log('--------- selector End [' + JSON.stringify(extractedData) + '] -----');
+		return extractedData;
+	  } catch (error) {
+		console.error('Error scraping Google:', error);
+		return null;
+	  }
+	}
+
 	// Function to generate a unique file name
 	function generateUniqueFileName() {
 	  const timestamp = new Date().getTime(); // Get current timestamp
