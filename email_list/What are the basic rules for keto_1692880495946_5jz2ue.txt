@@ -1,0 +1,2364 @@
+
+!function(){window.SLIDECART=!0;window.SLIDECART_FORMAT='$ {{amount}}';var e="https://cdn.jsdelivr.net/gh/apphq/slidecart-dist@master/slidecarthq.js?"+(new Date).getTime(),t=document.createElement("script");t.type="text/javascript",t.src=e,document.querySelector("body").appendChild(t)}();
+window.BOLD = window.BOLD || {};
+    window.BOLD.common = window.BOLD.common || {};
+    window.BOLD.common.Shopify = window.BOLD.common.Shopify || {};
+    window.BOLD.common.Shopify.shop = {
+      domain: 'peopleschoicebeefjerky.com',
+      permanent_domain: 'peoples-choice-beef-jerky.myshopify.com',
+      url: 'https://peopleschoicebeefjerky.com',
+      secure_url: 'https://peopleschoicebeefjerky.com',
+      money_format: "$ {{amount}}",
+      currency: "USD"
+    };
+    window.BOLD.common.Shopify.customer = {
+      id: null,
+      tags: null,
+    };
+    window.BOLD.common.Shopify.cart = {"note":null,"attributes":{},"original_total_price":0,"total_price":0,"total_discount":0,"total_weight":0.0,"item_count":0,"items":[],"requires_shipping":false,"currency":"USD","items_subtotal_price":0,"cart_level_discount_applications":[],"checkout_charge_amount":0};
+    window.BOLD.common.template = 'article';window.BOLD.common.Shopify.formatMoney = function(money, format) {
+        function n(t, e) {
+            return "undefined" == typeof t ? e : t
+        }
+        function r(t, e, r, i) {
+            if (e = n(e, 2),
+                r = n(r, ","),
+                i = n(i, "."),
+            isNaN(t) || null == t)
+                return 0;
+            t = (t / 100).toFixed(e);
+            var o = t.split(".")
+                , a = o[0].replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1" + r)
+                , s = o[1] ? i + o[1] : "";
+            return a + s
+        }
+        "string" == typeof money && (money = money.replace(".", ""));
+        var i = ""
+            , o = /\{\{\s*(\w+)\s*\}\}/
+            , a = format || window.BOLD.common.Shopify.shop.money_format || window.Shopify.money_format || "$ {{ amount }}";
+        switch (a.match(o)[1]) {
+            case "amount":
+                i = r(money, 2, ",", ".");
+                break;
+            case "amount_no_decimals":
+                i = r(money, 0, ",", ".");
+                break;
+            case "amount_with_comma_separator":
+                i = r(money, 2, ".", ",");
+                break;
+            case "amount_no_decimals_with_comma_separator":
+                i = r(money, 0, ".", ",");
+                break;
+            case "amount_with_space_separator":
+                i = r(money, 2, " ", ",");
+                break;
+            case "amount_no_decimals_with_space_separator":
+                i = r(money, 0, " ", ",");
+                break;
+            case "amount_with_apostrophe_separator":
+                i = r(money, 2, "'", ".");
+                break;
+        }
+        return a.replace(o, i).replaceAll(' ', '');
+    };
+    window.BOLD.common.Shopify.saveProduct = function (handle, product) {
+      if (typeof handle === 'string' && typeof window.BOLD.common.Shopify.products[handle] === 'undefined') {
+        if (typeof product === 'number') {
+          window.BOLD.common.Shopify.handles[product] = handle;
+          product = { id: product };
+        }
+        window.BOLD.common.Shopify.products[handle] = product;
+      }
+    };
+    window.BOLD.common.Shopify.saveVariant = function (variant_id, variant) {
+      if (typeof variant_id === 'number' && typeof window.BOLD.common.Shopify.variants[variant_id] === 'undefined') {
+        window.BOLD.common.Shopify.variants[variant_id] = variant;
+      }
+    };window.BOLD.common.Shopify.products = window.BOLD.common.Shopify.products || {};
+    window.BOLD.common.Shopify.variants = window.BOLD.common.Shopify.variants || {};
+    window.BOLD.common.Shopify.handles = window.BOLD.common.Shopify.handles || {};window.BOLD.common.Shopify.saveProduct(null, null);window.BOLD.apps_installed = {"Product Upsell":3,"Recurring Orders":1,"Subscriptions":1} || {};window.BOLD.common.Shopify.metafields = window.BOLD.common.Shopify.metafields || {};window.BOLD.common.Shopify.metafields["bold_rp"] = {"recurring_type":2};window.BOLD.common.Shopify.metafields["bold_csp_defaults"] = {};window.BOLD.common.cacheParams = window.BOLD.common.cacheParams || {};
+    window.BOLD.common.cacheParams.recurring_orders = 1643918438;
+
+
+
+  const goToCart = `<a href="/cart" class="skip-to-cart-link">Proceed to Cart page</a>`
+    window.SLIDECART_OPENED = () => {
+      let scHeader = document.querySelector(".slidecarthq .header");
+      let cartCount = document.querySelector(".slidecarthq .cart-count");
+      let cartCountAriaLabel;
+      document.querySelector(".slidecarthq .header button svg").setAttribute("aria-hidden", "true");
+      scHeader.getElementsByTagName("H2")[0].setAttribute("tabindex","0");      
+      let cartCountNumber = Number(cartCount.innerHTML);
+      
+      if(cartCountNumber > 0) {
+        cartCountAriaLabel = "You currently have " + cartCount.innerHTML +  " items in your cart";
+      } else {
+        cartCountAriaLabel = "You currently have no items in your cart";
+      }     
+      
+      scHeader.getElementsByTagName("H2")[0].setAttribute("aria-label", cartCountAriaLabel);
+      if(document.querySelector(".slidecarthq .header .skip-to-cart-link")) {
+       document.querySelector(".slidecarthq .header h2")?.focus()
+      } else {
+        document.querySelector(".slidecarthq .header h2").insertAdjacentHTML('afterend', goToCart)
+        document.querySelector(".slidecarthq .header h2")?.focus()        
+      }
+    }
+
+   window.SLIDECART_UPDATED = function(cart) {
+     document.querySelectorAll(".slidecarthq button, .slidecarthq input, .slidecarthq .note-trigger").forEach((item,index) => {
+      //console.log(item)
+      item.setAttribute("tabindex", 0);
+    });
+    if (
+      typeof window.BOLD !== 'undefined'
+      && typeof window.BOLD.common !== 'undefined'
+      && typeof window.BOLD.common.cartDoctor !== 'undefined'
+    ) {
+	
+      var c = cart
+      var newCart = window.BOLD.common.cartDoctor.fix(cart);
+      
+      for (var i = 0; i < newCart.items.length; i++) {
+      	var item = newCart.items[i]
+        
+        c.items[i].line_price = item.line_price
+        c.items[i].original_line_price = item.original_line_price
+      }
+      
+      
+      c.total_discount = c.total_discount + (cart.total_price - newCart.total_price)
+           
+      c.total_price = newCart.total_price
+      
+      window.SLIDECART_SET_CART(c)
+    }
+  }
+    
+   
+  
+#slidecarthq .slidecarthq .header button:focus,
+#slidecarthq .items :focus,
+#slidecarthq .note :focus,
+#slidecarthq .discount-box :focus,
+#slidecarthq .cc-container :focus,
+#slidecarthq .upsells :focus,
+#slidecarthq .cc-checkout-wrap :focus {
+    outline: solid 2px blue;
+}
+
+#slidecarthq  .skip-to-cart-link {
+  clip:rect(0, 0, 0, 0) !important;
+  overflow:hidden !important;
+  position:absolute !important;
+  height:1px !important;
+  width:1px !important;
+}
+
+#slidecarthq .skip-to-cart-link:focus{
+  clip:auto !important;
+  width:auto !important;
+  height:auto !important;
+  margin:0;
+  color:black;
+  background-color: white;
+  padding:10px;
+  opacity:1;
+  z-index:10000;
+  transition:none;
+  left: 120px;
+  outline: solid 2px blue;
+}
+  
+
+  
+  
+  
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV4LPZK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+
+  Skip to content
+
+  
+    
+
+    
+
+
+
+
+
+  
+    
+      
+        
+        
+        
+          
+            
+            Close menu
+          
+        
+      
+    
+    
+      
+        
+
+
+          
+            
+              
+                
+                  
+                    Shop
+                  
+                  
+                    
+                      
+  Accordion toggle indicator
+
+
+                    
+                  
+                
+              
+            
+
+            
+              
+                
+                  
+                    
+
+
+                      
+                        
+                          
+                            
+                              Shop All
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      Try our Newest Product: Jerky Crisps!
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+
+
+                      
+                        
+                          
+                            
+                              Beef Jerky
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      Old Fashioned
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Classic
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Carne Seca
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Tasting Kitchen
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Beef Sticks
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Test Kitchen
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Jerky Crisps
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+
+
+                      
+                        
+                          
+                            
+                              Top Categories
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      Keto Beef Jerky
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Carnivore Diet Beef Jerky
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Spicy Beef Jerky
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Big Slabs
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Newest Flavors
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+
+
+                      
+                        
+                          
+                            
+                              Gifts
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      Jerky Boxes
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Jerky Grams
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Greeting Cards
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Gift Cards
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+
+
+                      
+                        
+                          
+                            
+                              Merch
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      Clothing
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Hats
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Lifestyle
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Retail Store
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+
+
+          
+            
+              Test Kitchen
+            
+
+            
+          
+        
+
+
+          
+            
+              Subscribe & Save
+            
+
+            
+          
+        
+
+
+          
+            
+              Rewards
+            
+
+            
+          
+        
+
+
+          
+            
+              
+                
+                  
+                    Learn
+                  
+                  
+                    
+                      
+  Accordion toggle indicator
+
+
+                    
+                  
+                
+              
+            
+
+            
+              
+                
+                  
+                    
+
+
+                      
+                        
+                          
+                            
+                              Our Blog Team
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      Editorial Standards
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+
+
+                      
+                        
+                          
+                            
+                              All Categories
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      The Homemade Jerky Project
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Carnivore Diet
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Keto Diet
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Gift Guides
+                                    
+                                  
+                                
+                                  
+                                    
+                                      Jerky Facts
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+
+
+                      
+                        
+                          
+                            
+                              Gift Guides
+                            
+                          
+                          
+                            
+                              
+  Accordion toggle indicator
+
+
+                            
+                          
+                        
+
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      24 Greatest Gifts for Hunters
+                                    
+                                  
+                                
+                                  
+                                    
+                                      26 Easy Christmas Gift Ideas for Neighbors
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+
+
+          
+            
+              Our Story
+            
+
+            
+          
+        
+
+
+        
+          
+            
+              
+
+              
+
+                  
+                    
+                      My account
+                    
+                  
+                
+              
+            
+          
+        
+      
+        
+          
+            
+              
+              Instagram
+            
+          
+        
+        
+          
+            
+              
+              Facebook
+            
+          
+        
+        
+        
+          
+            
+              
+              Twitter
+            
+          
+        
+        
+        
+        
+          
+            
+              
+              TikTok
+            
+          
+        
+        
+        
+        
+      
+    
+  
+
+
+
+
+
+
+
+
+
+  .site-nav__link,
+  .site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level) {
+    font-size: 18px;
+  }
+  
+    .site-nav__link, .mobile-nav__link--top-level {
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+    }
+    .mobile-nav__link--top-level {
+      font-size: 1.1em;
+    }
+  
+
+  
+
+  
+.site-header {
+      box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    }
+
+    .toolbar + .header-sticky-wrapper .site-header {
+      border-top: 0;
+    }
+
+
+  
+    
+
+
+  
+    
+      
+          
+        
+          
+            
+              
+                
+                  Free Standard Shipping on Orders $85+
+                
+                
+                  All Other Orders $7.50 Standard Shipping
+                
+              
+            
+        
+      
+    
+  
+
+
+
+  
+
+  
+    
+  
+
+  
+    
+
+      
+      
+        
+          
+
+            
+              
+                
+  
+
+    .header-item--logo,
+    .header-layout--left-center .header-item--logo,
+    .header-layout--left-center .header-item--icons {
+      -webkit-box-flex: 0 1 80px;
+      -ms-flex: 0 1 80px;
+      flex: 0 1 80px;
+    }
+
+    @media only screen and (min-width: 769px) {
+      .header-item--logo,
+      .header-layout--left-center .header-item--logo,
+      .header-layout--left-center .header-item--icons {
+        -webkit-box-flex: 0 0 120px;
+        -ms-flex: 0 0 120px;
+        flex: 0 0 120px;
+      }
+    }
+
+    .site-header__logo a {
+      width: 80px;
+    }
+    .is-light .site-header__logo .logo--inverted {
+      width: 80px;
+    }
+    @media only screen and (min-width: 769px) {
+      .site-header__logo a {
+        width: 120px;
+      }
+
+      .is-light .site-header__logo .logo--inverted {
+        width: 120px;
+      }
+    }
+    
+
+    
+      
+    
+
+    
+      
+      
+        
+          
+          
+        
+      
+      
+    
+    
+      
+    
+
+  
+
+  
+
+
+
+
+              
+            
+
+            
+              
+                
+
+
+
+  
+
+
+    
+      
+        Shop
+      
+      
+        
+          
+        
+      
+      
+
+          
+            
+              
+
+
+                  
+
+                  
+                  
+
+                        
+                      
+                    
+
+                    
+                      Shop All
+                    
+
+                    
+
+                    
+                      
+                        
+                          Try our Newest Product: Jerky Crisps!
+                        
+                      
+                    
+                  
+
+
+                  
+
+                  
+                  
+                  
+                  
+
+                        
+                      
+                    
+
+                    
+                      Beef Jerky
+                    
+
+                    
+
+                    
+                      
+                        
+                          Old Fashioned
+                        
+                      
+                    
+                      
+                        
+                          Classic
+                        
+                      
+                    
+                      
+                        
+                          Carne Seca
+                        
+                      
+                    
+                      
+                        
+                          Tasting Kitchen
+                        
+                      
+                    
+                      
+                        
+                          Beef Sticks
+                        
+                      
+                    
+                      
+                        
+                          Test Kitchen
+                        
+                      
+                    
+                      
+                        
+                          Jerky Crisps
+                        
+                      
+                    
+                  
+
+
+                  
+
+                  
+                  
+                  
+                  
+
+                        
+                      
+                    
+
+                    
+                      Top Categories
+                    
+
+                    
+
+                    
+                      
+                        
+                          Keto Beef Jerky
+                        
+                      
+                    
+                      
+                        
+                          Carnivore Diet Beef Jerky
+                        
+                      
+                    
+                      
+                        
+                          Spicy Beef Jerky
+                        
+                      
+                    
+                      
+                        
+                          Big Slabs
+                        
+                      
+                    
+                      
+                        
+                          Newest Flavors
+                        
+                      
+                    
+                  
+
+
+                  
+
+                  
+                  
+                  
+                  
+
+                        
+                      
+                    
+
+                    
+                      Gifts
+                    
+
+                    
+
+                    
+                      
+                        
+                          Jerky Boxes
+                        
+                      
+                    
+                      
+                        
+                          Jerky Grams
+                        
+                      
+                    
+                      
+                        
+                          Greeting Cards
+                        
+                      
+                    
+                      
+                        
+                          Gift Cards
+                        
+                      
+                    
+                  
+
+
+                  
+
+                  
+                  
+                  
+                  
+
+                        
+                      
+                    
+
+                    
+                      Merch
+                    
+
+                    
+
+                    
+                      
+                        
+                          Clothing
+                        
+                      
+                    
+                      
+                        
+                          Hats
+                        
+                      
+                    
+                      
+                        
+                          Lifestyle
+                        
+                      
+                    
+                      
+                        
+                          Retail Store
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+  
+
+
+    
+      
+        Test Kitchen
+      
+      
+      
+    
+  
+
+
+    
+      
+        Subscribe & Save
+      
+      
+      
+    
+  
+
+
+    
+      
+        Rewards
+      
+      
+      
+    
+  
+
+
+    
+      
+        Learn
+      
+      
+        
+          
+        
+      
+      
+
+          
+            
+              
+
+
+                  
+
+                  
+                  
+
+                    
+                      Our Blog Team
+                    
+
+                    
+
+                    
+                      
+                        
+                          Editorial Standards
+                        
+                      
+                    
+                  
+
+
+                  
+
+                  
+                  
+                  
+                  
+
+                    
+                      All Categories
+                    
+
+                    
+
+                    
+                      
+                        
+                          The Homemade Jerky Project
+                        
+                      
+                    
+                      
+                        
+                          Carnivore Diet
+                        
+                      
+                    
+                      
+                        
+                          Keto Diet
+                        
+                      
+                    
+                      
+                        
+                          Gift Guides
+                        
+                      
+                    
+                      
+                        
+                          Jerky Facts
+                        
+                      
+                    
+                  
+
+
+                  
+
+                  
+                  
+                  
+                  
+
+                    
+                      Gift Guides
+                    
+
+                    
+
+                    
+                      
+                        
+                          24 Greatest Gifts for Hunters
+                        
+                      
+                    
+                      
+                        
+                          26 Easy Christmas Gift Ideas for Neighbors
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+  
+
+
+    
+      
+        Our Story
+      
+      
+      
+    
+  
+
+              
+            
+
+            
+
+            
+              
+    
+
+
+        
+            
+                Search
+                Search
+            
+        
+
+        
+                                  
+                My account
+                
+          
+              My account
+          
+        
+            
+        
+
+        
+            
+                Site navigation
+                Site navigation
+            
+        
+
+        
+      CartCart
+        
+      
+        
+    
+
+            
+          
+
+          
+        
+        
+          
+            
+              
+                
+                
+                  
+                  Search
+                
+                
+              
+              
+                
+                "Close (esc)"
+              
+            
+          
+              
+                
+                
+                  
+                    
+                      View more
+                    
+                  
+                
+              
+            
+      
+    
+  
+
+  
+
+
+
+
+
+       
+        
+
+
+
+  
+     
+
+  
+  
+  
+
+    
+      
+        
+           
+              Home
+            
+            
+        
+        
+            
+            
+              
+                Learn
+              
+              
+            
+            
+            
+              
+                Keto Rules: A Simple Guide for Beginners
+              
+              
+            
+        
+      
+    
+
+  
+
+
+
+          	
+        
+        
+            Keto Diet
+        
+        
+
+          Keto Rules: A Simple Guide for Beginners
+          
+          
+          
+            
+                
+                  
+                  By Sara Bianchetti
+                
+            
+          
+            
+            
+              
+                
+                  
+                  
+                  
+                    Sep 12, 2022
+                  
+                
+                          
+              
+              
+              
+
+              
+              
+                Updated Jun 01, 2023
+              
+               
+              
+                
+               
+           
+          
+        
+  
+
+
+
+
+  
+     
+
+      
+		    
+        Interested in trying the keto diet but don’t know where to start? We’ve created a simple and approachable beginner’s guide to the keto diet. 
+The body can run on two energy sources: glucose (which comes from carbs) or fat. The keto diet eliminates glucose so that the body is running on and burning fat. The metabolic state in which the body is running on fat as opposed to glucose is called ketosis. 
+Ketosis is when the body breaks down fatty acids to produce ketones in the liver. Ketones can supply energy to both the body and the brain. People use the keto diet to lose weight and improve overall health. Research shows that the keto diet has been known to help improve health conditions like Type 2 diabetes and to lower blood pressure. Whether your goal is to improve a specific health condition or to gain specific health benefits such as weight loss, there are many successes you can take away from the keto diet when executed correctly.
+The keto diet is a low carb, high-fat diet. On the keto diet your carb intake will be limited and you will fill up on fats like meat, fish, eggs, nuts, and healthy oils. Remember to always talk to your doctor before starting a new diet. 
+Keep reading to see the basic rules of the Keto Diet. 
+
+Keto Rules 
+1. Cut out the carbs.
+
+Consume under 25 net carbs per day (total carbs minus fiber). This is going to equate to 5% of your daily food intake. Avoid any type of food that is high in carbs. This includes any sort of bean or grain as well as the more obvious starchy foods like bread and pasta. Keep reading to find some of our go-to bread and pasta alternatives.
+2. Eat high quality protein.
+
+ 
+Keep your protein intake to 25% of your daily calories. High amounts of protein can be converted into glucose. Some examples of protein sources include seafood, meat, poultry, eggs, yogurt, and cottage cheese.
+3. Go heavy on the fats.
+
+Your main source of fuel should be fats. This is going to equate to 75% of your daily food intake. Some examples of fats to incorporate into your diet are butter, peanut butter, nuts, seeds, MCT oil, cheese, olives, full fat mayo, olive oil, coconut oil, vegetable oil, avocado oil, ghee, heavy cream, and avocado. Because of the high fat content of this diet, it generally isn't necessary to count your calories. The increase in fat is going to decrease your hunger and make you fuller for longer periods of time.
+
+4. Hydrate, hydrate, hydrate.
+
+ 
+When you first reach ketosis it is not uncommon to experience negative side effects also known as the keto flu. These side effects can range from bad breath, to nausea, to fatigue, brain fog, and even constipation. Combat the keto flu by drinking plenty of water and avoiding intense exercise.
+5. Stick to simple beverages.
+
+ 
+Avoid Sugary drinks like fruit juice. Stick to sugar-free coffee, unsweetened tea, nut milks, and if you really want to play it safe, water is your friend. If you are craving sugary drinks, look for sugar alcohols like stevia that satisfy your sweet tooth while still allowing you to stick to your diet.
+6. Avoid starchy vegetables.
+
+ 
+When it comes to vegetables, avoid the starchy kinds like corn, potatoes, sweet potatoes, green peas, beets, butternut squash, and carrots. Instead reach for non-starchy vegetables. Non-starchy vegetables contain less sugar and more fiber, which will help you get to ketosis faster. Some examples of non-starchy, low-carb vegetables include arugula, black olives, purple cabbage, asparagus, brussel sprouts, celery, and red peppers. 
+7. Avoid starchy fruits.
+
+When people think about fruit, their mind doesn't necessarily jump to carbs. But make no mistake, carbs from fruit can definitely sneak up on you while trying to maintain ketosis. Apply the same logic to fruit as we just did to vegetables to limit your carbohydrate intake. Avoid high-carb fruits. Some high-carb fruits to avoid include bananas, apples, grapes, mangoes, and raisins. Instead, opt for low-carb options like watermelon, cantaloupe, strawberries, raspberries, and blackberries. For a detailed list of low carb fruit and vegetable options, check out our guide here. 
+8. Keep your food consumption to an 8 hour window.
+
+Incorporate intermittent fasting aka limiting your food consumption to an 8 hour window. This will allow you to get to ketosis faster. According to Healthline it typically takes around 2-4 days to reach ketosis. However, for some people it can take more than a week. Intermittent fasting will help with any potential delays. 
+9. Check your ketone levels to make sure you’re in ketosis.
+
+Who wants to load up on fat without being sure that they have actually reached ketosis? When in doubt, purchase Keto Test Strips. This will allow you to know within seconds if there are ketones in your bloodstream.
+10. There are keto-friendly alternatives for almost all types of foods. Don’t feel like you have to restrict yourself!
+
+Just because you’re on the keto diet doesn't mean that you can’t make traditionally carb heavy items like bread, pasta, and pancakes with alternative ingredients that allow you to stay within your macros. Check out some of our favorite recipes below:
+
+Keto Bread
+Keto Oatmeal
+Keto Pancakes
+Keto Pasta
+Keto Chocolate Cake
+Keto Chocolate Chip Cookies
+Keto Crack Chicken
+
+Bottom Line
+If you are looking for an efficient way to lose weight and burn fat, the keto diet is a great option. Rather than thinking about it as a scary and prohibiting diet, remember that you can actually eat a lot of great things and that it is truly easier to follow than you might think. Incorporate your favorite foods and have fun with it! If done correctly, you will be sure to hit your weight loss goals. And don’t forget, it’s not recommended to do this diet over the long term, 6 months max. 
+Headed to the grocery store and don’t know where to start? Check out our complete keto grocery list to simplify your shopping experience!
+Lastly, if you’re going keto, we can assume that you’re going to need delicious, yet easy and portable snacks. Don’t forget about our absolutely fantastic sugar-free keto beef jerky. Happy Chomping!
+		    
+         
+      
+
+      
+        
+      
+      Share
+      Share on Facebook
+    
+      
+      Tweet
+      Tweet on Twitter
+    
+      
+      Pin it
+      Pin on Pinterest
+    
+
+      
+
+        
+            
+                
+                
+                    About The Author
+                    Sara Bianchetti
+                    
+                      
+                        A food fanatic and lover of all things beef. You can find Sara loving on her dog Pearl, exploring new wine bars, or experimenting with makeup as she has an unhealthy obsession with all things beauty.
+                      
+                    
+                    See Full Bio
+                
+            
+        
+
+      
+
+      
+
+    
+
+    
+ 
+
+      
+      
+        Don't miss out on Jerky News
+        Sign up to get a complimentary $6.99 bag on your first order.
+        
+  
+  
+    
+      
+        
+
+        
+          
+          
+
+          Enter your email
+          
+          
+          
+            
+            
+			
+            
+                
+                    
+                        
+                            
+                                
+                                
+                            
+                        
+                    
+                
+                          
+              
+                Subscribe
+              
+            
+          
+        
+
+        
+          
+            
+              
+                
+                Instagram
+              
+            
+          
+          
+            
+              
+                
+                Facebook
+              
+            
+          
+          
+          
+            
+              
+                
+                Twitter
+              
+            
+          
+          
+          
+          
+            
+              
+                
+                TikTok
+              
+            
+          
+          
+          
+          
+        
+      
+    
+  
+
+
+        
+      	
+         
+      
+
+
+
+  
+    
+    
+    
+    
+      
+        
+ 
+          
+            
+            
+                      	
+          
+                        
+          
+	          	jerky box
+          		 HEALTH NUT - KETO JERKY BOX
+            
+             
+            
+          
+
+          
+          
+            $ 42.99
+          
+          
+
+          
+            
+          
+          
+
+          
+
+                
+        
+         
+        
+       Shop Now
+      
+    
+    
+    
+  
+
+
+
+
+      
+      
+
+
+
+  Related Posts
+
+  
+    
+    	
+    	
+        
+
+        
+
+        
+        
+          
+            
+
+            
+            
+              
+            
+            
+
+            
+              
+                
+                Everything You Need to Know About the...
+                
+              
+
+
+                
+
+              
+
+            
+          
+        
+        
+    
+    	
+    	
+        
+
+        
+
+        
+        
+          
+            
+
+            
+            
+              
+            
+            
+
+            
+              
+                
+                The Ultimate List of Keto Walmart Finds
+                
+              
+
+
+                
+
+              
+
+            
+          
+        
+        
+    
+    	
+    	
+        
+
+        
+
+        
+        
+          
+            
+
+            
+            
+              
+            
+            
+
+            
+              
+                
+                Guide to Keto Bread
+                
+              
+
+
+                
+
+              
+
+            
+          
+        
+        
+    
+  
+
+
+      
+      
+       
+    
+        Post Categories
+        
+            
+            
+            
+                Announcements
+            
+            
+            
+                Carnivore Diet
+            
+            
+            
+                Gift Guides
+            
+            
+            
+                Homemade Jerky Project
+            
+            
+            
+                Jerky Facts
+            
+            
+            
+                Keto Diet
+            
+            
+            
+                Los Angeles
+            
+            
+            
+                Machaca
+            
+            
+            
+                Nutrition
+            
+            
+            
+                Outdoors
+            
+            
+            
+                Prepper
+            
+            
+            
+                Recipes
+            
+            
+            
+                Snacks
+            
+            
+            
+                Wine & Beer
+            
+        
+    
+      
+      
+    
+  
+
+  
+     Back to Learn
+  
+
+
+
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "articleBody": "Interested in trying the keto diet but don’t know where to start? We’ve created a simple and approachable beginner’s guide to the keto diet. \nThe body can run on two energy sources: glucose (which comes from carbs) or fat. The keto diet eliminates glucose so that the body is running on and burning fat. The metabolic state in which the body is running on fat as opposed to glucose is called ketosis. \nKetosis is when the body breaks down fatty acids to produce ketones in the liver. Ketones can supply energy to both the body and the brain. People use the keto diet to lose weight and improve overall health. Research shows that the keto diet has been known to help improve health conditions like Type 2 diabetes and to lower blood pressure. Whether your goal is to improve a specific health condition or to gain specific health benefits such as weight loss, there are many successes you can take away from the keto diet when executed correctly.\nThe keto diet is a low carb, high-fat diet. On the keto diet your carb intake will be limited and you will fill up on fats like meat, fish, eggs, nuts, and healthy oils. Remember to always talk to your doctor before starting a new diet. \nKeep reading to see the basic rules of the Keto Diet. \n\nKeto Rules \n1. Cut out the carbs.\n\nConsume under 25 net carbs per day (total carbs minus fiber). This is going to equate to 5% of your daily food intake. Avoid any type of food that is high in carbs. This includes any sort of bean or grain as well as the more obvious starchy foods like bread and pasta. Keep reading to find some of our go-to bread and pasta alternatives.\n2. Eat high quality protein.\n\n \nKeep your protein intake to 25% of your daily calories. High amounts of protein can be converted into glucose. Some examples of protein sources include seafood, meat, poultry, eggs, yogurt, and cottage cheese.\n3. Go heavy on the fats.\n\nYour main source of fuel should be fats. This is going to equate to 75% of your daily food intake. Some examples of fats to incorporate into your diet are butter, peanut butter, nuts, seeds, MCT oil, cheese, olives, full fat mayo, olive oil, coconut oil, vegetable oil, avocado oil, ghee, heavy cream, and avocado. Because of the high fat content of this diet, it generally isn't necessary to count your calories. The increase in fat is going to decrease your hunger and make you fuller for longer periods of time.\n\n4. Hydrate, hydrate, hydrate.\n\n \nWhen you first reach ketosis it is not uncommon to experience negative side effects also known as the keto flu. These side effects can range from bad breath, to nausea, to fatigue, brain fog, and even constipation. Combat the keto flu by drinking plenty of water and avoiding intense exercise.\n5. Stick to simple beverages.\n\n \nAvoid Sugary drinks like fruit juice. Stick to sugar-free coffee, unsweetened tea, nut milks, and if you really want to play it safe, water is your friend. If you are craving sugary drinks, look for sugar alcohols like stevia that satisfy your sweet tooth while still allowing you to stick to your diet.\n6. Avoid starchy vegetables.\n\n \nWhen it comes to vegetables, avoid the starchy kinds like corn, potatoes, sweet potatoes, green peas, beets, butternut squash, and carrots. Instead reach for non-starchy vegetables. Non-starchy vegetables contain less sugar and more fiber, which will help you get to ketosis faster. Some examples of non-starchy, low-carb vegetables include arugula, black olives, purple cabbage, asparagus, brussel sprouts, celery, and red peppers. \n7. Avoid starchy fruits.\n\nWhen people think about fruit, their mind doesn't necessarily jump to carbs. But make no mistake, carbs from fruit can definitely sneak up on you while trying to maintain ketosis. Apply the same logic to fruit as we just did to vegetables to limit your carbohydrate intake. Avoid high-carb fruits. Some high-carb fruits to avoid include bananas, apples, grapes, mangoes, and raisins. Instead, opt for low-carb options like watermelon, cantaloupe, strawberries, raspberries, and blackberries. For a detailed list of low carb fruit and vegetable options, check out our guide here. \n8. Keep your food consumption to an 8 hour window.\n\nIncorporate intermittent fasting aka limiting your food consumption to an 8 hour window. This will allow you to get to ketosis faster. According to Healthline it typically takes around 2-4 days to reach ketosis. However, for some people it can take more than a week. Intermittent fasting will help with any potential delays. \n9. Check your ketone levels to make sure you’re in ketosis.\n\nWho wants to load up on fat without being sure that they have actually reached ketosis? When in doubt, purchase Keto Test Strips. This will allow you to know within seconds if there are ketones in your bloodstream.\n10. There are keto-friendly alternatives for almost all types of foods. Don’t feel like you have to restrict yourself!\n\nJust because you’re on the keto diet doesn't mean that you can’t make traditionally carb heavy items like bread, pasta, and pancakes with alternative ingredients that allow you to stay within your macros. Check out some of our favorite recipes below:\n\nKeto Bread\nKeto Oatmeal\nKeto Pancakes\nKeto Pasta\nKeto Chocolate Cake\nKeto Chocolate Chip Cookies\nKeto Crack Chicken\n\nBottom Line\nIf you are looking for an efficient way to lose weight and burn fat, the keto diet is a great option. Rather than thinking about it as a scary and prohibiting diet, remember that you can actually eat a lot of great things and that it is truly easier to follow than you might think. Incorporate your favorite foods and have fun with it! If done correctly, you will be sure to hit your weight loss goals. And don’t forget, it’s not recommended to do this diet over the long term, 6 months max. \nHeaded to the grocery store and don’t know where to start? Check out our complete keto grocery list to simplify your shopping experience!\nLastly, if you’re going keto, we can assume that you’re going to need delicious, yet easy and portable snacks. Don’t forget about our absolutely fantastic sugar-free keto beef jerky. Happy Chomping!",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/peopleschoicebeefjerky.com\/blogs\/news\/keto-rules"
+  },
+  "headline": "Keto Rules: A Simple Guide for Beginners",
+  
+  
+    
+    "image": [
+      "https:\/\/peopleschoicebeefjerky.com\/cdn\/shop\/articles\/Ketogenic-Diet_725641921-1200x800_1200x.jpg?v=1679337942"
+    ],
+  
+  "datePublished": "2022-09-12T07:39:31Z",
+  "dateModified": "2023-06-01T10:49:05Z",
+  "dateCreated": "2022-09-09T10:52:37Z",
+  "author": {
+    "@type": "Person",
+    "name": "Sara Bianchetti"
+  },
+  "publisher": {
+    "@type": "Organization",
+    
+    "name": "People\u0026#39;s Choice Beef Jerky"
+  }
+}
+
+
+
+
+
+
+      
+
+      
+
+
+
+  
+
+
+
+
+      
+
+
+  
+    
+      
+        100% Happiness Guaranteed
+      
+      
+      
+        Shop with the confidence of 90 years and four generations of family tradition.
+            
+
+      
+        Shop All Beef Jerky
+      
+    
+    
+        
+        
+        
+    
+  
+  
+    
+         
+        
+          Don’t miss out on jerky news
+        
+          
+        
+          Sign up by email to get a complimentary beef jerky bag valued at $6.99 on your first order. Or via SMS, text BEEF to 72168 to get a free bag.
+                    
+        
+        
+          Enter email
+          
+          
+    
+    
+
+
+
+    
+      
+  
+    
+      
+        
+          
+        
+        
+          Shop
+          
+            
+              New
+            
+              Best Sellers
+            
+              Sugar Free
+            
+              Gifts
+            
+              Retail Store
+            
+           
+        
+        
+          Customer Care
+          
+            
+              100% Happiness Guaranteed
+            
+              Contact Us
+            
+              FAQ
+            
+              Returns and Refunds
+            
+                   
+        
+        
+          Learn
+          
+            
+              Join Rewards Program
+            
+              Refer A Friend (Receive $5)
+            
+              Our Story
+            
+              Subscribe and Save (Save 5%)
+            
+              Blog
+            
+                   
+        
+      
+    
+    
+      
+        
+          
+            
+              
+              Facebook
+            
+          
+        
+        
+          
+            
+              
+              Instagram
+            
+          
+        
+        
+          
+            
+              
+              Twitter
+            
+          
+        
+        
+          
+            
+              
+              TikTok
+            
+          
+           
+                           
+    
+  
+  
+    
+      
+        Copyright © 2023
+          
+          People's Choice Beef Jerky
+        
+      
+    
+      Terms of Service
+    
+      Privacy Policy
+    
+      Accessibility
+          
+    
+  
+
+
+
+
+
+    
+  
+
+  
+
+
+
+
+  
+    
+      
+      Previous
+    
+    
+      
+      Next
+    
+  
+  <div class="predictive-result__layout">
+    
+      {{#if products}}
+        <div data-type-products>
+          <div class="grid grid--uniform">
+            {{#products}}
+              <div class="grid__item grid-product small--one-half medium-up--one-quarter" data-aos="row-of-4">
+                <div class="grid-product__content">
+                  {{#if custom_label }}
+                    <div class="grid-product__tag grid-product__tag--custom">
+                      {{custom_label}}
+                    </div>
+                  {{/if}}
+                  {{#if on_sale }}
+                    <div class="grid-product__tag grid-product__tag--sale">
+                      Sale
+                    </div>
+                  {{/if}}
+
+                  <a href="{{url}}" class="grid-product__link">
+                    <div class="grid-product__image-mask">
+                      <div
+                        class="grid__image-ratio grid__image-ratio--object grid__image-ratio--square">
+                        <div class="predictive__image-wrap">
+                          {{#if image }}
+                            <img class="image-fit lazyload"
+                                data-src="{{image}}"
+                                data-widths="[180, 360, 540, 720]"
+                                data-sizes="auto">
+                          {{/if}}
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-product__meta">
+                      <div class="grid-product__title grid-product__title--body">
+                        {{title}}
+                      </div>
+                      
+                      
+                    </div>
+                  </a>
+                </div>
+              </div>
+            {{/products}}
+          </div>
+        </div>
+      {{/if}}
+
+      {{#if collections}}
+        <div data-type-collections>
+          <p class="h6 predictive__label">Collections:</p>
+          <ul class="no-bullets">
+            {{#collections}}
+              <li>
+                <a href="{{url}}">
+                  {{title}}
+                </a>
+              </li>
+            {{/collections}}
+          </ul>
+        </div>
+      {{/if}}
+
+      {{#if pages}}
+        <div data-type-pages>
+          <p class="h6 predictive__label">Pages:</p>
+          <ul class="no-bullets">
+            {{#pages}}
+              <li>
+                <a href="{{url}}">
+                  {{title}}
+                </a>
+              </li>
+            {{/pages}}
+          </ul>
+        </div>
+      {{/if}}
+
+      {{#if articles}}
+        <div data-type-articles class="predictive-result__layout-articles">
+          <p class="h6 predictive__label">Articles:</p>
+          <div class="grid grid--uniform">
+            {{#articles}}
+              <div class="grid__item grid-product small--one-whole medium-up--one-quarter" data-aos="row-of-4">
+                <a href="{{url}}" class="grid-product__link grid-product__link--inline">
+
+                  <div class="grid-product__image-mask">
+                    <div
+                      class="grid__image-ratio grid__image-ratio--object grid__image-ratio--square">
+                      <div class="predictive__image-wrap">
+                        {{#if image }}
+                          <img class="image-fit lazyload"
+                              data-src="{{image}}"
+                              data-widths="[180, 360, 540, 720]"
+                              data-sizes="auto">
+                        {{/if}}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid-product__meta">
+                    {{title}}
+                  </div>
+                </a>
+              </div>
+            {{/articles}}
+          </div>
+        </div>
+      {{/if}}
+    
+  </div>
+
+
+  
+    
+      
+        
+          
+        
+      
+    
+  
+
+  
+    
+    "Close (esc)"
+  
+
+
+  
+  
+  
+    
+      
+      
+      
+    
+
+    
+      
+        
+      
+
+      
+        
+      
+
+      
+        
+      
+    
+  
+
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZNNHG8HS8F');
+        
+
+/*ConvertCart.com-68426994*/(function(c,o,n,v,e,r,t,s){s=c.fetch?'f':'',
+c.ccartObj=e,c[e]=c[e]||function(){(c[e].q=c[e].q||[]).push(arguments)},c[e].t=Date.now(),
+r=o.createElement(n);r.async=1;r.src=v+s+'.js';t=o.getElementsByTagName(n)[0];t.parentNode
+.insertBefore(r,t)})(window, document,'script','//cdn.convertcart.com/68426994','ccart')
