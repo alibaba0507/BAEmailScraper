@@ -26,10 +26,12 @@ function callbackRelatedSearch(links)
 {
 	if (inDepthValue < 0)
 		return;
-    // Iterate through the links and call scraper.start for each link multiple times
-    for (const link of links) {
-        for (let i = 0; i < inDepthValue; i++) {
-            scraper.start(link, 0, callbackRelatedSearch, null);
+    // Iterate through each selector's links and call scraper.start for each link multiple times
+    for (const selectorLinks of Object.values(links)) {
+        for (const link of selectorLinks) {
+            for (let i = 0; i < inDepthValue; i++) {
+                scraper.start(link, 0, callbackRelatedSearch, null);
+            }
         }
     }
 	inDepthValue--;
