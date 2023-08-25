@@ -20,7 +20,8 @@
         <br>
         <input type="submit" value="Submit">
     </form>
-
+    <!-- Add this to your index.html -->
+    <div id="jsonOutput"></div>
     <script>
         $(document).ready(function() {
             $('#extractRelated').change(function() {
@@ -32,5 +33,37 @@
             });
         });
     </script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+		const socket = io();
+
+		socket.on('jsonStructure', (jsonStructure) => {
+			const jsonOutputDiv = document.getElementById('jsonOutput');
+			jsonOutputDiv.innerHTML = jsonStructure;
+
+			// Get all the link elements inside jsonOutput
+			const linkElements = jsonOutputDiv.querySelectorAll('.link-div');
+			
+			// Add buttons to each link div
+			linkElements.forEach((linkElement) => {
+				const linkText = linkElement.textContent;
+				
+				const removeButton = document.createElement('button');
+				removeButton.textContent = 'Remove';
+				removeButton.addEventListener('click', () => {
+					linkElement.remove();
+				});
+
+				const insertButton = document.createElement('button');
+				insertButton.textContent = 'Insert';
+				insertButton.addEventListener('click', () => {
+					document.getElementById('searchQuery').value = linkText;
+				});
+
+				linkElement.appendChild(removeButton);
+				linkElement.appendChild(insertButton);
+			});
+		});
+	</script>
 </body>
 </html>

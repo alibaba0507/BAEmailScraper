@@ -14,39 +14,39 @@ class GoogleScrapeQuery {
 	if (!searchQueyCallback && !pageLinksCallback)
 		return; // do nothing
     page = Number(page);
-	const url = "http://www.google.com/search?q="+query+'&start='+page*10;
+	const url = 'http://www.google.com/search?q="'+query+'"&start='+page*10;
 	
-	
+	const _this = this;
 	function requestCallback(error, response, body) {
 		if (error) {
-			console.error("Google Request error.");
+			console.error("Google Request error.[" + query + "][" + url + "]page[" + page+ "]");
 			if(searchQueyCallback)
-				parseRelatedSearches("",searchQueyCallback,selectors);
+				_this.parseRelatedSearches("",searchQueyCallback,selectors);
 			if(pageLinksCallback)
-				parseLinks("");
+				_this.parseLinks("");
 		} else {
 			if (response.statusCode === 200) {
 				if(searchQueyCallback)
-					parseRelatedSearches(body,searchQueyCallback,selectors);
+					_this.parseRelatedSearches(body,searchQueyCallback,selectors);
 				if(pageLinksCallback)
-					parseLinks(body,pageLinksCallback);
+					_this.parseLinks(body,pageLinksCallback);
 			} else {
 				if (response.statusCode === 503) {
-					console.error("Blocked by Google try after a couple of hours.");
-					console.error("NOTE: Don't query a lot of pages at once.");
+					console.error("Blocked by Google try after a couple of hours.[" + query + "][" + url + "]page[" + page+ "]");
+					console.error("NOTE: Don't query a lot of pages at once.[" + query + "][" + url + "]page[" + page+ "]");
 					return;
 				} else {
-					parsePageBody("");
+					_this.parseLinks("");
 				}
 			}
 		}
 	}
-    fetch(url, requestCallback);
+    this.fetch(url, requestCallback);
   }
   /**
    * fetch the url and return it with callback fuction
    */
-	function fetch(url, callback, params = {}) {
+    fetch(url, callback, params = {}) {
 		const headers = {
 			'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 		};
