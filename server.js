@@ -35,7 +35,7 @@ app.post('/submit', (req, res) => {
     scraper.start(searchQuery, 0, callbackRelatedSearch, null);
 
     //res.send('Form submitted successfully');
-	io.emit('jsonStructure', 'Form submitted successfully');
+	//io.emit('jsonStructure', 'Form submitted successfully');
 });
 
 // Callback for related search data
@@ -64,6 +64,10 @@ function callbackRelatedSearch(links) {
 	jsonStructure += linkDivs.join('')
     io.emit('jsonStructure', jsonStructure);
     inDepthValue--;
+	// Emit a separate event to signal completion
+	io.emit('processingComplete'); 
+
+	return;
 }
 
 // Create a node for the tree
