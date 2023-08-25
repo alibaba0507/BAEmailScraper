@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Search Form</h1>
+    <form action="/submit" method="post">
+        <label for="searchQuery">Search:</label>
+        <input type="text" id="searchQuery" name="searchQuery" required>
+        <br>
+        <input type="checkbox" id="extractRelated" name="extractRelated">
+        <label for="extractRelated">Extract only related searches</label>
+        <br>
+        <div id="inDepthDiv" style="display: none;">
+            <label for="inDepthValue">In-depth value:</label>
+            <input type="number" id="inDepthValue" name="inDepthValue">
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        $(document).ready(function() {
+            $('#extractRelated').change(function() {
+                if ($(this).prop('checked')) {
+                    $('#inDepthDiv').show();
+                } else {
+                    $('#inDepthDiv').hide();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
