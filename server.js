@@ -11,6 +11,7 @@ let inDepthValue = 0;
 let rootNode = []; // Initialize the root node
 let jsonStructure = ""; // Store the JSON structure
 let node = null;
+let searchQuery
 // Setup HTTP server and Socket.IO
 const server = http.createServer(app);
 const io = socketIo(server);
@@ -24,7 +25,7 @@ app.get('/', (req, res) => {
 
 // Handle form submission
 app.post('/submit', (req, res) => {
-    const searchQuery = req.body.searchQuery;
+    searchQuery = req.body.searchQuery;
     const extractRelated = req.body.extractRelated === 'on';
     inDepthValue = extractRelated ? parseInt(req.body.inDepthValue) || 0 : 0;
     
@@ -40,32 +41,35 @@ app.post('/submit', (req, res) => {
 
 // Callback for related search data
 function callbackRelatedSearch(links) {
-   /* if (inDepthValue < 0) {
-        //rootNode = buildTree(Object.values(links), inDepthValue);
-        jsonStructure = rootNode ? convertNodeToJSON(rootNode) : 'No data available';
-        
-        // Send the JSON structure to the client
-        io.emit('jsonStructure', jsonStructure);
-        
-        return;
-    }
-    buildTree(Object.values(links), inDepthValue);
-	console.log(convertNodeToJSON(rootNode));
-	*/
 	const linkDivs = [];
 	const delay = 1; // Adjust as needed
 	 // Iterate through each selector's links and call scraper.start for each link multiple times
-    for (const selectorLinks of Object.values(links)) {
+    const index = jsonStructure.indexOf( searchQuery );
+	for (const selectorLinks of Object.values(links)) {
         for (const link of selectorLinks) {
-			console.log('----------------[' + link + ']-----------------');
-             linkDivs.push(`<div class="link-div">${link}</div>`);
+			//console.log('----------------[' + link + ']-----------------');
+			if (index > -1) 
+             linkDivs.push(`<div class="link-div inner">${link}</div>`);
+		    else
+			  linkDivs.push(`<div class="link-div">${link}</div>`);
         }
     }
-	jsonStructure += linkDivs.join('')
-    io.emit('jsonStructure', jsonStructure);
-    inDepthValue--;
+	
+	if (index > -1) {
+		const beforeQuery = jsonStructure.slice(0, index + searchQuery.length );
+		const afterQuery = jsonStructure.slice(index + searchQuery.length);
+
+		// Combine the parts with the linkDivs
+		jsonStructure = beforeQuery + linkDivs.join('') + afterQuery;
+		console.log('----------------[' + searchQuery + ']-----------------');
+		console.log('----------------[' + jsonStructure + ']-----------------');
+	}else
+		jsonStructure += linkDivs.join('')
+	// Inside the callbackRelatedSearch function
+	io.emit('jsonStructure', { jsonStructure, searchQuery });
 	// Emit a separate event to signal completion
 	io.emit('processingComplete'); 
+	inDepthValue--;
 
 	return;
 }

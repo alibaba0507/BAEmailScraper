@@ -34,6 +34,17 @@
 			border: 1px solid #ccc;
 			padding: 10px;
 		}
+		.search-match-container {
+			background-color: #ffffcc;
+			border: 1px solid #cccccc;
+			padding: 5px;
+			margin: 5px 0;
+		}
+		.inner {
+		  margin-left: 50px;
+		  background-color: orange;
+		  color: black;
+		}
 	</style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -68,22 +79,31 @@
     </script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
-		const socket = io();
+	const socket = io();
+    
+	socket.on('jsonStructure', (jsonStructureObj) => {
+		
+		let searchQuery = jsonStructureObj['searchQuery'];
+		let jsonStructure =  jsonStructureObj['jsonStructure'];
 
-	socket.on('jsonStructure', (jsonStructure) => {
 		const jsonOutputDiv = document.getElementById('jsonOutput');
-		jsonOutputDiv.innerHTML = jsonStructure;
-
-		// Get all the link elements inside jsonOutput
+		jsonOutputDiv.innerHTML = '';
+		jsonOutputDiv.innerHTML = jsonStructure;//jsonStructureObj['jsonStructure'];
+        
 		const linkElements = jsonOutputDiv.querySelectorAll('.link-div');
 
 		// Wrap each link div in a container div
 		linkElements.forEach((linkElement) => {
+		   
 			const containerDiv = document.createElement('div');
 			containerDiv.classList.add('link-container');
-
+            
 			const linkText = linkElement.textContent;
-
+             // Add your logic to style or manipulate the containerDiv here
+			/*if (linkText.includes(searchQuery)) {
+			    console.log(`---------${linkText}------`);
+				containerDiv.classList.add('search-match-container');
+			}*/
 			const removeButton = document.createElement('button');
 			removeButton.textContent = 'Remove';
 			removeButton.addEventListener('click', () => {
@@ -103,6 +123,7 @@
 			jsonOutputDiv.appendChild(containerDiv);
 		});
 	});
+	
 	</script>
 </body>
 </html>
