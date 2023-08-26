@@ -18,6 +18,7 @@ class GoogleScrapeQuery {
 	
 	const _this = this;
 	function requestCallback(error, response, body) {
+		console.log('-------------------- requestCallback [' + response.statusCode + ']----------------------');
 		if (error) {
 			console.error("Google Request error.[" + query + "][" + url + "]page[" + page+ "]");
 			if(searchQueyCallback)
@@ -41,6 +42,7 @@ class GoogleScrapeQuery {
 			}
 		}
 	}
+	console.log('-------------------- Before fetch ----------------------');
     this.fetch(url, requestCallback);
   }
   /**
@@ -105,7 +107,7 @@ class GoogleScrapeQuery {
 			}   
 		}
 	});
-	//callback(urlsArray);
+	callback(urlsArray);
   }
 }
 

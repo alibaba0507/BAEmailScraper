@@ -118,7 +118,7 @@
 		// Create a download link
 		const a = document.createElement('a');
 		a.href = url;
-		a.download = 'fileName'; // Specify the desired file name
+		a.download = fileName; // Specify the desired file name
 		a.click();
 
 		// Clean up the URL object
@@ -166,7 +166,7 @@
 			const selector = `[class*="${substring}"]`;
 			const element = tempElement.querySelector(selector);
 			if (element) {
-				uploadFile(lement.textContent.trim(),generateUniqueFileName() + '.txt');
+				uploadFile(element.textContent.trim(),generateUniqueFileName() + '.txt');
 				break;
 			}
 		}

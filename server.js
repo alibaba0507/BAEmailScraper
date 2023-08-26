@@ -35,8 +35,10 @@ app.post('/submit', (req, res) => {
     if (!extractRelated)
 		scraper.start(searchQuery, 0, callbackRelatedSearch, null);
     else
+	{
+		console.log('------------ Link collection [' + searchQuery + ']--------');
 		scraper.start(searchQuery, 0, null, callbackLinksSearch);	
-
+    }
     
 });
 function delay(milliseconds) {
