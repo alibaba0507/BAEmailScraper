@@ -62,7 +62,7 @@
             <input type="number" id="inDepthValue" name="inDepthValue">
         </div>
         <br>
-        <input type="submit" value="Submit">
+        <input type="button" id="submitForm" value="Submit">
     </form>
 	<div>
     <!-- Add this to your index.html -->
@@ -78,6 +78,33 @@
                     $('#inDepthDiv').hide();
                 }
             });
+			$('#submitForm').click(function(event) {
+				event.preventDefault(); // Prevent the default form submission
+
+				const searchQuery = $('#searchQuery').val();
+				const extractRelated = $('#extractRelated').prop('checked');
+				const inDepthValue = $('#inDepthValue').val() || 0;
+
+				// Send the form data using AJAX
+				$.ajax({
+					url: '/submit',
+					method: 'POST',
+					data: {
+						searchQuery: searchQuery,
+						extractRelated: extractRelated,
+						inDepthValue: inDepthValue
+					},
+					success: function(response) {
+						// Display a success message to the user
+						//alert('Form submitted successfully');
+					},
+					error: function(error) {
+						// Display an error message to the user
+						alert('Error submitting form [' + error+ ']');
+						
+					}
+				});
+			});
         });
     </script>
 	<script src="/socket.io/socket.io.js"></script>
