@@ -17,6 +17,7 @@ let searchQuery
 const server = http.createServer(app);
 const io = socketIo(server);
 let response = null;
+let pageCount = 0;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve index.html
@@ -27,20 +28,31 @@ app.get('/', (req, res) => {
 // Handle form submission
 app.post('/submit', (req, res) => {
     searchQuery = req.body.searchQuery;
-    const extractRelated = req.body.extractRelated === 'on';
+    const extractRelated = req.body.extractRelated === 'true';//'on';
     inDepthValue = extractRelated ? parseInt(req.body.inDepthValue) || 0 : 0;
+	console.log('---------------extractRelated----- [' + req.body.extractRelated + '][' + extractRelated+ ']----------------');
     response = res;
-    if (inDepthValue == 0)
+    if (!extractRelated)
 		scraper.start(searchQuery, 0, callbackRelatedSearch, null);
     else
 		scraper.start(searchQuery, 0, null, callbackLinksSearch);	
 
     
 });
-
+function delay(milliseconds) {
+    return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
 function callbackLinksSearch(links)
 {
-	
+	inDepthValue--;
+	console.log("------------------ links [" + (links.length)  +"]--------------------");
+	if (inDepthValue > 0)
+	{
+	  delay(5000);
+	  scraper.start(searchQuery, ++pageCount, null, callbackLinksSearch);
+	}
+    if (inDepthValue <= 0)
+	    response.status(200).send('Form submitted successfully');
 }
 // Callback for related search data
 function callbackRelatedSearch(links) {
@@ -76,7 +88,6 @@ function callbackRelatedSearch(links) {
 	io.emit('jsonStructure', { jsonStructure, searchQuery });
 	//io.emit('formSubmitted', 'Form submitted successfully');
 	response.status(200).send('Form submitted successfully');
-	inDepthValue--;
 
 	return;
 }

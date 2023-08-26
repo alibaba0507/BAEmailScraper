@@ -84,7 +84,7 @@
 				const searchQuery = $('#searchQuery').val();
 				const extractRelated = $('#extractRelated').prop('checked');
 				const inDepthValue = $('#inDepthValue').val() || 0;
-
+                console.log('-------------extractRelated-----[' + extractRelated + ']--------------------');
 				// Send the form data using AJAX
 				$.ajax({
 					url: '/submit',
@@ -100,7 +100,7 @@
 					},
 					error: function(error) {
 						// Display an error message to the user
-						alert('Error submitting form [' + error+ ']');
+						alert('Error submitting form [' + error.toString()+ ']');
 						
 					}
 				});
