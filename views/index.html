@@ -42,8 +42,8 @@
 		}
 		.inner {
 		  margin-left: 50px;
-		  background-color: orange;
-		  color: black;
+		  background-color: lightgray;
+		  color: darkgray;
 		}
 	</style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -64,8 +64,11 @@
         <br>
         <input type="submit" value="Submit">
     </form>
+	<div>
     <!-- Add this to your index.html -->
     <div id="jsonOutput"></div>
+	<input type="button" id="saveButton" value="Save JSON Output">
+	</div>
     <script>
         $(document).ready(function() {
             $('#extractRelated').change(function() {
@@ -80,7 +83,19 @@
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
 	const socket = io();
-    
+    //------------------------ Save to File ----------------------
+	document.addEventListener('DOMContentLoaded', function() {
+		const saveButton = document.getElementById('saveButton');
+		saveButton.addEventListener('click', function() {
+			const jsonOutputDiv = document.getElementById('jsonOutput');
+			const jsonOutputHTML = jsonOutputDiv.outerHTML;
+			const head = document.head.outerHTML;
+			const saved = `<!DOCTYPE html><html>${head}<body>${jsonOutputHTML}</body></html>`;
+			// Emit the HTML content to the server
+			socket.emit('saveHtml', saved);
+		});
+	});
+	//-------------------------------------------------
 	socket.on('jsonStructure', (jsonStructureObj) => {
 		
 		let searchQuery = jsonStructureObj['searchQuery'];
@@ -91,7 +106,7 @@
 		jsonOutputDiv.innerHTML = jsonStructure;//jsonStructureObj['jsonStructure'];
         
 		const linkElements = jsonOutputDiv.querySelectorAll('.link-div');
-
+        const eleemnts = [];
 		// Wrap each link div in a container div
 		linkElements.forEach((linkElement) => {
 		   

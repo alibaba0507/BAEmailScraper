@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const http = require('http');
 const socketIo = require('socket.io');
+const fs = require('fs');
 const GoogleScrapeQuery = require('./controllers/scrapeGoogleQuery.js'); // Include the .js extension
 const scraper = new GoogleScrapeQuery();
 
@@ -45,6 +46,10 @@ function callbackRelatedSearch(links) {
 	const delay = 1; // Adjust as needed
 	 // Iterate through each selector's links and call scraper.start for each link multiple times
     const index = jsonStructure.indexOf( searchQuery );
+	// Remove duplicates from selectorLinks
+	for (const selector in links) {
+		links[selector] = [...new Set(links[selector])];
+	}
 	for (const selectorLinks of Object.values(links)) {
         for (const link of selectorLinks) {
 			//console.log('----------------[' + link + ']-----------------');
@@ -62,7 +67,7 @@ function callbackRelatedSearch(links) {
 		// Combine the parts with the linkDivs
 		jsonStructure = beforeQuery + linkDivs.join('') + afterQuery;
 		console.log('----------------[' + searchQuery + ']-----------------');
-		console.log('----------------[' + jsonStructure + ']-----------------');
+		//console.log('----------------[' + jsonStructure + ']-----------------');
 	}else
 		jsonStructure += linkDivs.join('')
 	// Inside the callbackRelatedSearch function
@@ -102,6 +107,14 @@ function buildTree(selectorLinks, depth) {
 function convertNodeToJSON(node) {
     return JSON.stringify(node, null, 2); // Use 2 for indentation
 }
+
+// Add this before app.listen
+io.on('connection', (socket) => {
+    socket.on('saveHtml', (jsonOutputHTML) => {
+        // Save the HTML content to a file
+        fs.writeFileSync('search_results/output.html', jsonOutputHTML);
+    });
+});
 
 // Start the server
 server.listen(port, () => {
