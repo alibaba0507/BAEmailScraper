@@ -123,6 +123,9 @@
 		});
 	});
 	//-------------------------------------------------
+	socket.on('formSubmitted', (msg) => {
+	    alert(msg);
+	});
 	socket.on('jsonStructure', (jsonStructureObj) => {
 		
 		let searchQuery = jsonStructureObj['searchQuery'];

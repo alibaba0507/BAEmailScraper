@@ -30,18 +30,10 @@ app.post('/submit', (req, res) => {
     const extractRelated = req.body.extractRelated === 'on';
     inDepthValue = extractRelated ? parseInt(req.body.inDepthValue) || 0 : 0;
     response = res;
-    // Reset the root node for each form submission
-    rootNode = [];
-     // Emit a success event to the frontend
-    //io.emit('formSubmitted', 'Form submitted successfully');
-    
-    // Send a response to the client
-   // res.status(200).send('Form submitted successfully');
-    // Now you can use the GoogleScrapeQuery class
+  
     scraper.start(searchQuery, 0, callbackRelatedSearch, null);
 
-    //res.send('Form submitted successfully');
-	//io.emit('jsonStructure', 'Form submitted successfully');
+    
 });
 
 // Callback for related search data
@@ -76,9 +68,7 @@ function callbackRelatedSearch(links) {
 		jsonStructure += linkDivs.join('')
 	// Inside the callbackRelatedSearch function
 	io.emit('jsonStructure', { jsonStructure, searchQuery });
-	// Emit a separate event to signal completion
-	//io.emit('processingComplete'); 
-	io.emit('formSubmitted', 'Form submitted successfully');
+	//io.emit('formSubmitted', 'Form submitted successfully');
 	response.status(200).send('Form submitted successfully');
 	inDepthValue--;
 
@@ -119,6 +109,7 @@ io.on('connection', (socket) => {
     socket.on('saveHtml', (jsonOutputHTML) => {
         // Save the HTML content to a file
         fs.writeFileSync('search_results/output.html', jsonOutputHTML);
+		io.emit('formSubmitted', 'File has been saved as search_results/output.html');
     });
 });
 
