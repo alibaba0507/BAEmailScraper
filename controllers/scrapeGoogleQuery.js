@@ -93,7 +93,18 @@ class GoogleScrapeQuery {
   parseLinks(text,callback)
   {
 	var urlRegex = /(https?:\/\/[^\s]+)/g;
-	var urlsArray = text.match(urlRegex) || [];
+	var urlsArray = [];//text.match(urlRegex) || [];
+	text.replace(urlRegex, function(url) {
+		if (url.indexOf("&amp;") !== -1) {
+			var _url = url;
+			if (!_url.includes("://webcache") && !_url.includes("://maps.google") && !_url.includes("/dumps/")) {
+				if (_url.slice(0, url.indexOf("&amp;")) !== "") {					
+					let finalUrl = _url.slice(0, url.indexOf("&amp;"));
+					urlsArray.push(finalUrl);
+				}
+			}   
+		}
+	});
 	callback(urlsArray);
   }
 }

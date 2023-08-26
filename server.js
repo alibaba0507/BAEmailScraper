@@ -30,12 +30,18 @@ app.post('/submit', (req, res) => {
     const extractRelated = req.body.extractRelated === 'on';
     inDepthValue = extractRelated ? parseInt(req.body.inDepthValue) || 0 : 0;
     response = res;
-  
-    scraper.start(searchQuery, 0, callbackRelatedSearch, null);
+    if (inDepthValue == 0)
+		scraper.start(searchQuery, 0, callbackRelatedSearch, null);
+    else
+		scraper.start(searchQuery, 0, null, callbackLinksSearch);	
 
     
 });
 
+function callbackLinksSearch(links)
+{
+	
+}
 // Callback for related search data
 function callbackRelatedSearch(links) {
 	const linkDivs = [];
