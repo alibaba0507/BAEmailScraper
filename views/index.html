@@ -109,6 +109,21 @@
     </script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
+	const desiredClassArticles = ['article', 'content', 'main'];
+	function uploadFile(saved,fileName)
+	{
+		const blob = new Blob([saved], { type: 'text/html' });
+		const url = URL.createObjectURL(blob);
+
+		// Create a download link
+		const a = document.createElement('a');
+		a.href = url;
+		a.download = 'fileName'; // Specify the desired file name
+		a.click();
+
+		// Clean up the URL object
+		URL.revokeObjectURL(url);
+	}
 	const socket = io();
     //------------------------ Save to File ----------------------
 	document.addEventListener('DOMContentLoaded', function() {
@@ -118,6 +133,8 @@
 			const jsonOutputHTML = jsonOutputDiv.outerHTML;
 			const head = document.head.outerHTML;
 			const saved = `<!DOCTYPE html><html>${head}<body>${jsonOutputHTML}</body></html>`;
+			uploadFile(saved,'saved_page.html');
+			/*
 			const blob = new Blob([saved], { type: 'text/html' });
 			const url = URL.createObjectURL(blob);
 
@@ -129,14 +146,38 @@
 
 			// Clean up the URL object
 			URL.revokeObjectURL(url);
+			*/
 			// Emit the HTML content to the server
 			//socket.emit('saveHtml', saved);
 		});
 	});
+	
 	//-------------------------------------------------
 	socket.on('formSubmitted', (msg) => {
 	    alert(msg);
 	});
+	socket.on('articleSubmitted', (htmlBody) => {
+	    //alert(msg);
+		// Loop through desiredClassSubstrings
+		// Create a temporary element to parse the HTML
+		const tempElement = document.createElement('div');
+		tempElement.innerHTML = htmlBody;
+		for (const substring of desiredClassArticles) {
+			const selector = `[class*="${substring}"]`;
+			const element = tempElement.querySelector(selector);
+			if (element) {
+				uploadFile(lement.textContent.trim(),generateUniqueFileName() + '.txt');
+				break;
+			}
+		}
+	});
+	function generateUniqueFileName() {
+	  const timestamp = new Date().getTime(); // Get current timestamp
+	  const randomString = Math.random().toString(36).substring(2, 8); // Generate a random string
+	  const searchQuery = $('#searchQuery').val();
+	  const modifiedString = searchQuery.replace(/ /g, '_');
+	  return `${modifiedString}_${timestamp}`;
+	}
 	socket.on('jsonStructure', (jsonStructureObj) => {
 		
 		let searchQuery = jsonStructureObj['searchQuery'];

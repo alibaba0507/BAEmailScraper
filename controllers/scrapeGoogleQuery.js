@@ -105,7 +105,7 @@ class GoogleScrapeQuery {
 			}   
 		}
 	});
-	callback(urlsArray);
+	//callback(urlsArray);
   }
 }
 

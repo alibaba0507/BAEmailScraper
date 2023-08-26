@@ -46,6 +46,16 @@ function callbackLinksSearch(links)
 {
 	inDepthValue--;
 	console.log("------------------ links [" + (links.length)  +"]--------------------");
+	for (let i = 0;i < links.length;i++)
+	{
+		scraper.fetch(links[i], (error, response, body)=>{
+			if (error) {
+			 console.error("Google Request error.[" + searchQuery + "][" + links[i] + "]");
+			}else if (response.statusCode === 200) {
+	           io.emit('articleSubmitted', body);
+			}
+		});
+	}
 	if (inDepthValue > 0)
 	{
 	  delay(5000);
