@@ -162,6 +162,15 @@
 		// Create a temporary element to parse the HTML
 		const tempElement = document.createElement('div');
 		tempElement.innerHTML = htmlBody;
+		// Remove header tags
+		tempElement.querySelectorAll('head').forEach(tag => tag.remove());
+		// Remove script and style tags
+		tempElement.querySelectorAll('script, style').forEach(tag => tag.remove());
+		// Remove inline styles from all elements
+		tempElement.querySelectorAll('*').forEach(element => {
+			element.removeAttribute('style');
+		});
+
 		for (const substring of desiredClassArticles) {
 			const selector = `[class*="${substring}"]`;
 			const element = tempElement.querySelector(selector);

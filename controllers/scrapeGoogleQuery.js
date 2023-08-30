@@ -20,11 +20,12 @@ class GoogleScrapeQuery {
 	function requestCallback(error, response, body) {
 		console.log('-------------------- requestCallback [' + response.statusCode + ']----------------------');
 		if (error) {
-			console.error("Google Request error.[" + query + "][" + url + "]page[" + page+ "]");
-			if(searchQueyCallback)
+			console.error("Google Request error.[" + query + "][" + url + "]page[" + page+ "][" + JSON.stringify(error) + "]");
+			/*if(searchQueyCallback)
 				_this.parseRelatedSearches("",searchQueyCallback,selectors);
 			if(pageLinksCallback)
 				_this.parseLinks("");
+			*/
 		} else {
 			if (response.statusCode === 200) {
 				if(searchQueyCallback)
