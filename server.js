@@ -57,10 +57,18 @@ function callbackLinksSearch(links)
 			}else if (response.statusCode === 200) {
 	           io.emit('articleSubmitted', [body,links[i]]);
 			}
+			if (i >= links.length -1)
+			{ // this is the end
+			  endOfLinkSearch();
+			}
 		});
 		//console.log("------------------ links[" + i + "] [" + (links[i])  +"]--------------------");
 	}
-	console.log("------------------ links [" + (links.length)  +"][  EEENNNDD ]--------------------");
+	
+}
+function endOfLinkSearch()
+{
+   //console.log("------------------ links [" + (links.length)  +"][  EEENNNDD ]--------------------");
 	io.emit('articleSubmittedEnd', 'End of articles');
 	if (inDepthValue > 0)
 	{
