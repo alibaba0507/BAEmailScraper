@@ -156,12 +156,15 @@
 	socket.on('formSubmitted', (msg) => {
 	    alert(msg);
 	});
-	socket.on('articleSubmitted', (htmlBody) => {
+	let txtRel = [];
+	let msg = '';
+	socket.on('articleSubmitted', (data) => {
+	    const searchQuery = $('#searchQuery').val();
 	    //alert(msg);
 		// Loop through desiredClassSubstrings
 		// Create a temporary element to parse the HTML
 		const tempElement = document.createElement('div');
-		tempElement.innerHTML = htmlBody;
+		tempElement.innerHTML = data[0];
 		// Remove header tags
 		tempElement.querySelectorAll('head').forEach(tag => tag.remove());
 		// Remove script and style tags
@@ -175,10 +178,39 @@
 			const selector = `[class*="${substring}"]`;
 			const element = tempElement.querySelector(selector);
 			if (element) {
-				uploadFile(element.textContent.trim(),generateUniqueFileName() + '.txt');
+			    const txt = element.textContent.trim();
+			    socket.emit('checkTextRelevance',[searchQuery,txt,data[1]]);
+				uploadFile(txt,generateUniqueFileName() + '.txt');
 				break;
 			}
 		}
+	});
+	socket.on('articleSubmittedEnd',(data) =>{
+	  // jsut indicate all searches are done
+	  /*let msg = "";
+	  if (txtRel.length > 0)
+	  {
+	    for (let i = 0;i < txtRel.length;i++)
+		{
+		 const commaSeparatedString = txtRel[i].join(', ');
+		 msg += commaSeparatedString + ' \n';
+		}
+		uploadFile(msg,generateUniqueFileName() + '.csv');
+	  }*/
+	  console.log('--------END OF ARTICLES [' + msg + ']-----------');
+	  if (msg != '')
+	  {
+    	  uploadFile(msg,generateUniqueFileName() + '.csv');
+		  msg = '';
+	  }
+	});
+	socket.on('textRelevance',(data) =>{
+	   const query = data[0];
+	   const relevance = data[1];
+	   const url = data[2];
+	   msg += query + ' , ' + relevance + ' , ' + url + ' \n';
+	   console.log('-------- [' + msg + ']-----------');
+	   //txtRel.push([query,relevance,url])
 	});
 	function generateUniqueFileName() {
 	  const timestamp = new Date().getTime(); // Get current timestamp

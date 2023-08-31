@@ -4,6 +4,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 const fs = require('fs');
 const GoogleScrapeQuery = require('./controllers/scrapeGoogleQuery.js'); // Include the .js extension
+const { calculateRelevance } = require('./controllers/textRelevance.js');
 const scraper = new GoogleScrapeQuery();
 
 const app = express();
@@ -54,10 +55,13 @@ function callbackLinksSearch(links)
 			if (error) {
 			 console.error("Google Request error.[" + searchQuery + "][" + links[i] + "]");
 			}else if (response.statusCode === 200) {
-	           io.emit('articleSubmitted', body);
+	           io.emit('articleSubmitted', [body,links[i]]);
 			}
 		});
+		//console.log("------------------ links[" + i + "] [" + (links[i])  +"]--------------------");
 	}
+	console.log("------------------ links [" + (links.length)  +"][  EEENNNDD ]--------------------");
+	io.emit('articleSubmittedEnd', 'End of articles');
 	if (inDepthValue > 0)
 	{
 	  delay(5000);
@@ -135,6 +139,19 @@ function convertNodeToJSON(node) {
 
 // Add this before app.listen
 io.on('connection', (socket) => {
+	socket.on('checkTextRelevance',(data) => {
+		const query = data[0];
+		const txt = data[1];
+		const url = data[2];
+        //console.log('---------- checkTextRelevance  --------');
+		const similarity = calculateRelevance(query,txt);/*.then(similarity => {
+				console.log(`Relevance: ${similarity}`);
+				io.emit('textRelevance', [query,similarity,url]);
+		});*/
+		//console.log('---------- checkTextRelevance[' + similarity + ']  --------');
+		io.emit('textRelevance', [query,similarity,url]);
+		
+	});
     socket.on('saveHtml', (jsonOutputHTML) => {
         // Save the HTML content to a file
         fs.writeFileSync('search_results/output.html', jsonOutputHTML);
