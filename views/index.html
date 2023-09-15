@@ -253,11 +253,33 @@
 			insertButton.addEventListener('click', () => {
 				document.getElementById('searchQuery').value = linkText;
 			});
-
+            const competionButton = document.createElement('button');
+			competionButton.textContent = 'Check Competion';
+			competionButton.addEventListener('click', () => {
+				// Send the form data using AJAX
+				$.ajax({
+					url: '/submit',
+					method: 'POST',
+					data: {
+						searchQuery: linkText,
+						searchCompetion: '1'
+					},
+					success: function(response) {
+						// Display a success message to the user
+						//alert('Form submitted successfully');
+					},
+					error: function(error) {
+						// Display an error message to the user
+						alert('Error submitting form [' + error.toString()+ ']');
+						
+					}
+				});
+			});
 			containerDiv.appendChild(linkElement);
 			containerDiv.appendChild(removeButton);
 			containerDiv.appendChild(insertButton);
-
+            containerDiv.appendChild(competionButton);
+			
 			jsonOutputDiv.appendChild(containerDiv);
 		});
 	});

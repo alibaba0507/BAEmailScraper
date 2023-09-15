@@ -1,13 +1,23 @@
 const request = require("request");
 const cheerio = require('cheerio');
+const axios = require('axios');
 const Config = require("../controllers/config.js");
+const { SocksProxyAgent } = require('socks-proxy-agent');
 
 class GoogleScrapeQuery {
+	 constructor() {
+		// Configure the Tor proxy address and port.
+		this.torProxy = 'socks5://127.0.0.1:9050'; // Default Tor proxy address and port.
+
+		// Create an instance of the SocksProxyAgent.
+		this.agent = new SocksProxyAgent(this.torProxy);
+	}
 	/**
 	 * this is a function that will search and parse goole page
      * based on quey and the page Number
      * @searchQueyCallback callback function if not null will extract related query and question on the page if any
 	 * @pageLinksCallback callback function if not null will pase and pass all urls on the page related to the query search
+	* for result about ['div#result-stats']
 	*/
   start(query, page = 0,searchQueyCallback,pageLinksCallback,selectors = ['div.UwRFLe','div.Lt3Tzc' ])
   {
@@ -18,7 +28,7 @@ class GoogleScrapeQuery {
 	
 	const _this = this;
 	function requestCallback(error, response, body) {
-		console.log('-------------------- requestCallback [' + response.statusCode + ']----------------------');
+		console.log('-------------------- requestCallback [' + response?.statusCode + ']----------------------');
 		if (error) {
 			console.error("Google Request error.[" + query + "][" + url + "]page[" + page+ "][" + JSON.stringify(error) + "]");
 			/*if(searchQueyCallback)
@@ -27,7 +37,7 @@ class GoogleScrapeQuery {
 				_this.parseLinks("");
 			*/
 		} else {
-			if (response.statusCode === 200) {
+			if (response?.statusCode === 200) {
 				if(searchQueyCallback)
 					_this.parseRelatedSearches(body,searchQueyCallback,selectors);
 				if(pageLinksCallback)
@@ -62,10 +72,14 @@ class GoogleScrapeQuery {
 		const options = {
 			url: url,
 			headers: headers,
-			timeout: Config.settings().reqestTimeOut
+			timeout: Config.settings().reqestTimeOut,
+			/*agent: this.agent,*/ // Use the Tor-enabled proxy agent
 		};
 
 		request(options, callback);
+		//const a  =this.agent;
+		//const client = axios.create({url, a});
+		//const googlePage = client.get('/').then(res => {console.log(res.data);});
 	}
 
   
@@ -80,7 +94,7 @@ class GoogleScrapeQuery {
 		  const selectedData = [];
 		  //console.log('--------- selector[' + selector + '] -----');
 		  $(selector).each((index, element) => {
-			// console.log('--------- selector Found[' + $(element).text() + '] -----');
+			console.log('--------- selector Found[' + $(element).text() + '] -----');
 			selectedData.push($(element).text());
 		  });
 		  extractedData[selector] = selectedData;

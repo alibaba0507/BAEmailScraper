@@ -7,6 +7,9 @@ const GoogleScrapeQuery = require('./controllers/scrapeGoogleQuery.js'); // Incl
 const { calculateRelevance } = require('./controllers/textRelevance.js');
 const scraper = new GoogleScrapeQuery();
 
+// Configure the Tor proxy address and port.
+const torProxy = 'socks5://127.0.0.1:9050';
+
 const app = express();
 const port = 3000;
 let inDepthValue = 0;
@@ -29,6 +32,12 @@ app.get('/', (req, res) => {
 // Handle form submission
 app.post('/submit', (req, res) => {
     searchQuery = req.body.searchQuery;
+	const competiton = (!isNaN(parseInt(req.body.searchCompetion)) && parseInt(req.body.searchCompetion) > 0);
+	if (competiton)
+	{
+		scraper.start(searchQuery, 0, null, callbackLinksCompetitionSearch);	
+		return;
+	}
     const extractRelated = req.body.extractRelated === 'true';//'on';
     inDepthValue = extractRelated ? parseInt(req.body.inDepthValue) || 0 : 0;
 	console.log('---------------extractRelated----- [' + req.body.extractRelated + '][' + extractRelated+ ']----------------');
@@ -44,6 +53,27 @@ app.post('/submit', (req, res) => {
 });
 function delay(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
+
+function callbackLinksCompetitionSearch(links)
+{
+	console.log("------------------ callbackLinksCompetitionSearch [" + (links.length)  +"]--------------------");
+	for (let i = 0;i < links.length;i++)
+	{
+		const url = links[i];//"https://www.ruled.me/supplements/";
+		const domain = url.match(/^(?:https?:\/\/)?(?:[^@/\n]+@)?(?:www\.)?([^:/?\n]+)/)[1];
+		let query = 'site:'+domain
+		if (domain.indexOf('google') == -1)
+	    {
+			console.log("------------------ callbackLinksCompetitionSearch query [" + (query)  +"]--------------------");
+			scraper.start(query, 0, callbackRelatedAboutSearch, null,['body']);
+			break;
+		}
+	}
+}
+function callbackRelatedAboutSearch(links)
+{
+	console.log('-------------- callbackRelatedAboutSearch [' + JSON.stringify(links) + ']------');
 }
 function callbackLinksSearch(links)
 {
