@@ -111,6 +111,7 @@ function endOfLinkSearch()
 // Callback for related search data
 function callbackRelatedSearch(links,domains) {
 	const linkDivs = [];
+	const domainDivs = [];
 	const delay = 1; // Adjust as needed
 	 // Iterate through each selector's links and call scraper.start for each link multiple times
     const index = jsonStructure.indexOf( searchQuery );
@@ -129,7 +130,9 @@ function callbackRelatedSearch(links,domains) {
     }
 	for (const dom in domains)
 	{
-		 console.log('----------------- Extract domain [' + domains[dom] + ']---------');
+		console.log('----------------- Extract domain [' + domains[dom] + ']---------');
+		const url = 'https://www.google.com/search?q=site:'+domains[dom];
+		domainDivs.push(`<div class="domain-div"><a href="${url}" target="_blank">${domains[dom]}</a></div>`); 
 	}
 	
 	if (index > -1) {
@@ -142,8 +145,9 @@ function callbackRelatedSearch(links,domains) {
 		//console.log('----------------[' + jsonStructure + ']-----------------');
 	}else
 		jsonStructure += linkDivs.join('')
+	const domainAsStr = domainDivs.join('');
 	// Inside the callbackRelatedSearch function
-	io.emit('jsonStructure', { jsonStructure, searchQuery });
+	io.emit('jsonStructure', { jsonStructure, searchQuery,domainAsStr });
 	//io.emit('formSubmitted', 'Form submitted successfully');
 	response.status(200).send('Form submitted successfully');
 

@@ -28,7 +28,7 @@
 		button:hover {
 			background-color: #0056b3;
 		}
-		#jsonOutput {
+		#jsonOutput ,#jsonDomains {
 			max-height: 350px; /* Set the maximum height of the div */
 			overflow-y: auto; /* Add vertical scroll when content overflows */
 			border: 1px solid #ccc;
@@ -67,6 +67,7 @@
 	<div>
     <!-- Add this to your index.html -->
     <div id="jsonOutput"></div>
+	<div id="jsonDomains"></div>
 	<input type="button" id="saveButton" value="Save Search as Html">
 	</div>
     <script>
@@ -223,11 +224,15 @@
 		
 		let searchQuery = jsonStructureObj['searchQuery'];
 		let jsonStructure =  jsonStructureObj['jsonStructure'];
-
+        let jsonDomains =  jsonStructureObj['domainAsStr'];
 		const jsonOutputDiv = document.getElementById('jsonOutput');
 		jsonOutputDiv.innerHTML = '';
 		jsonOutputDiv.innerHTML = jsonStructure;//jsonStructureObj['jsonStructure'];
         
+		const jsonDomainsDiv = document.getElementById('jsonDomains');
+		jsonDomainsDiv.innerHTML = '';
+		jsonDomainsDiv.innerHTML = jsonDomains;//jsonStructureObj['jsonStructure'];
+		
 		const linkElements = jsonOutputDiv.querySelectorAll('.link-div');
         const eleemnts = [];
 		// Wrap each link div in a container div
