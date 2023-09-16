@@ -7,7 +7,7 @@ const { SocksProxyAgent } = require('socks-proxy-agent');
 class GoogleScrapeQuery {
 	 constructor() {
 		// Configure the Tor proxy address and port.
-		this.torProxy = 'socks5://127.0.0.1:9050'; // Default Tor proxy address and port.
+		this.torProxy = 'socks5://127.0.0.1:9150'; // Default Tor proxy address and port.
 
 		// Create an instance of the SocksProxyAgent.
 		this.agent = new SocksProxyAgent(this.torProxy);
@@ -48,7 +48,7 @@ class GoogleScrapeQuery {
 					console.error("NOTE: Don't query a lot of pages at once.[" + query + "][" + url + "]page[" + page+ "]");
 					return;
 				} else {
-					_this.parseLinks("");
+					_this.parseLinks(body,pageLinksCallback);
 				}
 			}
 		}
@@ -73,7 +73,7 @@ class GoogleScrapeQuery {
 			url: url,
 			headers: headers,
 			timeout: Config.settings().reqestTimeOut,
-			/*agent: this.agent,*/ // Use the Tor-enabled proxy agent
+			/*agent: this.agent,*/// Use the Tor-enabled proxy agent
 		};
 
 		request(options, callback);
