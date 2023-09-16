@@ -87,7 +87,21 @@ class GoogleScrapeQuery {
   {
 	  try {
 		const $ = cheerio.load(htmlText);
+        var domaninsArray = [];
+		this.parseLinks(htmlText,(links)=>{
+			// Create a Set to store unique domains
+			const uniqueDomains = new Set();
+			// Iterate through the URL links
+			for (const url of links) {
+			  // Parse the URL to get the hostname (domain)
+			  const { hostname } = new URL(url);
 
+			  // Add the domain to the Set (automatically handles uniqueness)
+			  if (hostname.indexOf('.google.') == -1)
+				uniqueDomains.add(hostname);
+			}
+			domaninsArray = Array.from(uniqueDomains);
+		});
 		const extractedData = {};
 
 		for (const selector of selectors) {
@@ -100,13 +114,14 @@ class GoogleScrapeQuery {
 		  extractedData[selector] = selectedData;
 		}
         //console.log('--------- selector End [' + JSON.stringify(extractedData) + '] -----');
-		callback(extractedData);
+		callback(extractedData,domaninsArray);
 		return 1;
 	  } catch (error) {
 		console.error('Error scraping Google:', error);
 		return null;
 	  }
   }
+  
   parseLinks(text,callback)
   {
 	var urlRegex = /(https?:\/\/[^\s]+)/g;

@@ -66,9 +66,9 @@ function callbackLinksCompetitionSearch(links)
 		if (domain.indexOf('google') == -1)
 	    {
 			console.log("------------------ callbackLinksCompetitionSearch query [" + (query)  +"]--------------------");
-			scraper.start(query, 0, callbackRelatedAboutSearch, null,['body']);
-			break;
+			scraper.start(query, 0, callbackRelatedAboutSearch, null,['html','body']/*['div#result-stats']*/);
 		}
+		break;
 	}
 }
 function callbackRelatedAboutSearch(links)
@@ -109,7 +109,7 @@ function endOfLinkSearch()
 	    response.status(200).send('Form submitted successfully');
 }
 // Callback for related search data
-function callbackRelatedSearch(links) {
+function callbackRelatedSearch(links,domains) {
 	const linkDivs = [];
 	const delay = 1; // Adjust as needed
 	 // Iterate through each selector's links and call scraper.start for each link multiple times
@@ -127,6 +127,10 @@ function callbackRelatedSearch(links) {
 			  linkDivs.push(`<div class="link-div">${link}</div>`);
         }
     }
+	for (const dom in domains)
+	{
+		 console.log('----------------- Extract domain [' + domains[dom] + ']---------');
+	}
 	
 	if (index > -1) {
 		const beforeQuery = jsonStructure.slice(0, index + searchQuery.length );
