@@ -132,10 +132,12 @@
 	document.addEventListener('DOMContentLoaded', function() {
 		const saveButton = document.getElementById('saveButton');
 		saveButton.addEventListener('click', function() {
+		    const jsonDomainsHTML = document.getElementById('jsonDomains').outerHTML;
+			
 			const jsonOutputDiv = document.getElementById('jsonOutput');
 			const jsonOutputHTML = jsonOutputDiv.outerHTML;
 			const head = document.head.outerHTML;
-			const saved = `<!DOCTYPE html><html>${head}<body>${jsonOutputHTML}</body></html>`;
+			const saved = `<!DOCTYPE html><html>${head}<body>${jsonOutputHTML}<br>${jsonDomainsHTML}</body></html>`;
 			uploadFile(saved,'saved_page.html');
 			/*
 			const blob = new Blob([saved], { type: 'text/html' });
