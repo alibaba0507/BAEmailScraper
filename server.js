@@ -16,13 +16,15 @@ let inDepthValue = 0;
 let rootNode = []; // Initialize the root node
 let jsonStructure = ""; // Store the JSON structure
 let node = null;
-let searchQuery
+let searchQuery;
 // Setup HTTP server and Socket.IO
 const server = http.createServer(app);
 const io = socketIo(server);
 let response = null;
 let pageCount = 0;
 app.use(bodyParser.urlencoded({ extended: true }));
+// Serve static files from the "views" directory
+app.use(express.static(__dirname + '/statics'));
 
 // Serve index.html
 app.get('/', (req, res) => {
