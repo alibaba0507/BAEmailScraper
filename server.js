@@ -35,26 +35,33 @@ app.post('/submit', (req, res) => {
 	const competiton = (!isNaN(parseInt(req.body.searchCompetion)) && parseInt(req.body.searchCompetion) > 0);
 	if (competiton)
 	{
-		scraper.start(searchQuery, 0, null, callbackLinksCompetitionSearch);	
+		scraper.start(searchQuery, 0, null, callbackLinksCompetitionSearch,callbackError);	
 		return;
 	}
     const extractRelated = req.body.extractRelated === 'true';//'on';
     inDepthValue = extractRelated ? parseInt(req.body.inDepthValue) || 0 : 0;
 	console.log('---------------extractRelated----- [' + req.body.extractRelated + '][' + extractRelated+ ']----------------');
     response = res;
+	scraper.stopProxy();
     if (!extractRelated)
-		scraper.start(searchQuery, 0, callbackRelatedSearch, null);
+		scraper.start(searchQuery, 0, callbackRelatedSearch, null,callbackError);
     else
 	{
 		console.log('------------ Link collection [' + searchQuery + ']--------');
-		scraper.start(searchQuery, 0, null, callbackLinksSearch);	
+		scraper.start(searchQuery, 0, null, callbackLinksSearch,callbackError);	
     }
     
 });
+
+
 function delay(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
+function callbackError(body)
+{
+	io.emit('jsonError', [body]);
+}
 function callbackLinksCompetitionSearch(links)
 {
 	console.log("------------------ callbackLinksCompetitionSearch [" + (links.length)  +"]--------------------");

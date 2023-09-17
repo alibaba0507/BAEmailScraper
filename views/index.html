@@ -69,6 +69,7 @@
     <div id="jsonOutput"></div>
 	<div id="jsonDomains"></div>
 	<input type="button" id="saveButton" value="Save Search as Html">
+	<div id="errorDiv" style="display:none;"></div>
 	</div>
     <script>
         $(document).ready(function() {
@@ -81,7 +82,7 @@
             });
 			$('#submitForm').click(function(event) {
 				event.preventDefault(); // Prevent the default form submission
-
+                $('#errorDiv').hide();
 				const searchQuery = $('#searchQuery').val();
 				const extractRelated = $('#extractRelated').prop('checked');
 				const inDepthValue = $('#inDepthValue').val() || 0;
@@ -220,6 +221,12 @@
 	  const modifiedString = searchQuery.replace(/ /g, '_');
 	  return `${modifiedString}_${timestamp}`;
 	}
+	socket.on('jsonError',(htmlBody) => {
+	    $('#errorDiv').show();
+		const errorOutputDiv = document.getElementById('errorDiv');
+		errorOutputDiv.innerHTML = '';
+		errorOutputDiv.innerHTML = htmlBody;
+	});
 	socket.on('jsonStructure', (jsonStructureObj) => {
 		
 		let searchQuery = jsonStructureObj['searchQuery'];

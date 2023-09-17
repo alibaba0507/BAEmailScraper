@@ -12,6 +12,9 @@ class GoogleScrapeQuery {
 		// Create an instance of the SocksProxyAgent.
 		this.agent = new SocksProxyAgent(this.torProxy);
 	}
+	stopProxy(){
+	 this.agent = null;
+	}
 	/**
 	 * this is a function that will search and parse goole page
      * based on quey and the page Number
@@ -19,7 +22,7 @@ class GoogleScrapeQuery {
 	 * @pageLinksCallback callback function if not null will pase and pass all urls on the page related to the query search
 	* for result about ['div#result-stats']
 	*/
-  start(query, page = 0,searchQueyCallback,pageLinksCallback,selectors = ['div.UwRFLe','div.Lt3Tzc' ])
+  start(query, page = 0,searchQueyCallback,pageLinksCallback,errorCallBack,selectors = ['div.UwRFLe','div.Lt3Tzc' ])
   {
 	if (!searchQueyCallback && !pageLinksCallback)
 		return; // do nothing
@@ -48,7 +51,9 @@ class GoogleScrapeQuery {
 					console.error("NOTE: Don't query a lot of pages at once.[" + query + "][" + url + "]page[" + page+ "]");
 					return;
 				} else {
-					_this.parseLinks(body,pageLinksCallback);
+					if (errorCallBack)
+						errorCallBack(body);
+					//_this.parseLinks(body,(pageLinksCallback)?pageLinksCallback:searchQueyCallback);
 				}
 			}
 		}
@@ -73,7 +78,7 @@ class GoogleScrapeQuery {
 			url: url,
 			headers: headers,
 			timeout: Config.settings().reqestTimeOut,
-			/*agent: this.agent,*/// Use the Tor-enabled proxy agent
+			agent: this.agent,// Use the Tor-enabled proxy agent
 		};
 
 		request(options, callback);
