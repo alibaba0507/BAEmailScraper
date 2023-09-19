@@ -240,8 +240,8 @@
 		jsonOutputDiv.innerHTML = jsonStructure;//jsonStructureObj['jsonStructure'];
         
 		const jsonDomainsDiv = document.getElementById('jsonDomains');
-		jsonDomainsDiv.innerHTML = '';
-		jsonDomainsDiv.innerHTML = jsonDomains;//jsonStructureObj['jsonStructure'];
+		//jsonDomainsDiv.innerHTML = '';
+		jsonDomainsDiv.innerHTML += jsonDomains;//jsonStructureObj['jsonStructure'];
 		
 		const linkElements = jsonOutputDiv.querySelectorAll('.link-div');
         const eleemnts = [];
